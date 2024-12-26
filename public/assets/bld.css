@@ -1,0 +1,116 @@
+body {
+  background-color: #ffffff;
+}
+
+hr {
+  border-image: linear-gradient(
+    0.25turn,
+    #f8c000,
+    #e30002,
+    #0099d7,
+    #ff8601,
+    #d70077
+  );
+  border-image-slice: 1;
+}
+header,
+footer,
+.notIma,
+.slide img,
+.slide video,
+.slide iframe {
+  background: #9e0258; /* fallback for old browsers */
+  background: -webkit-linear-gradient(0.4turn, #0097d7, #d70077, #ff8601);
+  background: linear-gradient(0.4turn, #0097d7, #d70077, #ff8601);
+}
+.ondaTop,
+.ondaBottom {
+  background-image: url(https://www.acs.art.br/acs%2Festrutura%2Fonda.png);
+}
+#itens {
+  background-color: #ffffff;
+  border-image: linear-gradient(
+    0.35turn,
+    #e30002,
+    #f8c000,
+    #0097d7,
+    #d70077,
+    #01ccff
+  );
+}
+.dropdown-content {
+  border: dashed 2px #0097d7;
+}
+.menu li a:hover {
+  color: #7e49b3;
+}
+/* FIM HEADER E MENU */
+/* SOCIAIS */
+.tituloNot,
+.titulo,
+.menu li a {
+  background-image: linear-gradient(to right, #0097d7, #d70077, #ff8601);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.prev:hover,
+.next:hover {
+  color: #d70077;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.active,
+.dot:hover {
+  border: 2px solid #d70077;
+}
+
+.slide {
+  width: 70%;
+  border: solid 2px #ffffff;
+}
+
+.slide::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(90deg, #d70077 10.9%, #0097d7 62.6%);
+}
+.slide::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(90deg, #0097d7 10.9%, #d70077 62.6%);
+}
+/* FOOTER */
+
+.footer {
+  border-image: linear-gradient(
+    0.35turn,
+    #e30002,
+    #f8c000,
+    #0097d7,
+    #d70077,
+    #01ccff
+  );
+}
+
+footer .logoFooter {
+  height: 60%;
+  align-self: center;
+}
+.topo {
+  color: #d70077;
+  border: solid 3px #0097d7;
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.267);
+}
+.historico h3 {
+  color: #ff8601;
+}
+.historico p a {
+  color: #d70077;
+}
+@media screen and (max-width: 576px) {
+  .slide {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .slide {
+    width: 90%;
+  }
+}

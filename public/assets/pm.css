@@ -1,0 +1,108 @@
+body {
+  background-color: #ffffff;
+}
+hr {
+  border-image: linear-gradient(
+    0.25turn,
+    #091583, #ff0000, #ffe601,#167903
+  );
+  border-image-slice: 1;
+}
+header,
+footer,
+.notIma,
+.slide img,
+.slide video,
+.slide iframe {
+  background: #9e0258; /* fallback for old browsers */
+  background: -webkit-linear-gradient(0.4turn, #091583, #ff0000);
+  background: linear-gradient(0.4turn, #091583, #ff0000);
+}
+.ondaTop,
+.ondaBottom {
+  background-image: url(https://www.acs.art.br/acs%2Festrutura%2Fonda.png);
+}
+.dmetade-container{
+  background-color: rgb(201, 201, 201);
+}
+#itens {
+  background-color: #ffffff;
+  border-image: linear-gradient(
+    0.75turn,
+    #091583, #ffe601,#167903, #ff0000
+  );
+}
+.dropdown-content {
+  border: dashed 2px #091583;
+}
+.menu li a:hover {
+  color: #0501ff;
+}
+/* FIM HEADER E MENU */
+/* SOCIAIS */
+.tituloNot,
+.titulo,
+.menu li a {
+  background-image: linear-gradient(to right, #ff0000, #0501ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.prev:hover,
+.next:hover {
+  color: #860965;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.active,
+.dot:hover {
+  border: 2px solid #b80c8a;
+}
+
+.slide {
+  width: 70%;
+  border: solid 2px #ffffff;
+}
+.contratar-text{
+  width: 100%;
+}
+.slide::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(90deg, #ff0000 10.9%, #0501ff 62.6%);
+}
+.slide::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(90deg, #0501ff 10.9%, #ff0000 62.6%);
+}
+/* FOOTER */
+
+.footer {
+  border-image: linear-gradient(
+    0.75turn,
+    #091583, #ffe601,#167903, #ff0000
+  );
+}
+
+footer .logoFooter {
+  height: 60%;
+  align-self: center;
+}
+.topo {
+  color: #091583;
+  border: solid 3px #ff0000;
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.267);
+}
+.historico h3 {
+  color: #091583;
+}
+.historico p a {
+  color: #ff0000;
+}
+@media screen and (max-width: 576px) {
+  .slide {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .slide {
+    width: 90%;
+  }
+}

@@ -1,0 +1,107 @@
+#section-contratar{
+  display: flex;
+  gap: 5%;
+}
+.contratar-text{
+  width: 60%;
+}
+.contratar-text p{
+  text-align: justify;
+  text-indent: 1.25rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(59, 56, 56);
+  margin-bottom: 0.1rem;
+}
+.contratar-text p a{
+  color: rgb(16, 95, 185);
+  text-decoration: none;
+}
+#section-contratar video{
+  width: 35%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 1px rgba(4, 9, 78, 0.473);
+}
+@media screen and (max-width: 576px) {
+  #section-contratar{
+    gap: 1%;
+    flex-direction: column;
+  }
+  .contratar-text{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contratar-text p{
+    margin-bottom: 0rem;
+  }
+  #section-contratar video{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px rgba(4, 9, 78, 0.473);
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .texto{
+    width: 96%;
+    margin-left: 2%;
+    display: block;
+  }
+  .texto p {
+    width: 100%;
+    margin-bottom: 0rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #section-contratar{
+    display: flex;
+    gap: 4%;
+  }
+  .contratar-text{
+    width: 60%;
+  }
+  .contratar-text p{
+    text-align: justify;
+    text-indent: 1.25rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(59, 56, 56);
+    margin-bottom: 0.1rem;
+  }
+  .contratar-text p a{
+    color: rgb(16, 95, 185);
+    text-decoration: none;
+  }
+  #section-contratar video{
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px rgba(4, 9, 78, 0.473);
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+  #section-contratar{
+    display: flex;
+    gap: 8%;
+  }
+  .contratar-text{
+    width: 60%;
+  }
+  .contratar-text p{
+    text-align: justify;
+    text-indent: 1.25rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(59, 56, 56);
+    margin-bottom: 0.1rem;
+  }
+  #section-contratar video{
+    width: 23%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 1px rgba(4, 9, 78, 0.473);
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1919px) {
+
+}

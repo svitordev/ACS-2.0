@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+    />
+    <meta
+      name="description"
+      content="Página da CIA companhia de dança da OIS e um dos projetos da Associação Cultural Surubinense"
+    />
+    <meta
+      name="keywords"
+      content="ACS, Associação Cultural Surubinense, Surubim, Cultura, OIS, Orquestra Instrumental Surubinense, CIA, Redphoenix, percussão da ois, Levanta defunto, de metade no frevo, dmetade, frevo, carnaval, bloco, palhaço, musico, palhamusicos"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Companhia de Dança - OIS</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/section-noticias.css" />
+    <link rel="stylesheet" href="./assets/cia.css" />
+    <link rel="stylesheet" href="./assets/section-header.css" />
+    <link rel="stylesheet" href="./assets/section-sobre.css" />
+    <link rel="stylesheet" href="./assets/section-historico.css" />
+    <link rel="stylesheet" href="./assets/section-footer.css" />
+    <link rel="stylesheet" href="./assets/section-home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg"
+      type="image/x-icon"
+    />
+
+    <script src="./assets/script.js" defer></script>
+    <script src="./assets/carrosseis.js" defer></script>
+  </head>
+  <body>
+    <div id="conteudo">
+      <header>
+        <h1>COMPANHIA DE DANÇA - OIS</h1>
+      </header>
+      <div
+        style="
+          border-bottom: 0.156rem solid transparent;
+          border-image: linear-gradient(0.25turn, #f5decc, #594b42, #f5decc);
+          border-image-slice: 1;
+        "
+        class="burguer"
+        class="burguer"
+      >
+        <iconify-icon
+          id="burguer"
+          icon="mingcute:menu-fill"
+          style="color: #594b42"
+          width="100%"
+          height="40"
+          onclick="clickMenu()"
+        ></iconify-icon>
+      </div>
+
+      <menu id="itens">
+        <ul class="menu">
+          <li><a rel="prev" href="./index.html">ACS</a></li>
+          <li><a href="#destaques">Destaques</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li class="dropdown">
+            <a href="#historico">Histórico</a>
+            <div style="height: auto" class="dropdown-content">
+              <a href="#his23">2023</a>
+              <a href="#his24">2024</a>
+            </div>
+          </li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </menu>
+      <main>
+        <section class="home">
+          <video
+            class="videoHome"
+            autoplay
+            loop
+            muted
+            width="100%"
+            height="100%"
+          >
+            <source
+              src="https://www.acs.art.br/cia%2Festrutura%2FciaHome.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </section>
+
+        <hr />
+
+        <div>
+          <h2 id="destaques" class="tituloNot">Destaques</h2>
+          <div class="notIma">
+            <div class="ondaTop"></div>
+            <div class="ondaBottom"></div>
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <img
+                  loading="lazy"
+                  class="principal"
+                  src="https://www.acs.art.br/ois/historico/24/CCcopa24.webp"
+                  alt="Corpo coreográfico da OIS"
+                />
+
+                <p>Corpo coreográfico da OIS</p>
+              </div>
+              <div class="mySlides fade">
+                <img
+                  loading="lazy"
+                  class="principal"
+                  src="https://www.acs.art.br/cia%2Fdestaques%2Fcia1.webp"
+                  alt="Corpo coreográfico da OIS"
+                />
+
+                <p>Corpo coreográfico da OIS</p>
+              </div>
+              <div class="mySlides fade">
+                <img
+                  loading="lazy"
+                  class="principal"
+                  src="https://www.acs.art.br/cia%2Fdestaques%2Fcia2.webp"
+                  alt="Corpo coreográfico da OIS"
+                />
+
+                <p>Corpo coreográfico da OIS</p>
+              </div>
+              <div class="mySlides fade">
+                <img
+                  loading="lazy"
+                  class="principal"
+                  src="https://www.acs.art.br/cia%2Fdestaques%2Fcia3.webp"
+                  alt="Coreografo do corpo coreografico da OIS"
+                />
+
+                <p>
+                  Nosso coreógrafo
+                  <a
+                    href="https://www.instagram.com/danillojn/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >@danillojn</a
+                  >
+                </p>
+              </div>
+
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <div id="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+              </div>
+            </div>
+
+            <div class="slideshow-container">
+              <div class="mySlides2 fade">
+                <img
+                  loading="lazy"
+                  class="principal"
+                  src="https://www.acs.art.br/ois/historico/24/baliza-dor.webp"
+                  alt=""
+                />
+
+                <p>
+                  <a
+                    href="https://www.instagram.com/vbertoncini/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Vinicíus Bertoncini</a
+                  >
+                  e
+                  <a
+                    href="https://www.instagram.com/thaysabruna_/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Thaysa Bruna</a
+                  >, balizador e baliza da OIS
+                </p>
+              </div>
+              <div class="mySlides2 fade">
+                <img
+                  loading="lazy"
+                  class="principal"
+                  src="https://www.acs.art.br/ois%2Fhistorico%2F23%2Fjoaoalfredo4.webp"
+                  alt=""
+                />
+
+                <p>
+                  Nossa baliza
+                  <a
+                    href="https://www.instagram.com/m_anayran/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Anayran Maria</a
+                  >
+                </p>
+              </div>
+
+              <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+              <div id="dots">
+                <span class="dot2" onclick="currentSlide2(1)"></span>
+                <span class="dot2" onclick="currentSlide2(2)"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+        <div class="conteudo">
+          <h2 id="sobre" class="titulo">COMPANHIA DE DANÇA OIS</h2>
+          <div class="texto">
+            <p>
+              A Companhia de Dança OIS (CIA OIS) surgiu no final de 2023 com o
+              objetivo de promover o trabalho artístico e o aperfeiçoamento por
+              meio da dança. Acreditamos que a dança é uma ferramenta cultural
+              poderosa para transformar a sociedade. Ela não apenas desenvolve
+              habilidades técnicas, mas também molda o caráter humano,
+              tornando-nos mais tolerantes, sensíveis, criativos e livres de
+              preconceitos.
+            </p>
+            <p>
+              Nossas apresentações abrangem desde o regionalismo até o aspecto
+              da dança mundial, combinando elementos contemporâneos, clássicos e
+              populares. A CIA OIS não é apenas um grupo de dança; é um processo
+              educacional que vai além da aquisição de habilidades. Buscamos
+              aprimorar os padrões fundamentais do movimento, explorar as
+              potencialidades humanas e sua conexão com o mundo.
+            </p>
+            <p>
+              Ao mesmo tempo, contribuímos para a construção de conhecimento e a
+              formação profissional de nossos bailarinos e bailarinas. A dança
+              transcende o palco; ela é uma jornada de autodescoberta, expressão
+              e transformação. 🩰🌟
+            </p>
+          </div>
+        </div>
+
+        <!-- <hr  /> -->
+        <!-- <section class="conteudo" id="historico ">
+          <h2 id="historico" class="titulo" >HISTÓRICO</h2>
+          <div class="historico">
+            <h3 id="his23">2023</h3>
+            
+            <section class="section-hitorico">
+              <p>
+                E assim foi nosso 2023🕺🏻💃🏻:
+              </p>
+              <div class="slide">
+                <video controls>
+                  <source
+                    src="https://www.acs.art.br/cia%2Fhistorico%2F23%2Fcia1.mp4"
+                    type="video/mp4"
+                  />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <video controls>
+                  <source
+                    src="https://www.acs.art.br/cia%2Fhistorico%2F23%2Fcia2.mp4"
+                    type="video/mp4"
+                  />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+                
+              </div> 
+              <div class="slide">
+                <video controls>
+                  <source
+                    src="https://www.acs.art.br/cia%2Fhistorico%2F23%2Fbalizadores1.mp4"
+                    type="video/mp4"
+                  />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
+            </section>
+            
+          </div>
+          <hr  />
+          <div class="historico">
+            <h3 id="his24">2024</h3>
+            <section class="section-hitorico">
+              <p>
+                Começamos nosso 2024 participando do <a href="./bld.html" target="_blank" rel="noopener noreferrer">Bloco Carnavalesco Levanta Defunto</a>:
+              </p>
+              
+              <div class="slide">
+                <video controls>
+                  <source
+                    src="https://www.acs.art.br/cia%2Fhistorico%2F24%2FciaNaBld.mp4"
+                    type="video/mp4"
+                  />
+                  Seu navegador não suporta o elemento de vídeo.
+                </video>
+              </div>
+            </section>
+          </div>
+        </section> -->
+        <a href="#" class="topo">&uarr;</a>
+      </main>
+      <footer id="contato">
+        <div class="footer">
+          <img
+            loading="lazy"
+            class="logoFooter"
+            src="https://www.acs.art.br/cia%2Festrutura%2FCIA.png"
+            alt=""
+          />
+
+          <div class="links">
+            <h3 class="h3">Contatos</h3>
+            <ul>
+              <li class="">
+                <i class="bi bi-instagram"></i
+                ><a
+                  href="https://www.instagram.com/ois.cia/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+              </li>
+              <li class="">
+                <i class="bi bi-whatsapp"></i
+                ><a
+                  href="https://wa.me/5581982184004"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >WhatsApp</a
+                >
+              </li>
+              <li class="">
+                <i class="bi bi-youtube"></i>
+                <a
+                  href="https://www.youtube.com/@orquestrainstrumentalsurub2277"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >YouTube - OIS</a
+                >
+              </li>
+              <li class="">
+                <i class="bi bi-tiktok"></i>
+
+                <a
+                  href="https://www.tiktok.com/@0rquestra1nstrumentaluru"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >TikTok - OIS</a
+                >
+              </li>
+              <li class="">
+                <i class="bi bi-envelope"></i
+                ><a
+                  href="mailto:orq.instrumentalsurubinense@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >E-mail - OIS</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a
+          class="linkAssinatura"
+          href="https://www.instagram.com/svitor.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>Criado por:</p>
+          <img
+            loading="lazy"
+            src="https://www.acs.art.br/vitor%2FsVitor.Dev.png"
+            alt=""
+        /></a>
+      </footer>
+    </div>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página dos palhamusicos, um dos projetos da Associação Cultural Surubinense"
+    />
+    <meta
+      name="keywords"
+      content="ACS, Associação Cultural Surubinense, Surubim, Cultura, OIS, Orquestra Instrumental Surubinense, CIA, Redphoenix, percussão da ois, Levanta defunto, de metade no frevo, dmetade, frevo, carnaval, bloco, palhaço, musico, palhamusicos"
+    />
+    <title>Palhamúsicos</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/section-noticias.css" />
+    <link rel="stylesheet" href="./assets/section-sobre.css" />
+    <link rel="stylesheet" href="./assets/section-historico.css" />
+    <link rel="stylesheet" href="./assets/section-contratarDM.css" />
+    <link rel="stylesheet" href="./assets/pm.css" />
+    <link rel="stylesheet" href="./assets/section-footer.css" />
+    <link rel="stylesheet" href="./assets/section-home.css" />
+    <link rel="stylesheet" href="./assets/section-header.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="icon"
+      href="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png"
+      type="image/x-icon"
+    />
+
+    <script src="./assets/script.js" defer></script>
+    <script src="./assets/carrosseis.js" defer></script>
+  </head>
+  <body>
+    <div id="conteudo">
+      <header>
+        <h1>PALHAMUSICOS</h1>
+      </header>
+      <div
+        style="
+          border-bottom: 0.156rem solid transparent;
+          border-image: linear-gradient(
+            0.75turn,
+            #091583,
+            #ff0000,
+            #ffe601,
+            #167903
+          );
+          border-image-slice: 1;
+        "
+        class="burguer"
+        class="burguer"
+      >
+        <iconify-icon
+          id="burguer"
+          icon="mingcute:menu-fill"
+          style="color: goldenrod"
+          width="100%"
+          height="40"
+          onclick="clickMenu()"
+        ></iconify-icon>
+      </div>
+
+      <menu id="itens">
+        <ul class="menu">
+          <li><a rel="prev" href="./index.html">ACS</a></li>
+          <li><a href="#destaques">Destaques</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#contratar">Nos contrate!</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </menu>
+      <main>
+        <section class="home">
+          <video
+            class="videoHome"
+            autoplay
+            loop
+            muted
+            width="100%"
+            height="100%"
+          >
+            <source
+              src="https://www.acs.art.br/palhamusicos%2Fpalhamusicos.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </section>
+
+        <hr />
+
+        <h2 id="destaques" class="tituloNot">Destaques</h2>
+        <div class="notIma">
+          <div class="ondaTop"></div>
+          <div class="ondaBottom"></div>
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img
+                loading="lazy"
+                class="principal"
+                src="https://www.acs.art.br/palhamusicos%2F1.webp"
+                alt=""
+              />
+
+              <p>RED PHOENIX 2023</p>
+            </div>
+            <div class="mySlides fade">
+              <img
+                loading="lazy"
+                class="principal"
+                src="https://www.acs.art.br/palhamusicos%2F3.webp"
+                alt=""
+              />
+
+              <p>RED PHOENIX 2023</p>
+            </div>
+            <div class="mySlides fade">
+              <img
+                loading="lazy"
+                class="principal"
+                src="https://www.acs.art.br/palhamusicos%2F4.webp"
+                alt=""
+              />
+
+              <p>RED PHOENIX 2023</p>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div id="dots">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+
+          <div class="slideshow-container">
+            <div class="mySlides2 fade">
+              <img
+                loading="lazy"
+                class="principal"
+                src="https://www.acs.art.br/palhamusicos%2F2.webp"
+                alt=""
+              />
+              <p>
+                RED PHOENIX NA PREPARAÇÃO PARA BATALHA DE PERCUSSÃO WAMSB 2023
+              </p>
+            </div>
+
+            <div class="mySlides2 fade">
+              <img
+                loading="lazy"
+                class="principal"
+                src="https://www.acs.art.br/palhamusicos%2F5.webp"
+                alt=""
+              />
+
+              <p>
+                RED PHOENIX NA PREPARAÇÃO PARA BATALHA DE PERCUSSÃO WAMSB 2023
+              </p>
+            </div>
+
+            <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+
+            <div id="dots">
+              <span class="dot2" onclick="currentSlide2(1)"></span>
+              <span class="dot2" onclick="currentSlide2(2)"></span>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div class="conteudo">
+          <h2 id="sobre" class="titulo">PALHAMUSICOS</h2>
+          <div class="texto">
+            <p>
+              Os <strong>PALHAMÚSICOS</strong>, fundados em 2016, têm como
+              propósito intervir na sociedade, promovendo a arte como um mínimo
+              social para crianças, adolescentes e outros públicos em situação
+              de vulnerabilidade e risco social. Priorizam hospitais públicos e
+              ambientes adversos, como comunidades afastadas dos centros
+              urbanos, utilizando a linguagem do palhaço como referência.
+            </p>
+            <p>
+              Através dessa intervenção, buscam ampliar canais de diálogo
+              reflexivo com a sociedade, contribuindo para a promoção da cultura
+              e inspirando políticas públicas universais e democráticas voltadas
+              ao desenvolvimento social sustentável. Tudo isso tendo a MÚSICA
+              como a principal base elementar para o fazer artístico do grupo.
+              🎶🤡🌟
+            </p>
+          </div>
+        </div>
+
+        <hr />
+        <div class="conteudo">
+          <h2 id="contratar" class="titulo">Nos contrate para seu evento!</h2>
+
+          <section id="section-contratar">
+            <div class="contratar-text">
+              <p>
+                🎺🎉 PALHAMÚSICOS: A Trilha Sonora Perfeita para o Seu Evento!
+                🎉🎺
+              </p>
+              <p>
+                Você está planejando um evento especial? Quer torná-lo
+                inesquecível com música vibrante e autêntica? A PALHAMÚSICOS
+                está aqui para fazer parte desse momento único!
+              </p>
+              <p>Por que escolher a PALHAMÚSICOS?</p>
+              <p>
+                🎵 Melodias que Curam: Nossa trupe de palhaços-músicos traz
+                consigo a magia da música. Através de notas e acordes, buscamos
+                aliviar o sofrimento e espalhar alegria nos corações daqueles
+                que mais precisam.
+              </p>
+              <p>
+                🤹‍♂️ Palhaçaria Reflexiva: A linguagem do palhaço é nossa
+                ferramenta. Com narizes vermelhos e sorrisos largos, criamos
+                diálogos reflexivos com a sociedade, estimulando a empatia e a
+                compreensão.
+              </p>
+              <p>
+                🌟 Cultura como Transformação: Inspiramos políticas públicas
+                inclusivas e universais, visando um desenvolvimento social
+                sustentável. A música é nosso elo, nossa base para o fazer
+                artístico. 🎊🎺🔥
+              </p>
+              <p>
+                Não deixe sua jornada sem trilha sonora! Contrate os
+                PALHAMÚSICOS e faça parte dessa sinfonia de esperança e riso!
+                🎊🎶✨
+              </p>
+              <p>
+                Entre em contato pelo
+                <a
+                  href="https://wa.me/5581999075419"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >WhatsApp</a
+                >!
+              </p>
+            </div>
+          </section>
+        </div>
+        <a href="#" class="topo">&uarr;</a>
+      </main>
+      <footer id="contato">
+        <div class="footer">
+          <img
+            loading="lazy"
+            class="logoFooterRP"
+            src="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png"
+            alt=""
+          />
+
+          <div class="links">
+            <h3 class="h3">Contatos</h3>
+            <ul>
+              <li class="">
+                <i class="bi bi-instagram"></i
+                ><a
+                  href="https://www.instagram.com/dmetadenofrevo/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+              </li>
+              <li class="">
+                <i class="bi bi-whatsapp"></i
+                ><a
+                  href="https://wa.me/5581999075419"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >WhatsApp</a
+                >
+              </li>
+              <li class="">
+                <i class="bi bi-youtube"></i>
+                <a
+                  href="https://www.youtube.com/watch?v=An9ZkZ6IHB8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >YouTube - OIS</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a
+          class="linkAssinatura"
+          href="https://www.instagram.com/svitor.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>Criado por:</p>
+          <img
+            loading="lazy"
+            src="https://www.acs.art.br/vitor%2FsVitor.Dev.png"
+            alt=""
+        /></a>
+      </footer>
+    </div>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>

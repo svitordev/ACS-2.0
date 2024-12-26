@@ -1,0 +1,5 @@
+# Redirecionar todas as rotas de /admin para o Next.js
+/admin/* /next-app/.next/server/pages/admin/index.html 200
+
+# Redirecionar todas as outras rotas para o site institucional
+/* /index.html 200

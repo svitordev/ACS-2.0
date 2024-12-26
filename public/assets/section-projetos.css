@@ -1,0 +1,103 @@
+.projetos {
+  display: grid;
+  justify-items: center;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: auto;
+  padding: 0%;
+}
+
+.projetos .projetos1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-size: 100% 100%;
+  border: 2px solid rgb(255, 255, 255);
+  height: auto;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(10, 58, 105);
+  box-shadow: 2px 2px 15px 2px rgba(17, 11, 70, 0.342);
+  width: 95%;
+}
+.projetos1 h3 {
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+}
+.projetos1 p {
+  font-weight: bolder;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+.link-projetos {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding: 5px 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.212);
+}
+
+.link-projetos:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  border: 2px dotted rgb(10, 58, 105);
+}
+.projetos1 img {
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 60px 1px rgba(78, 69, 69, 0.397);
+}
+.projetos img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+/* FIM PROJETOS */
+@media screen and (max-width: 576px) {
+  .projetos {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .projetos {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .projetos {
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem auto;
+  }
+  .projetos1 {
+    margin-bottom: 3%;
+  }
+  .projetos1 img {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+  
+}
+@media screen and (min-width: 1400px) and (max-width: 1919px) {
+  .projetos {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1rem auto;
+  }
+  .projetos1 {
+    margin-bottom: 3%;
+  }
+  .projetos1 img {
+    width: 55%;
+  }
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="http://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Página de noticias sobre cultura da cidade de Surubim-PE e dos projetos da Associação Cultural Surubinense"
+    />
+    <meta
+      name="keywords"
+      content="ACS, Associação Cultural Surubinense, Surubim, Cultura, OIS, Orquestra Instrumental Surubinense, CIA, Redphoenix, percussão da ois, Levanta defunto, de metade no frevo, dmetade, frevo, carnaval, bloco, palhaço, musico, palhamusico"
+    />
+    <link rel="canonical" href="https://acs.art.br/" />
+    <title>Associação Cultural Surubinense</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/section-noticias.css" />
+    <link rel="stylesheet" href="./assets/acs.css" />
+    <link rel="stylesheet" href="./assets/section-header.css" />
+    <link rel="stylesheet" href="./assets/section-apresentacao.css" />
+    <link rel="stylesheet" href="./assets/section-sobre.css" />
+    <link rel="stylesheet" href="./assets/section-projetos.css" />
+    <link rel="stylesheet" href="./assets/section-footer.css" />
+    <link rel="stylesheet" href="./assets/section-home.css" />
+    <link
+      rel="icon"
+      href="https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="./assets/script.js" defer></script>
+    <script src="./assets/carrosseis.js" defer></script>
+  </head>
+  <body>
+    <div id="conteudo">
+      <header>
+        <h1>ASSOCIAÇÃO CULTURAL SURUBINENSE</h1>
+      </header>
+      <div
+        style="
+          border-bottom: 0.156rem solid transparent;
+          border-image: linear-gradient(
+            0.25turn,
+            rgb(22, 158, 17),
+            rgb(18, 15, 180),
+            rgba(51, 255, 0, 0.664)
+          );
+          border-image-slice: 1;
+        "
+        class="burguer"
+      >
+        <iconify-icon
+          id="burguer"
+          icon="mingcute:menu-fill"
+          style="color: rgb(22, 136, 18)"
+          width="100%"
+          height="40"
+          onclick="clickMenu()"
+        ></iconify-icon>
+      </div>
+
+      <menu id="itens">
+        <ul class="menu">
+          <li><a href="#noticia">Notícias</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#projetos">Nossos Projetos</a></li>
+          <li><a href="#contato">Contatos</a></li>
+        </ul>
+      </menu>
+      <main>
+        <section class="home">
+          <video
+            class="videoHome"
+            autoplay
+            loop
+            muted
+            width="100%"
+            height="100%"
+          >
+            <source
+              src="https://www.acs.art.br/acs%2Festrutura%2Facs.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta o elemento de vídeo.
+          </video>
+        </section>
+        <hr class="" />
+        <h2 id="noticia" class="tituloNot">NOTÍCIAS</h2>
+        <section class="notIma">
+          <div class="ondaTop"></div>
+          <div class="ondaBottom"></div>
+          <div class="slideshow-container">
+            <!-- Primeiro -->
+            <a
+              class="mySlides fade"
+              href="https://www.instagram.com/p/C-6D6hEypzv/"
+              target="_blank"
+            >
+              <img
+                loading="lazy"
+                class="principal"
+                src="./imagens/acs/noticias/concertWANSB.jpg"
+                alt=""
+              />
+              <h2>notícias</h2>
+              <p>
+                Resumo CONCERT BAND da 𝐖𝐀𝐌𝐒𝐁 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐓𝐈𝐎𝐍𝐀𝐋- 𝐑𝐄𝐆𝐈𝐎𝐍𝐀𝐋 𝐍𝐎𝐑𝐓𝐄 𝐄
+                𝐍𝐎𝐑𝐃𝐄𝐒𝐓𝐄 🌵
+              </p>
+            </a>
+            <!-- Segundo -->
+            <a
+              class="mySlides fade"
+              href="https://www.instagram.com/p/C-6Lw7qvCS6/"
+              target="_blank"
+            >
+              <img
+                loading="lazy"
+                class="principal"
+                src="./imagens/acs/noticias/stoplayWANSB.jpg"
+                alt=""
+              />
+              <h2 class="h2not">notícias</h2>
+              <p>
+                Resumo STOP AND PLAY da 𝐖𝐀𝐌𝐒𝐁 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐓𝐈𝐎𝐍𝐀𝐋- 𝐑𝐄𝐆𝐈𝐎𝐍𝐀𝐋 𝐍𝐎𝐑𝐓𝐄 𝐄
+                𝐍𝐎𝐑𝐃𝐄𝐒𝐓𝐄 🌵
+              </p>
+            </a>
+            <!-- terceiro -->
+            <a
+              class="mySlides fade"
+              href="https://www.instagram.com/p/C-6CBBkyiGh/"
+              target="_blank"
+            >
+              <img
+                loading="lazy"
+                class="principal"
+                src="./imagens/acs/noticias/percussionWANSB.jpg"
+                alt=""
+              />
+              <h2>notícias</h2>
+              <p>
+                Resumo DRUM BATTLE da 𝐖𝐀𝐌𝐒𝐁 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐓𝐈𝐎𝐍𝐀𝐋- 𝐑𝐄𝐆𝐈𝐎𝐍𝐀𝐋 𝐍𝐎𝐑𝐓𝐄 𝐄
+                𝐍𝐎𝐑𝐃𝐄𝐒𝐓𝐄 🌵
+              </p>
+            </a>
+            <!-- quarto -->
+            <a
+              class="mySlides fade"
+              href="https://www.instagram.com/p/C-6AhB7Sq5t/"
+              target="_blank"
+            >
+              <img
+                loading="lazy"
+                class="principal"
+                src="./imagens/acs/noticias/colorGuardWANSB.jpg"
+                alt=""
+              />
+              <h2>notícias</h2>
+              <p>
+                Resumo COLOR GUARD da 𝐖𝐀𝐌𝐒𝐁 𝐈𝐍𝐓𝐄𝐑𝐍𝐀𝐓𝐈𝐎𝐍𝐀𝐋- 𝐑𝐄𝐆𝐈𝐎𝐍𝐀𝐋 𝐍𝐎𝐑𝐓𝐄 𝐄
+                𝐍𝐎𝐑𝐃𝐄𝐒𝐓𝐄 🌵
+              </p>
+            </a>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div id="dots">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+          </div>
+          <div class="secundario">
+            <!-- primeiro -->
+            <a
+              class="card1"
+              href="https://www.youtube.com/@orquestrainstrumentalsurub2277/streams"
+              target="_blank"
+            >
+              <img
+                loading="lazy"
+                src="./imagens/acs/noticias/transmissao.png"
+                alt=""
+              />
+              <h2>notícias</h2>
+              <p>Assista as lives da 𝐖𝐀𝐌𝐒𝐁 - 𝐍𝐎𝐑𝐓𝐄 𝐄 𝐍𝐎𝐑𝐃𝐄𝐒𝐓𝐄🌵</p>
+            </a>
+            <!-- segundo -->
+            <a
+              class="card1"
+              href="https://www.instagram.com/p/C8Ah5vZPij5/?img_index=1"
+              target="_blank"
+            >
+              <img
+                loading="lazy"
+                src="./imagens/acs/noticias/diaTrompete.jpg"
+                alt=""
+              />
+              <h2>notícias</h2>
+              <p>Foi realizado o dia do trompete em Surubim/PE dia 09/06!</p>
+            </a>
+            <!-- terceiro -->
+            <a
+              class="card1"
+              href="https://www.instagram.com/p/C6Ehz_uOKff/?img_index=1"
+              target="_blank"
+            >
+              <img
+                loading="lazy"
+                src="./imagens/acs/noticias/raizes.jpg"
+                alt=""
+              />
+              <h2>notícias</h2>
+              <p>Concerto NOSSAS RAÍZES 🌵☀️!</p>
+            </a>
+            <!-- quarto -->
+            <a
+              class="card1"
+              href="https://www.youtube.com/watch?v=GApoiWYkml8"
+              target="_blank"
+            >
+              <img
+                loading="lazy"
+                src="./imagens/acs/noticias/piracaiaOIS.jpg"
+                alt=""
+              />
+              <h2>notícias</h2>
+              <p>𝐒𝐔𝐋𝐀𝐌𝐄𝐑𝐈𝐂𝐀𝐍𝐎 𝟐𝟎𝟐𝟑- 𝐖𝐀𝐌𝐒𝐁 𝐎𝐏𝐄𝐍 𝐂𝐇𝐀𝐌𝐏𝐈𝐎𝐍𝐒𝐇𝐈𝐏 🌎</p>
+            </a>
+          </div>
+        </section>
+
+        <hr />
+
+        <div class="conteudo">
+          <h2 id="sobre" class="titulo">
+            A.C.S - Associação Cultural Surubinense
+          </h2>
+          <section class="texto">
+            <p class="">
+              A <strong>ASSOCIAÇÃO CULTURAL SURUBINENSE</strong> é uma
+              instituição que nasceu com o propósito de servir como um
+              instrumento para a sociedade de Surubim. Fundada em 11 de agosto
+              de 2023, sem fins lucrativos, ela oferece oportunidades para
+              artistas locais exibirem seus talentos e promove uma variedade de
+              eventos e atividades culturais.
+            </p>
+            <p class="">
+              Nossas iniciativas abrangem áreas como
+              <strong>teatro, música, dança, artes plásticas e ensino,</strong>
+              com foco em crianças, adolescentes, jovens e adultos. Através
+              dessas atividades, contribuímos para fortalecer a identidade
+              cultural local e enriquecer a vida comunitária.
+            </p>
+            <p>
+              Além disso, a Associação Cultural Surubinense estabelece parcerias
+              com o poder público e privado para promover festivais, workshops e
+              outras experiências que preservam e divulgam a riqueza da cultura
+              local. Somos um ponto de encontro para artistas e entusiastas,
+              fomentando a troca de experiências e o desenvolvimento artístico
+              na nossa comunidade. Afinal, é por meio da arte e da música que
+              mantemos viva a tradição e a paixão em Surubim. 🎭🎶
+            </p>
+          </section>
+          <hr class="" />
+          <h2 id="projetos" class="titulo">PROJETOS</h2>
+          <div class="projetos">
+            <div class="projetos1">
+              <h3>música</h3>
+              <img
+                loading="lazy"
+                src="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png"
+                alt=""
+              />
+              <p>
+                orquestra <br />
+                instrumetal <br />
+                surubinense
+              </p>
+              <a href="./ois.html" class="link-projetos" rel="next"
+                ><i class="bi bi-arrow-up-right-circle-fill"></i> saiba mais</a
+              >
+            </div>
+            <div class="projetos1">
+              <h3>dança</h3>
+              <img
+                loading="lazy"
+                src="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg"
+                alt=""
+              />
+              <p>
+                companhia de <br />
+                dança <br />
+                ois
+              </p>
+              <a href="./cia.html" class="link-projetos" rel="next"
+                ><i class="bi bi-arrow-up-right-circle-fill"></i> saiba mais</a
+              >
+            </div>
+            <div class="projetos1">
+              <h3>Percussão</h3>
+              <img
+                loading="lazy"
+                src="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-percussao.png"
+                alt=""
+              />
+              <p>
+                red <br />
+                phoenix <br />
+                &nbsp;
+              </p>
+              <a href="./redphoenix.html" class="link-projetos" rel="next"
+                ><i class="bi bi-arrow-up-right-circle-fill"></i> saiba mais</a
+              >
+            </div>
+            <div class="projetos1">
+              <h3>carnavalesco</h3>
+              <img
+                loading="lazy"
+                src="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-Dmetade.jpg"
+                alt=""
+              />
+              <p>
+                d´metade <br />
+                no <br />
+                frevo
+              </p>
+              <a href="./dMetade.html" class="link-projetos" rel="next"
+                ><i class="bi bi-arrow-up-right-circle-fill"></i> saiba mais</a
+              >
+            </div>
+            <div class="projetos1">
+              <h3>carnavalesco</h3>
+              <img
+                loading="lazy"
+                src="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-levantaDefunto.png"
+                alt=""
+              />
+              <p>
+                bloco carnavalesco <br />
+                levanta <br />
+                defunto
+              </p>
+              <a href="./bld.html" class="link-projetos" rel="next"
+                ><i class="bi bi-arrow-up-right-circle-fill"></i> saiba mais</a
+              >
+            </div>
+            <div class="projetos1">
+              <h3>festas</h3>
+              <img
+                loading="lazy"
+                src="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png"
+                alt=""
+              />
+              <p>
+                palhamúsicos <br />
+                &nbsp; <br />
+                &nbsp;
+              </p>
+              <a href="./palhamusicos.html" class="link-projetos" rel="next"
+                ><i class="bi bi-arrow-up-right-circle-fill"></i> saiba mais</a
+              >
+            </div>
+          </div>
+          <a href="#" class="topo">&uarr;</a>
+        </div>
+      </main>
+      <footer id="contato">
+        <div class="footer">
+          <img
+            loading="lazy"
+            class="logoFooter"
+            src="https://www.acs.art.br/acs%2Festrutura%2Flogo-acs.png"
+            alt=""
+          />
+
+          <div class="links">
+            <h3 class="h3">Contatos</h3>
+            <ul>
+              <li class="">
+                <i class="bi bi-instagram"></i
+                ><a
+                  href="https://www.instagram.com/associacaoculturalsurubinense/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Instagram</a
+                >
+              </li>
+              <li class="">
+                <i class="bi bi-whatsapp"></i
+                ><a
+                  href="https://wa.me/5581999075419"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >WhatsApp</a
+                >
+              </li>
+              <li class="">
+                <i class="bi bi-bank2"></i>
+                <p>CNPJ: 55.066.867/0001-31</p>
+              </li>
+              <li class="">
+                <i class="bi bi-envelope"></i
+                ><a
+                  href="mailto:orq.instrumentalsurubinense@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >E-mail</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a
+          class="linkAssinatura"
+          href="https://www.instagram.com/svitor.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>Criado por:</p>
+          <img
+            loading="lazy"
+            src="https://www.acs.art.br/vitor%2FsVitor.Dev.png"
+            alt=""
+        /></a>
+      </footer>
+    </div>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </body>
+</html>

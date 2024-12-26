@@ -1,0 +1,76 @@
+hr {
+  border-image: linear-gradient(0.25turn, rgb(0, 0, 0), gold, #a90000);
+  border-image-slice: 1;
+}
+header,
+footer,
+.notIma {
+  background: rgb(139, 4, 4); /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333333,rgb(146, 1, 1) ,#a90000 ,#a90000,rgb(146, 1, 1), #333333 ); 
+  background: linear-gradient(to right, #333333,rgb(146, 1, 1) ,#a90000 ,#a90000,rgb(146, 1, 1), #333333 );
+}
+
+.ondaTop,
+.ondaBottom{
+  background-image: url(https://www.acs.art.br/acs%2Festrutura%2Fonda.png);
+}
+#itens {
+  border-image: linear-gradient(0.25turn, black, gold, black);
+  background-color: #ffff;
+
+}
+.menu li a {
+  color: black;
+}
+/* FIM HEADER E MENU */
+/* SOCIAIS */
+.tituloNot,
+.titulo,
+.prev:hover,
+.next:hover,
+.menu li a:hover {
+  background: linear-gradient(to right,goldenrod, rgb(61, 52, 1));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.active,
+.dot:hover {
+  border: 2px solid goldenrod;
+}
+
+
+.slide::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(
+    178.2deg,
+    rgb(250, 3, 36) 10.9%,
+    rgba(158, 12, 33, 1) 62.6%
+  );
+}
+.slide::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(
+    178.2deg,
+    rgba(158, 12, 33, 1) 10.9%,
+    rgb(255, 0, 34) 62.6%
+  );
+}
+/* FOOTER */
+
+.footer{
+  border-image: linear-gradient(0.25turn, gold, goldenrod, gold);
+
+}
+footer .logoFooter {
+  height: 60%;
+  align-self: center;
+}
+.topo {
+  color: goldenrod;
+  border: solid 3px goldenrod;
+  box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.267);
+}
+.historico h3,
+.historico p a{
+  color: #dd1818;
+  
+}
