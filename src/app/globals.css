@@ -1,4 +1,6 @@
+@import "../styles/section-noticias.css";
+@import "../styles/acs.css";
+@import "../styles/style.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-

@@ -1,0 +1,107 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+   margin: 0; 
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 3.5rem;
+}
+body {
+  background-color: #ffffff;
+}
+hr {
+  margin: 4% auto;
+  width: 30%;
+  border: 2px dashed;
+  border-image-slice: 1;
+}
+.titulo {
+  font-size: 1.563rem;
+  text-transform: uppercase;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+.conteudo {
+  width: 80%;
+  margin: 1rem auto;
+}
+@media screen and (max-width: 576px) {
+  .conteudo {
+    width: 100%;
+    margin-top: 1rem ;
+  }
+  h2{
+    margin-left: 4%;
+  }
+  hr {
+    margin: 12% auto;
+
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767px) {
+  .conteudo {
+    width: 90%;
+    margin: 1rem auto;
+  }
+  h2{
+    margin-left: 5%;
+  }
+  hr {
+    margin: 9% auto;
+
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .conteudo {
+    width: 94%;
+    margin-left: 3%;
+  }
+  h2{
+    margin-left: 4%;
+  }
+  .tituloNot{
+    margin-left: 4%;
+  }
+  hr{
+    margin: 6% auto;
+
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+  .tituloNot{
+    margin-left: 9%;
+  }
+  hr{
+    margin: 3.5% auto;
+
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1699px) {
+  .conteudo {
+    width: 70%;
+    margin: 1rem auto;
+  }
+  
+  .tituloNot{
+    margin-left: 8%;
+  }
+  hr{
+    margin: 4% auto;
+
+  }
+  
+}
+@media screen and (min-width: 1700px){
+  .conteudo {
+    width: 80%;
+    margin: 1rem auto;
+  }
+  hr{
+    margin: 3% auto;
+
+  }
+}
