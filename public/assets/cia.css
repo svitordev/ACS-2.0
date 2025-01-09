@@ -7,7 +7,7 @@ hr {
 }
 header,
 footer,
-.notIma {
+.section-news {
   background: #ac7b5c; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -45,19 +45,19 @@ footer,
 /* FIM HEADER E MENU */
 /* SOCIAIS */
 .tituloNot,
-.titulo{
-  background: linear-gradient(to right,#594b42, #c48e6c);
+.titulo {
+  background: linear-gradient(to right, #594b42, #c48e6c);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 .prev:hover,
-.next:hover{
+.next:hover {
   color: #c48e6c;
 }
 .active,
 .dot:hover {
-  border: 2px solid #c48e6c;
+  border: 3px solid #c48e6c;
 }
 
 .slide img,

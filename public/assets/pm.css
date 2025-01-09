@@ -2,15 +2,12 @@ body {
   background-color: #ffffff;
 }
 hr {
-  border-image: linear-gradient(
-    0.25turn,
-    #091583, #ff0000, #ffe601,#167903
-  );
+  border-image: linear-gradient(0.25turn, #091583, #ff0000, #ffe601, #167903);
   border-image-slice: 1;
 }
 header,
 footer,
-.notIma,
+.section-news,
 .slide img,
 .slide video,
 .slide iframe {
@@ -22,15 +19,12 @@ footer,
 .ondaBottom {
   background-image: url(https://www.acs.art.br/acs%2Festrutura%2Fonda.png);
 }
-.dmetade-container{
+.dmetade-container {
   background-color: rgb(201, 201, 201);
 }
 #itens {
   background-color: #ffffff;
-  border-image: linear-gradient(
-    0.75turn,
-    #091583, #ffe601,#167903, #ff0000
-  );
+  border-image: linear-gradient(0.75turn, #091583, #ffe601, #167903, #ff0000);
 }
 .dropdown-content {
   border: dashed 2px #091583;
@@ -55,14 +49,14 @@ footer,
 }
 .active,
 .dot:hover {
-  border: 2px solid #b80c8a;
+  border: 3px solid #b80c8a;
 }
 
 .slide {
   width: 70%;
   border: solid 2px #ffffff;
 }
-.contratar-text{
+.contratar-text {
   width: 100%;
 }
 .slide::-webkit-scrollbar-thumb {
@@ -74,10 +68,7 @@ footer,
 /* FOOTER */
 
 .footer {
-  border-image: linear-gradient(
-    0.75turn,
-    #091583, #ffe601,#167903, #ff0000
-  );
+  border-image: linear-gradient(0.75turn, #091583, #ffe601, #167903, #ff0000);
 }
 
 footer .logoFooter {

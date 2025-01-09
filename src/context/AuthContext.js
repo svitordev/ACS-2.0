@@ -1,27 +1,37 @@
 "use client";
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useState } from "react";
 
-// Contexto para armazenar o estado de autenticação
 const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // Estado apenas durante a sessão
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [authChecked, setAuthChecked] = useState(false); // Novo estado
+
+  useEffect(() => {
+    const storedLoginStatus = localStorage.getItem("isLoggedIn");
+    if (storedLoginStatus === "true") {
+      setIsLoggedIn(true);
+    }
+    setAuthChecked(true); // Indica que a verificação foi concluída
+  }, []);
 
   const login = () => {
-    setIsLoggedIn(true); // Marca como logado
+    setIsLoggedIn(true);
+    localStorage.setItem("isLoggedIn", "true");
   };
 
   const logout = () => {
-    setIsLoggedIn(false); // Marca como deslogado
+    setIsLoggedIn(false);
+    localStorage.removeItem("isLoggedIn");
   };
 
   return (
-    <AuthContext.Provider value={{ isLoggedIn, login, logout }}>
+    <AuthContext.Provider value={{ isLoggedIn, authChecked, login, logout }}>
       {children}
     </AuthContext.Provider>
   );
 }
 
 export function useAuth() {
-  return useContext(AuthContext); // Hook para acessar o contexto
+  return useContext(AuthContext);
 }

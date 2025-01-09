@@ -1,4 +1,4 @@
-export function InfoTime(noticia) {
+export function InfoTimeCalc(noticia) {
   const criadoEm = new Date(noticia.criado_em);
   const agora = new Date();
   const diffEmMs = agora - criadoEm;

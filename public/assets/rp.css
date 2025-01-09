@@ -2,12 +2,17 @@ body {
   background-color: #ffffff;
 }
 hr {
-  border-image: linear-gradient(0.25turn, rgb(59, 56, 56), #ff0505, rgb(59, 56, 56));
+  border-image: linear-gradient(
+    0.25turn,
+    rgb(59, 56, 56),
+    #ff0505,
+    rgb(59, 56, 56)
+  );
   border-image-slice: 1;
 }
 header,
 footer,
-.notIma {
+.section-news {
   background: #a10101; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -39,7 +44,7 @@ footer,
   color: rgb(59, 56, 56);
 }
 .menu li a:hover {
-  background: linear-gradient(to right,#ff0505 , #5f0101 );
+  background: linear-gradient(to right, #ff0505, #5f0101);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -47,19 +52,19 @@ footer,
 /* FIM HEADER E MENU */
 /* SOCIAIS */
 .tituloNot,
-.titulo{
-  background: linear-gradient(to right,#ff0505 , #5c0101 39%);
+.titulo {
+  background: linear-gradient(to right, #ff0505, #5c0101 39%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 .prev:hover,
-.next:hover{
+.next:hover {
   color: #ff0505;
 }
 .active,
 .dot:hover {
-  border: 2px solid #ff0505;
+  border: 3px solid #ff0505;
 }
 
 .slide img,
@@ -68,17 +73,24 @@ footer,
   background-color: white;
 }
 .slide::-webkit-scrollbar-thumb {
-  background-image: linear-gradient(90deg, rgb(59, 56, 56) 10.9%, #ff0505 62.6%);
+  background-image: linear-gradient(
+    90deg,
+    rgb(59, 56, 56) 10.9%,
+    #ff0505 62.6%
+  );
 }
 .slide::-webkit-scrollbar-thumb:hover {
-  background-image: linear-gradient(90deg, #ff0505 10.9%, rgb(59, 56, 56) 62.6%);
+  background-image: linear-gradient(
+    90deg,
+    #ff0505 10.9%,
+    rgb(59, 56, 56) 62.6%
+  );
 }
 /* FOOTER */
 
 .footer,
 #itens {
   border-image: linear-gradient(0.25turn, #ff0505, #770101, #ff0505);
-
 }
 footer .logoFooter {
   height: 60%;

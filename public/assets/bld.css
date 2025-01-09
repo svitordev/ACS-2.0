@@ -15,7 +15,7 @@ hr {
 }
 header,
 footer,
-.notIma,
+.section-news,
 .slide img,
 .slide video,
 .slide iframe {
@@ -61,7 +61,7 @@ footer,
 }
 .active,
 .dot:hover {
-  border: 2px solid #d70077;
+  border: 3px solid #d70077;
 }
 
 .slide {
