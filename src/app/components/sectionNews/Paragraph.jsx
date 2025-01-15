@@ -1,7 +1,7 @@
 function Paragraph({ children, style }) {
   return (
     <p
-      className={`w-full text-wrap  absolute font-extrabold text-white  ${style}`}
+      className={`w-full text-wrap  absolute font-extrabold text-white text-2xl ${style}`}
     >
       {children}
     </p>

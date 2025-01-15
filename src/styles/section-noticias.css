@@ -27,10 +27,7 @@
   text-transform: uppercase;
   width: 80%;
 }
-.section-news a {
-  text-decoration-color: rgb(182, 186, 190);
-  color: rgb(252, 252, 252);
-}
+
 .fade {
   animation-name: fade;
   animation-duration: 0s;

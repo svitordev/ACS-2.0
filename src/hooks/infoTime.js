@@ -12,6 +12,8 @@ export function InfoTimeCalc(noticia) {
     infoTempo = `${minutos} minutos`;
   } else if (horas < 24) {
     infoTempo = `${horas} horas`;
+  } else if(horas < 48) {
+    infoTempo = `${dias} dia`;
   } else {
     infoTempo = `${dias} dias`;
   }

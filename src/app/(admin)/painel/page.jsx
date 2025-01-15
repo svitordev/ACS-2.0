@@ -1,7 +1,7 @@
 "use client";
 import { useAuth } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 import { handleDeleteNews } from "@/api/NewsDelete";
 import { getNoticiasPrinc, getNoticiasSecund } from "@/api/getNews";
@@ -9,8 +9,8 @@ import { handleCreate } from "@/api/newsCreate";
 import { handleEdit } from "@/api/newsUpdate";
 import Buttons from "@/app/(admin)/components/Buttons";
 import SectionNews from "@/app/components/sectionNews";
-import Modal from "../components/Modal";
 import Form from "../components/Form";
+import Modal from "../components/Modal";
 function Painel() {
   const { isLoggedIn, authChecked, logout } = useAuth();
   const router = useRouter();

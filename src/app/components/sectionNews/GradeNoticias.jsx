@@ -1,8 +1,8 @@
 "use client";
 import { InfoTimeCalc } from "@/hooks/infoTime";
-import ButtonsEditDel from "../../../(admin)/components/ButtonsEditDel";
-import SpanInfoTime from "../InfoTime";
-import Paragraph from "../Paragraph";
+import ButtonsEditDel from "../../(admin)/components/ButtonsEditDel";
+import SpanInfoTime from "./InfoTime";
+import Paragraph from "./Paragraph";
 
 function GradeNoticias({ noticia, onEditClick, onDelClick }) {
   const src = noticia.previewUrl || noticia.imagem;
@@ -13,7 +13,7 @@ function GradeNoticias({ noticia, onEditClick, onDelClick }) {
     border = "border-[4px]  border-yellow-400";
   }
   return (
-    <div className="w-full h-56 md:h-full rounded-lg relative overflow-hidden shadow-lg shadow-black/60">
+    <div className="w-full h-72 md:h-full rounded-lg relative overflow-hidden shadow-lg shadow-black/60">
       <a
         href={noticia.link}
         target="_blank"
@@ -21,12 +21,19 @@ function GradeNoticias({ noticia, onEditClick, onDelClick }) {
           backgroundImage: `url(${src})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          transition: "all 0.3s",
         }}
-        className={`w-full h-full block brightness-[60%] hover:scale-105 ${border} rounded-lg`}
+        className={`w-full h-full block brightness-[60%] hover:scale-105 ${border} rounded-lg transition-all duration-300`}
       ></a>
-      <SpanInfoTime>{InfoTimeCalc(noticia)}</SpanInfoTime>
-      <Paragraph style={"bottom-3 px-2"}>{noticia.titulo}</Paragraph>
+      <SpanInfoTime style={"text-sm 2xl:text-base 2xl:top-5 2xl:right-6"}>
+        {InfoTimeCalc(noticia)}
+      </SpanInfoTime>
+      <Paragraph
+        style={
+          "bottom-6 md:bottom-3 px-8 md:px-2 2xl:px-5 md:text-sm lg:text-base 2xl:text-xl"
+        }
+      >
+        {noticia.titulo}
+      </Paragraph>
       {onEditClick && onDelClick && (
         <ButtonsEditDel
           onEditClick={() => onEditClick(noticia)}

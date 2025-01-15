@@ -34,12 +34,7 @@
   
  
 }
-@media screen and (min-width: 1200px) and (max-width: 1399px) {
-  .home{
-    height: 450px;
-  }
-  
-}
+
 @media screen and (min-width: 1400px) and (max-width: 1700px) {
   .home{
     height: 550px;

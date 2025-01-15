@@ -23,14 +23,8 @@
   box-shadow: 2px 2px 15px 2px rgba(17, 11, 70, 0.342);
   width: 95%;
 }
-.projetos1 h3 {
-  margin-top: 1.5rem;
-  text-transform: uppercase;
-}
 .projetos1 p {
-  font-weight: bolder;
   font-size: 1.25rem;
-  text-transform: uppercase;
 }
 .link-projetos {
   display: flex;

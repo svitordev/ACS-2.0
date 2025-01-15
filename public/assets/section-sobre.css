@@ -2,13 +2,7 @@
 .texto {
   columns: 250px 2;
 }
-.texto p {
-  text-align: justify;
-  text-indent: 1.25rem;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: rgb(59, 56, 56);
-}
+
 /* FIM SOBRE */
 @media screen and (max-width: 576px) {
   .texto{
@@ -27,13 +21,4 @@
     width: 100%;
     margin-bottom: 0rem;
   }
-}
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  
-}
-@media screen and (min-width: 1200px) and (max-width: 1399px){
-  
-}
-@media screen and (min-width: 1400px) and (max-width: 1919px) {
-
 }

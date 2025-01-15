@@ -2,7 +2,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import Buttons from "../Buttons";
+import Buttons from "./Buttons";
 const fileListType = typeof FileList === "function" ? FileList : null;
 const newsCreateSchema = z.object({
   titulo: z.string().min(1, "O título é obrigatório."),

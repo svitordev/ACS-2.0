@@ -2,7 +2,7 @@ hr {
   border-image: linear-gradient(0.25turn, #021b79, rgb(32, 175, 29), #021b79);
   border-image-slice: 1;
 }
-header,
+
 footer,
 .section-news {
   background: #021b79; /* fallback for old browsers */
