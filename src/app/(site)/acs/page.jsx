@@ -2,16 +2,26 @@
 import { getNoticiasPrinc, getNoticiasSecund } from "@/api/getNews";
 import About from "@/app/components/about";
 import ParagraphAbout from "@/app/components/about/ParagraphAbout";
+import Contacts from "@/app/components/contacts";
+import BoxLogoLinks from "@/app/components/contacts/BoxLogoLinks";
+import LinksContact from "@/app/components/contacts/Links";
 import Header from "@/app/components/header";
 import Home from "@/app/components/home";
 import ProjectsSection from "@/app/components/projects";
 import BoxProjects from "@/app/components/projects/BoxProjects";
 import ImageProject from "@/app/components/projects/ImageProject";
 import LinkProject from "@/app/components/projects/LinkProject";
+import PProject from "@/app/components/projects/PProject";
+import H2Project from "@/app/components/projects/TituloProject";
 import SectionNews from "@/app/components/sectionNews";
 import TitleSections from "@/app/components/titleSections";
 import { useEffect, useState } from "react";
+import { BiSolidBank } from "react-icons/bi";
+import { FaInstagram, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
 import "./style.css";
+
+import Li from "@/app/components/contacts/Li";
+import Image from "next/image";
 function ACS() {
   const [noticiasPrincipais, setNoticiasPrincipais] = useState([]);
   const [noticiaSecundarias, setNoticiaSecundarias] = useState([]);
@@ -64,97 +74,148 @@ function ACS() {
       </About>
       <ProjectsSection title={<TitleSections>Projetos</TitleSections>}>
         <BoxProjects>
-          <h2>Música</h2>
+          <H2Project>Música</H2Project>
           <ImageProject
             src={"https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png"}
             alt="Orquestra Instrumetal Surubinense"
           />
-          <p>
+          <PProject>
             orquestra <br />
             instrumetal <br />
             surubinense
-          </p>
+          </PProject>
           <LinkProject href={"/ois.html"} />
         </BoxProjects>
 
         <BoxProjects>
-          <h2>Dança</h2>
+          <H2Project>Dança</H2Project>
           <ImageProject
             src={"https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg"}
             alt="Companhia de Dança da OIS"
           />
-          <p>
+          <PProject>
             companhia de <br />
             dança <br />
             ois
-          </p>
+          </PProject>
           <LinkProject href={"/cia.html"} />
         </BoxProjects>
 
         <BoxProjects>
-          <h2>Percussão</h2>
+          <H2Project>Percussão</H2Project>
           <ImageProject
             src={
               "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-percussao.png"
             }
             alt="Percussão da OIS"
           />
-          <p>
+          <PProject>
             red <br />
             phoenix <br />
             &nbsp;
-          </p>
+          </PProject>
           <LinkProject href={"/redphoenix.html"} />
         </BoxProjects>
 
         <BoxProjects>
-          <h2>Carnavalesco</h2>
+          <H2Project>Carnavalesco</H2Project>
           <ImageProject
             src={
               "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-Dmetade.jpg"
             }
             alt="Orquestra de frevo da ACS"
           />
-          <p>
+          <PProject>
             d´metade <br />
             no <br />
             frevo
-          </p>
+          </PProject>
           <LinkProject href={"/dMetade.html"} />
         </BoxProjects>
 
         <BoxProjects>
-          <h2>Carnavalesco</h2>
+          <H2Project>Carnavalesco</H2Project>
           <ImageProject
             src={
               "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-levantaDefunto.png"
             }
             alt="Bloco Carnavalesco Levanta Defunto"
           />
-          <p>
+          <PProject>
             bloco carnavalesco <br />
             levanta <br />
             defunto
-          </p>
+          </PProject>
           <LinkProject href={"/bld.html"} />
         </BoxProjects>
 
         <BoxProjects>
-          <h2>Eventos</h2>
+          <H2Project>Eventos</H2Project>
           <ImageProject
             src={
               "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png"
             }
             alt="Grupo Palhamúsicos"
           />
-          <p>
+          <PProject>
             palhamúsicos <br />
             &nbsp; <br />
             &nbsp;
-          </p>
+          </PProject>
           <LinkProject href={"/palhamusicos.html"} />
         </BoxProjects>
       </ProjectsSection>
+      <Contacts bg={"bg-acs-gradient border-green-900"}>
+        <BoxLogoLinks>
+          <Image
+            src="https://www.acs.art.br/acs%2Festrutura%2Flogo-acs.png"
+            alt="logo ACS"
+            quality={100}
+            width={300}
+            height={300}
+            className="w-3/5 md:w-1/3 lg:w-[27%] xl:w-[23%] self-center"
+          />
+          <LinksContact>
+            <h3 className="text-2xl font-bold">Contatos</h3>
+            <ul className="flex flex-col flex-wrap list-none gap-2">
+              <Li>
+                <FaInstagram size={20} />
+                <a
+                  href="https://www.instagram.com/associacaoculturalsurubinense/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Instagram
+                </a>
+              </Li>
+              <Li>
+                <FaWhatsapp size={20} />
+                <a
+                  href="https://wa.me/5581999075419"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  WhatsApp
+                </a>
+              </Li>
+              <Li>
+                <BiSolidBank size={20} />
+                <p>CNPJ: 55.066.867/0001-31</p>
+              </Li>
+              <Li>
+                <FaRegEnvelope size={20} />
+                <a
+                  href="mailto:orq.instrumentalsurubinense@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  E-mail
+                </a>
+              </Li>
+            </ul>
+          </LinksContact>
+        </BoxLogoLinks>
+      </Contacts>
     </div>
   );
 }
