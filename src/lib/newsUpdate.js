@@ -7,6 +7,7 @@ export async function handleEdit(
   setNoticiasPrincipais,
   setNoticiasSecundarias
 ) {
+  //
   try {
     const formData = new FormData();
     formData.append("titulo", dados.titulo);
