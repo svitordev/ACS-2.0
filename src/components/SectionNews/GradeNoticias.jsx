@@ -1,6 +1,6 @@
 "use client";
-import ButtonsEditDel from "@/components/painel/ButtonsEditDel";
 import { InfoTimeCalc } from "@/utils/infoTime";
+import ButtonsEditDel from "../Painel/ButtonsEditDel";
 import SpanInfoTime from "./InfoTime";
 import Paragraph from "./Paragraph";
 
