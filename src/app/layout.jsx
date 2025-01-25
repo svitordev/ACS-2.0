@@ -1,12 +1,6 @@
 import { AuthProvider } from "@/context/AuthContext";
-import "./globals.css";
+import "../styles/globals.css";
 
-
-export const metadata = {
-  title: "Associação Cultural Surubinense",
-  description:
-    "Site da Associação Cultural Surubinense e noticias sobre cultura da cidade de Surubim-PE e dos projetos da Associação Cultural Surubinense",
-};
 export default function RootLayout({ children }) {
   return (
     <AuthProvider>

@@ -1,51 +1,97 @@
-"use client";
-import { getNoticiasPrinc, getNoticiasSecund } from "@/api/getNews";
-import About from "@/app/components/about";
-import ParagraphAbout from "@/app/components/about/ParagraphAbout";
-import Contacts from "@/app/components/contacts";
-import BoxLogoLinks from "@/app/components/contacts/BoxLogoLinks";
-import LinksContact from "@/app/components/contacts/Links";
-import Header from "@/app/components/header";
-import Home from "@/app/components/home";
-import ProjectsSection from "@/app/components/projects";
-import BoxProjects from "@/app/components/projects/BoxProjects";
-import ImageProject from "@/app/components/projects/ImageProject";
-import LinkProject from "@/app/components/projects/LinkProject";
-import PProject from "@/app/components/projects/PProject";
-import H2Project from "@/app/components/projects/TituloProject";
-import SectionNews from "@/app/components/sectionNews";
-import TitleSections from "@/app/components/titleSections";
-import { useEffect, useState } from "react";
+import About from "@/components/About";
+import ParagraphAbout from "@/components/About/ParagraphAbout";
+import Contacts from "@/components/Contacts";
+import BoxLogoLinks from "@/components/Contacts/BoxLogoLinks";
+import Li from "@/components/Contacts/Li";
+import LinkSvitor from "@/components/Contacts/LinkSvitor";
+import LinksContact from "@/components/Contacts/Links";
+import Header from "@/components/Header";
+import Home from "@/components/Home";
+import ProjectsSection from "@/components/Projects";
+import BoxProjects from "@/components/Projects/BoxProjects";
+import ImageProject from "@/components/Projects/ImageProject";
+import LinkProject from "@/components/Projects/LinkProject";
+import PProject from "@/components/Projects/PProject";
+import H2Project from "@/components/Projects/TituloProject";
+import TitleSections from "@/components/TitleSections";
+import Image from "next/image";
 import { BiSolidBank } from "react-icons/bi";
 import { FaInstagram, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
-import "./style.css";
+import { NewsSection } from "./NewsSection";
+import "./acs.css";
 
-import Li from "@/app/components/contacts/Li";
-import Image from "next/image";
+export const metadata = {
+  title: "Associação Cultural Surubinense - ACS",
+  description:
+    "Site da Associação Cultural Surubinense e notícias sobre cultura da cidade de Surubim-PE e dos projetos da Associação Cultural Surubinense.",
+  openGraph: {
+    title: "Associação Cultural Surubinense - ACS",
+    description:
+      "Site da Associação Cultural Surubinense e notícias sobre cultura da cidade de Surubim-PE e dos projetos da Associação Cultural Surubinense.",
+    url: "https://acs.art.br/",
+    images: [
+      {
+        url: "https://www.acs.art.br/acs/estrutura/logo-acs.png",
+        width: 800,
+        height: 600,
+        alt: "Logo da Associação Cultural Surubinense",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Associação Cultural Surubinense - ACS",
+    description:
+      "Site da Associação Cultural Surubinense e notícias sobre cultura da cidade de Surubim-PE e dos projetos da Associação Cultural Surubinense.",
+    images: ["https://www.acs.art.br/acs/estrutura/logo-acs.png"],
+  },
+  icons: {
+    icon: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
+    shortcut: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
+    apple: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
+  },
+};
 function ACS() {
-  const [noticiasPrincipais, setNoticiasPrincipais] = useState([]);
-  const [noticiaSecundarias, setNoticiaSecundarias] = useState([]);
-
-  useEffect(() => {
-    getNoticiasPrinc(setNoticiasPrincipais);
-    getNoticiasSecund(setNoticiaSecundarias);
-  }, []);
   const links = {
     news: "Notícias",
     about: "Sobre",
     projects: "Projetos",
     contacts: "Contatos",
   };
+
   return (
-    <div className="scroll-mt-14">
-      <Header links={links} />
-      <Home />
-      <SectionNews
-        noticiasPrincipais={noticiasPrincipais}
-        noticiaSecundarias={noticiaSecundarias}
-      />
+    <div>
+      <Header
+        links={links}
+        srcImg={"https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png"}
+        altImg={"Logo da Associação Cultural Surubinense"}
+        ClassHeader={"headerAcs"}
+      >
+        <Image
+          width="100"
+          height="100"
+          className="w-16 2xl:w-24"
+          src={"https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png"}
+          alt={"Logo da Associação Cultural Surubinense"}
+        />
+      </Header>
+      <Home
+        srcVideo={"https://www.acs.art.br/acs%2Festrutura%2Facs.mp4"}
+        section={"news"}
+      >
+        <h1 className="text-3xl md:text-5xl lg:text-6xl 2xl:text-8xl font-black ">
+          Associação Cultural <br /> Surubinense
+        </h1>
+        <p className="text-xs md:text-sm 2xl:text-2xl">11 de agosto de 2023</p>
+      </Home>
+      <NewsSection />
       <About
-        title={<TitleSections>Associação Cultural Surubinense</TitleSections>}
+        title={
+          <TitleSections color={"text-green-900"}>
+            Associação Cultural Surubinense
+          </TitleSections>
+        }
       >
         <ParagraphAbout>
           A <strong>ASSOCIAÇÃO CULTURAL SURUBINENSE</strong> é uma instituição
@@ -56,9 +102,9 @@ function ACS() {
           culturais.
         </ParagraphAbout>
         <ParagraphAbout>
-          Nossas iniciativas abrangem áreas como
-          <strong>teatro, música, dança, artes plásticas e ensino,</strong>
-          com foco em crianças, adolescentes, jovens e adultos. Através dessas
+          Nossas iniciativas abrangem áreas como{" "}
+          <strong>teatro, música, dança, artes plásticas e ensino,</strong> com
+          foco em crianças, adolescentes, jovens e adultos. Através dessas
           atividades, contribuímos para fortalecer a identidade cultural local e
           enriquecer a vida comunitária.
         </ParagraphAbout>
@@ -72,100 +118,8 @@ function ACS() {
           tradição e a paixão em Surubim. 🎭🎶
         </ParagraphAbout>
       </About>
-      <ProjectsSection title={<TitleSections>Projetos</TitleSections>}>
-        <BoxProjects>
-          <H2Project>Música</H2Project>
-          <ImageProject
-            src={"https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png"}
-            alt="Orquestra Instrumetal Surubinense"
-          />
-          <PProject>
-            orquestra <br />
-            instrumetal <br />
-            surubinense
-          </PProject>
-          <LinkProject href={"/ois.html"} />
-        </BoxProjects>
-
-        <BoxProjects>
-          <H2Project>Dança</H2Project>
-          <ImageProject
-            src={"https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg"}
-            alt="Companhia de Dança da OIS"
-          />
-          <PProject>
-            companhia de <br />
-            dança <br />
-            ois
-          </PProject>
-          <LinkProject href={"/cia.html"} />
-        </BoxProjects>
-
-        <BoxProjects>
-          <H2Project>Percussão</H2Project>
-          <ImageProject
-            src={
-              "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-percussao.png"
-            }
-            alt="Percussão da OIS"
-          />
-          <PProject>
-            red <br />
-            phoenix <br />
-            &nbsp;
-          </PProject>
-          <LinkProject href={"/redphoenix.html"} />
-        </BoxProjects>
-
-        <BoxProjects>
-          <H2Project>Carnavalesco</H2Project>
-          <ImageProject
-            src={
-              "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-Dmetade.jpg"
-            }
-            alt="Orquestra de frevo da ACS"
-          />
-          <PProject>
-            d´metade <br />
-            no <br />
-            frevo
-          </PProject>
-          <LinkProject href={"/dMetade.html"} />
-        </BoxProjects>
-
-        <BoxProjects>
-          <H2Project>Carnavalesco</H2Project>
-          <ImageProject
-            src={
-              "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-levantaDefunto.png"
-            }
-            alt="Bloco Carnavalesco Levanta Defunto"
-          />
-          <PProject>
-            bloco carnavalesco <br />
-            levanta <br />
-            defunto
-          </PProject>
-          <LinkProject href={"/bld.html"} />
-        </BoxProjects>
-
-        <BoxProjects>
-          <H2Project>Eventos</H2Project>
-          <ImageProject
-            src={
-              "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png"
-            }
-            alt="Grupo Palhamúsicos"
-          />
-          <PProject>
-            palhamúsicos <br />
-            &nbsp; <br />
-            &nbsp;
-          </PProject>
-          <LinkProject href={"/palhamusicos.html"} />
-        </BoxProjects>
-      </ProjectsSection>
-      <Contacts bg={"bg-acs-gradient border-green-900"}>
+      <ProjectsSection />
+      <Contacts bg={"border-green-900 bg-acs-gradient"}>
         <BoxLogoLinks>
           <Image
             src="https://www.acs.art.br/acs%2Festrutura%2Flogo-acs.png"
@@ -173,7 +127,7 @@ function ACS() {
             quality={100}
             width={300}
             height={300}
-            className="w-3/5 md:w-1/3 lg:w-[27%] xl:w-[23%] self-center"
+            className="logoFooter w-3/5 md:w-1/3 lg:w-[27%] xl:w-[23%] self-center"
           />
           <LinksContact>
             <h3 className="text-2xl font-bold">Contatos</h3>
@@ -181,6 +135,7 @@ function ACS() {
               <Li>
                 <FaInstagram size={20} />
                 <a
+                  className="text-gray-300 hover:text-white"
                   href="https://www.instagram.com/associacaoculturalsurubinense/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -191,6 +146,7 @@ function ACS() {
               <Li>
                 <FaWhatsapp size={20} />
                 <a
+                  className="text-gray-300 hover:text-white"
                   href="https://wa.me/5581999075419"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -205,6 +161,7 @@ function ACS() {
               <Li>
                 <FaRegEnvelope size={20} />
                 <a
+                  className="text-gray-300 hover:text-white"
                   href="mailto:orq.instrumentalsurubinense@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -215,6 +172,7 @@ function ACS() {
             </ul>
           </LinksContact>
         </BoxLogoLinks>
+        <LinkSvitor />
       </Contacts>
     </div>
   );

@@ -1,16 +1,17 @@
 "use client";
 import { useAuth } from "@/context/AuthContext";
 import { useRouter } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 
-import { handleDeleteNews } from "@/api/NewsDelete";
-import { getNoticiasPrinc, getNoticiasSecund } from "@/api/getNews";
-import { handleCreate } from "@/api/newsCreate";
-import { handleEdit } from "@/api/newsUpdate";
-import Buttons from "@/app/(admin)/components/Buttons";
-import SectionNews from "@/app/components/sectionNews";
-import Form from "../components/Form";
-import Modal from "../components/Modal";
+import Buttons from "@/components/Painel/Buttons";
+import SectionNews from "@/components/SectionNews";
+import { handleDeleteNews } from "@/lib/NewsDelete";
+import { getNoticiasPrinc, getNoticiasSecund } from "@/lib/getNews";
+import { handleCreate } from "@/lib/newsCreate";
+import { handleEdit } from "@/lib/newsUpdate";
+import Form from "../../../components/Painel/Form";
+import Modal from "../../../components/Painel/Modal";
+
 function Painel() {
   const { isLoggedIn, authChecked, logout } = useAuth();
   const router = useRouter();
@@ -59,8 +60,10 @@ function Painel() {
     const file = dados.imagem && dados.imagem[0];
     const previewUrl = file ? URL.createObjectURL(file) : null;
 
+    const id = Date.now();
+
     const newNews = {
-      id: Date.now(),
+      id,
       titulo: dados.titulo,
       link: dados.link,
       categoria: dados.categoria,
@@ -74,8 +77,10 @@ function Painel() {
     } else if (dados.categoria === "S") {
       setNoticiaSecundarias((prev) => [...prev, newNews]);
     }
+
     closeModal();
   };
+
   const handleEditTemporaryNews = (dados) => {
     const file = dados.imagem && dados.imagem[0];
     const previewUrl = file ? URL.createObjectURL(file) : null;
@@ -244,15 +249,34 @@ function Painel() {
     await getNoticiasPrinc(setNoticiasPrincipais);
     await getNoticiasSecund(setNoticiaSecundarias);
   };
-  function handleDeleteNew(noticia) {
+  const handleDeleteNew = async (noticia) => {
     if (noticia.temporary) {
-      handleCancelNews();
+      if (noticia.categoria === "P") {
+        setNoticiasPrincipais((prev) => [
+          ...prev.filter((n) => n.id !== noticia.id),
+        ]);
+      } else if (noticia.categoria === "S") {
+        setNoticiaSecundarias((prev) => [
+          ...prev.filter((n) => n.id !== noticia.id),
+        ]);
+      }
     } else {
-      handleDeleteNews(noticia, setNoticiasPrincipais, setNoticiaSecundarias);
+      await handleDeleteNews(
+        noticia,
+        setNoticiasPrincipais,
+        setNoticiaSecundarias
+      );
+    }
+
+    if (noticia.categoria === "P") {
+      await getNoticiasPrinc(setNoticiasPrincipais);
+    } else if (noticia.categoria === "S") {
+      await getNoticiasSecund(setNoticiaSecundarias);
     }
 
     closeModal();
-  }
+  };
+
   if (!authChecked) {
     return (
       <div className="h-dvh flex justify-center items-center font-semibold">
@@ -279,6 +303,7 @@ function Painel() {
 
       {(noticiasPrincipais.length > 0 || noticiaSecundarias.length > 0) && (
         <SectionNews
+          key={JSON.stringify(noticiasPrincipais)}
           noticiasPrincipais={noticiasPrincipais}
           noticiaSecundarias={noticiaSecundarias}
           onEditClick={openModalEdit}

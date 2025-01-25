@@ -1,12 +1,11 @@
 "use client";
-
 import { useAuth } from "@/context/AuthContext";
+import { loginUserAPI } from "@/lib/authLogin";
+import { zodResolver } from "@hookform/resolvers/zod";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { loginUserAPI } from "@/api/authLogin";
 
 const signInSchema = z.object({
   name: z.string().nonempty("Nome é obrigatório"),

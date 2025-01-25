@@ -5,14 +5,14 @@ const AuthContext = createContext();
 
 export function AuthProvider({ children }) {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [authChecked, setAuthChecked] = useState(false); // Novo estado
+  const [authChecked, setAuthChecked] = useState(false); 
 
   useEffect(() => {
     const storedLoginStatus = localStorage.getItem("isLoggedIn");
     if (storedLoginStatus === "true") {
       setIsLoggedIn(true);
     }
-    setAuthChecked(true); // Indica que a verificação foi concluída
+    setAuthChecked(true); 
   }, []);
 
   const login = () => {
