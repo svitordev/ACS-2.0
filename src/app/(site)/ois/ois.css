@@ -1,12 +1,12 @@
-.headerAcs {
- color: #1e3a8a;
- border-bottom: 3px solid #14532d;
+.headerOIS {
+ color: #000000;
+ border-bottom: 3px solid rgb(175, 2, 2);
 }
-.headerAcs a:hover {
-  color: #14532d;
+.headerOIS a:hover {
+  color: goldenrod;
 }
-.homeAcs{
- border-bottom: 3px solid #14532d;
+.homeOIS{
+ border-bottom: 3px solid rgb(175, 2, 2);
 }
 
 .ondaTop,

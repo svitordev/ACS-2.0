@@ -8,9 +8,9 @@ function SlideShow({ noticia, slideRef, index, onEditClick, onDelClick }) {
   const src = noticia.previewUrl || noticia.imagem;
   let border = "";
   if (noticia.previewUrl) {
-    border = "border-[4px]  border-red-600";
+    border = "border-[4px]  border-green-600";
   } else if (noticia.temporary) {
-    border = "border-[4px]  border-yellow-400";
+    border = "border-[4px]  border-red-500";
   }
   return (
     <div
@@ -22,7 +22,7 @@ function SlideShow({ noticia, slideRef, index, onEditClick, onDelClick }) {
       <a
         href={noticia.link}
         target="_blank"
-        className={`mySlides fade w-full h-full block brightness-[60%] rounded-lg  hover:scale-105 ${border} transition-all duration-300`}
+        className={`mySlides fade w-full h-full block brightness-[60%] rounded-lg  hover:scale-105 text-amber-400 ${border} transition-all duration-300`}
         style={{
           backgroundImage: `url(${src})`,
           backgroundSize: "cover",

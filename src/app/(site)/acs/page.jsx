@@ -8,11 +8,6 @@ import LinksContact from "@/components/Contacts/Links";
 import Header from "@/components/Header";
 import Home from "@/components/Home";
 import ProjectsSection from "@/components/Projects";
-import BoxProjects from "@/components/Projects/BoxProjects";
-import ImageProject from "@/components/Projects/ImageProject";
-import LinkProject from "@/components/Projects/LinkProject";
-import PProject from "@/components/Projects/PProject";
-import H2Project from "@/components/Projects/TituloProject";
 import TitleSections from "@/components/TitleSections";
 import Image from "next/image";
 import { BiSolidBank } from "react-icons/bi";
@@ -47,9 +42,9 @@ export const metadata = {
     images: ["https://www.acs.art.br/acs/estrutura/logo-acs.png"],
   },
   icons: {
-    icon: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
-    shortcut: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
-    apple: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
+    icon: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png",
+    shortcut: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png",
+    apple: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png",
   },
 };
 function ACS() {
@@ -76,16 +71,20 @@ function ACS() {
           alt={"Logo da Associação Cultural Surubinense"}
         />
       </Header>
+
       <Home
         srcVideo={"https://www.acs.art.br/acs%2Festrutura%2Facs.mp4"}
         section={"news"}
+        classHome={"homeAcs"}
       >
         <h1 className="text-3xl md:text-5xl lg:text-6xl 2xl:text-8xl font-black ">
           Associação Cultural <br /> Surubinense
         </h1>
         <p className="text-xs md:text-sm 2xl:text-2xl">11 de agosto de 2023</p>
       </Home>
+
       <NewsSection />
+
       <About
         title={
           <TitleSections color={"text-green-900"}>
@@ -118,7 +117,9 @@ function ACS() {
           tradição e a paixão em Surubim. 🎭🎶
         </ParagraphAbout>
       </About>
+
       <ProjectsSection />
+
       <Contacts bg={"border-green-900 bg-acs-gradient"}>
         <BoxLogoLinks>
           <Image

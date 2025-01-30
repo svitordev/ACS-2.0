@@ -17,44 +17,45 @@ import {
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
-import "./cia.css";
+import "./ois.css";
 
 export const metadata = {
-  title: "Companhia de Dança - OIS",
+  title: "Orquestra Instrumental Surubinense",
   description:
-    "Página da CIA companhia de dança da OIS e um dos projetos da Associação Cultural Surubinense.",
+    "Página da Orquestra Instrumental Surubinense, um dos projetos da Associação Cultural Surubinense.",
   openGraph: {
-    title: "Companhia de Dança - OIS",
+    title: "Orquestra Instrumental Surubinense",
     description:
-      "Página da CIA companhia de dança da OIS e um dos projetos da Associação Cultural Surubinense.",
+      "Página da Orquestra Instrumental Surubinense, um dos projetos da Associação Cultural Surubinense.",
     url: "https://acs.art.br/",
     images: [
       {
-        url: "https://www.acs.art.br/acs/estrutura/logo-acs.png",
+        url: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
         width: 800,
         height: 600,
-        alt: "Logo da Associação Cultural Surubinense",
+        alt: "Logo da Orquestra Instrumental Surubinense",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Companhia de Dança - OIS",
+    title: "Orquestra Instrumental Surubinense",
     description:
-      "Página da CIA companhia de dança da OIS e um dos projetos da Associação Cultural Surubinense.",
-    images: ["https://www.acs.art.br/acs/estrutura/logo-acs.png"],
+      "Página da Orquestra Instrumental Surubinense, um dos projetos da Associação Cultural Surubinense.",
+    images: ["https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png"],
   },
   icons: {
-    icon: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
-    shortcut: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
-    apple: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
+    icon: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
+    shortcut: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
+    apple: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
   },
 };
-function CIA() {
+function OIS() {
   const links = {
     gallery: "Galeria",
     about: "Sobre",
+    history: "Histórico",
     contacts: "Contatos",
   };
   const images = [
@@ -86,7 +87,7 @@ function CIA() {
   ];
   return (
     <div>
-      <Header links={links} ClassHeader={"headerCia"}>
+      <Header links={links} ClassHeader={"headerOIS"}>
         <Image
           width="100"
           height="100"
@@ -99,18 +100,18 @@ function CIA() {
       <Home
         srcVideo={"https://www.acs.art.br/cia%2Festrutura%2FciaHome.mp4"}
         section={"gallery"}
-        classHome={"homeCia"}
+        classHome={"homeOIS"}
       >
         <h1 className="text-3xl md:text-5xl lg:text-6xl 2xl:text-8xl font-black ">
-          Companhia de Dança <br /> da OIS
+          Orquestra Instrumental Surubinense
         </h1>
-        <p className="text-xs md:text-sm 2xl:text-2xl">Dezembro de 2023</p>
+        <p className="text-xs md:text-sm 2xl:text-2xl">Dezembro de 2016</p>
       </Home>
 
       <Gallery
-        bg={"bg-cia-gradient"}
+        bg={"bg-ois-gradient"}
         title={
-          <h1 className="absolute top-2 left-[5.5rem] md:top-10 md:left-16 lg:left-[7.5rem] xl:left-56 2xl:left-72 z-10 text-cia-color text-3xl 2xl:text-4xl font-extrabold uppercase">
+          <h1 className="absolute top-2 left-[5.5rem] md:top-10 md:left-16 lg:left-[7.5rem] xl:left-56 2xl:left-72 z-10 text-yellow-500 text-3xl 2xl:text-4xl font-extrabold uppercase">
             Galeria
           </h1>
         }
@@ -119,44 +120,50 @@ function CIA() {
 
       <About
         title={
-          <TitleSections color={"text-cia-color"}>
-            COMPANHIA DE DANÇA OIS
+          <TitleSections color={"text-yellow-500"}>
+            Orquestra Instrumental Surubinense
           </TitleSections>
         }
       >
         <ParagraphAbout>
-          A Companhia de Dança OIS (CIA OIS) surgiu no final de 2023 com o
-          objetivo de promover o trabalho artístico e o aperfeiçoamento por meio
-          da dança. Acreditamos que a dança é uma ferramenta cultural poderosa
-          para transformar a sociedade. Ela não apenas desenvolve habilidades
-          técnicas, mas também molda o caráter humano, tornando-nos mais
-          tolerantes, sensíveis, criativos e livres de preconceitos.
+          A <strong>Orquestra Instrumental Surubinense (O.I.S)</strong> foi
+          fundada em 2016 com o objetivo claro: levar a
+          <strong>boa música</strong> para a população de Surubim-PE e região.
+          Composta exclusivamente por músicos locais, a O.I.S destaca-se pela
+          qualidade excepcional de seus arranjos e melodias, abrangendo tanto o
+          repertório popular quanto o erudito, com uma pitada de nossos
+          clássicos brasileiros e influências da música mundial.
         </ParagraphAbout>
         <ParagraphAbout>
-          Nossas apresentações abrangem desde o regionalismo até o aspecto da
-          dança mundial, combinando elementos contemporâneos, clássicos e
-          populares. A CIA OIS não é apenas um grupo de dança; é um processo
-          educacional que vai além da aquisição de habilidades. Buscamos
-          aprimorar os padrões fundamentais do movimento, explorar as
-          potencialidades humanas e sua conexão com o mundo.
+          No cerne de nossa missão está a formação não apenas de músicos, mas
+          também a <strong>socialização e interação</strong> de todos os
+          envolvidos no projeto. Somos uma ONG sem fins lucrativos, dedicada ao
+          desenvolvimento cultural e à preservação da música instrumental de
+          qualidade.
         </ParagraphAbout>
         <ParagraphAbout>
-          Ao mesmo tempo, contribuímos para a construção de conhecimento e a
-          formação profissional de nossos bailarinos e bailarinas. A dança
-          transcende o palco; ela é uma jornada de autodescoberta, expressão e
-          transformação. 🩰🌟
+          A O.I.S busca revitalizar a cena instrumental em Surubim, com foco
+          especial nos instrumentos de sopro e percussão, que têm raízes
+          profundas na cidade. Nossa paixão é apropriação da{" "}
+          <strong>música popular brasileira</strong> e dos grandes clássicos
+          universais. Atualmente, contamos com 75 participantes, entre músicos,
+          equipe artística, apoiadores e diretoria.
+        </ParagraphAbout>
+        <ParagraphAbout>
+          Juntos, continuamos a escrever nossa história musical, celebrando a
+          riqueza de nossa cultura e inspirando gerações futuras. 🎵🌟
         </ParagraphAbout>
       </About>
 
-      <Contacts bg={"border-cia-color bg-cia-gradient"}>
+      <Contacts bg={"border-yellow-500 bg-ois-gradient"}>
         <BoxLogoLinks>
           <Image
-            src="https://www.acs.art.br/cia%2Festrutura%2FCIA.png"
+            src="https://www.acs.art.br/ois%2Festrutura%2Fois-footer.png"
             alt="logo CIA"
             quality={100}
             width={300}
             height={300}
-            className="logoFooter w-1/2 md:w-[30%] lg:w-[25%] xl:w-[20%] self-center"
+            className="logoFooter w-3/5 md:w-[35%] lg:w-[30%] xl:w-[2%] self-center"
           />
           <LinksContact>
             <h3 className="text-2xl font-bold">Contatos</h3>
@@ -165,7 +172,7 @@ function CIA() {
                 <FaInstagram size={20} />
                 <a
                   className="text-gray-300 hover:text-white"
-                  href="https://www.instagram.com/ois.cia/"
+                  href="https://www.instagram.com/orq.instrumentalsurubinense/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -191,7 +198,7 @@ function CIA() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  YouTube - OIS
+                  YouTube
                 </a>
               </Li>
               <Li>
@@ -202,7 +209,7 @@ function CIA() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  TikTok - OIS
+                  TikTok
                 </a>
               </Li>
 
@@ -214,7 +221,7 @@ function CIA() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  E-mail - OIS
+                  E-mail
                 </a>
               </Li>
             </ul>
@@ -226,4 +233,4 @@ function CIA() {
   );
 }
 
-export default CIA;
+export default OIS;

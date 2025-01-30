@@ -14,7 +14,7 @@ function ProjectsSection({ title }) {
       paragraph: `orquestra <br />
             instrumetal <br />
             surubinense`,
-      linkHref: "/ois.html",
+      linkHref: "/ois",
     },
     {
       title: "Dança",

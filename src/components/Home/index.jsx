@@ -1,9 +1,9 @@
 import BouncingButton from "./BouncingButton";
 
-function Home({srcVideo, section, children}) {
+function Home({ srcVideo, section, classHome, children }) {
   return (
     <section
-      className="flex h-72 md:h-[24rem] lg:h-[90dvh] w-full relative overflow-hidden mb-5 justify-center items-end"
+      className={`${classHome} flex h-72 md:h-[24rem] lg:h-[90dvh] w-full relative overflow-hidden mb-5 justify-center items-end`}
       id="home"
     >
       <video

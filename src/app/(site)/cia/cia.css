@@ -1,11 +1,11 @@
 .headerCia {
  color: #775641;
- border-bottom: 2px solid #775641;
+ border-bottom: 3px solid #775641;
 }
 .headerCia a:hover {
   color: #ac7b5c;
 }
-#home{
+.homeCia{
  border-bottom: 3px solid #775641;
 }
 
