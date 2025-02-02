@@ -18,7 +18,12 @@ module.exports = {
     #ac7b5c,
     #a07255,
     #775641)`,
-        "ois-gradient": `linear-gradient(to right, rgb(146, 1, 1) ,#a90000 ,#a90000,rgb(146, 1, 1))`,
+        "ois-gradient": `linear-gradient(to right, #333333,
+    rgb(146, 1, 1),
+    #a90000,
+    #a90000,
+    rgb(146, 1, 1),
+    #333333)`,
       },
       colors: {
         "cia-color": "#775641",

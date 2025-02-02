@@ -32,7 +32,7 @@ function SlideShow({ noticia, slideRef, index, onEditClick, onDelClick }) {
       <SpanInfoTime>{InfoTimeCalc(noticia)}</SpanInfoTime>
       <Paragraph
         style={
-          "bottom-8 2xl:bottom-14 text-center md:text-xl lg:text-2xl 2xl:text-4xl px-6 2xl:px-16"
+          "bottom-8 2xl:bottom-14 text-center md:text-xl lg:text-2xl 2xl:text-4xl px-2 2xl:px-16"
         }
       >
         {noticia.titulo}

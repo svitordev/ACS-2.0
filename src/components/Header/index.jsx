@@ -7,13 +7,13 @@ import { Link as LinkScroll } from "react-scroll";
 
 import ScrollLink from "./ScrollLink";
 
-function Header({ links, ClassHeader, children }) {
+function Header({ links, ClassHeader, children, linkacs }) {
   const [menuMobile, setMenuMobile] = useState(false);
   const menuIsOpen = () => setMenuMobile(true);
   const menuIsClose = () => setMenuMobile(false);
   return (
     <header
-      className={`font-extrabold sticky top-0 z-40 bg-white 2xl:h-28 ${ClassHeader}`}
+      className={`font-extrabold sticky top-0 z-40 bg-white  ${ClassHeader}`}
     >
       <div className="w-full h-full flex items-center justify-between px-4 md:px-10 lg:px-24 xl:px-32 2xl:px-44 relative">
         <LinkScroll
@@ -37,9 +37,7 @@ function Header({ links, ClassHeader, children }) {
 
         {menuMobile && (
           <nav className="md:hidden flex flex-col absolute right-2 top-[4.55rem] py-4 px-8 bg-white  rounded-xl z-50 md:text-lg 2xl:text-xl text-center">
-            <Link href={"/acs"} className="p-3">
-              ACS
-            </Link>
+            {linkacs}
             {Object.entries(links).map(([href, text]) => (
               <ScrollLink key={href} href={href}>
                 {text}
@@ -48,9 +46,7 @@ function Header({ links, ClassHeader, children }) {
           </nav>
         )}
         <nav className="hidden md:flex gap-5 md:text-lg 2xl:text-xl">
-          <Link href={"/acs"} className="p-3">
-            ACS
-          </Link>
+          {linkacs}
           {Object.entries(links).map(([href, text]) => (
             <ScrollLink key={href} href={href}>
               {text}

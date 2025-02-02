@@ -29,7 +29,7 @@ function GradeNoticias({ noticia, onEditClick, onDelClick }) {
       </SpanInfoTime>
       <Paragraph
         style={
-          "bottom-6 md:bottom-3 px-8 md:px-2 2xl:px-5 md:text-sm lg:text-base 2xl:text-xl"
+          "bottom-6 md:bottom-3 px-3 md:px-2 2xl:px-5 md:text-sm lg:text-base 2xl:text-xl"
         }
       >
         {noticia.titulo}

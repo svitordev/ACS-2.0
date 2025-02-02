@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import ParagraphAbout from "@/components/About/ParagraphAbout";
+import Paragraph from "@/components/About/Paragraph";
 import Contacts from "@/components/Contacts";
 import BoxLogoLinks from "@/components/Contacts/BoxLogoLinks";
 import Li from "@/components/Contacts/Li";
@@ -59,14 +59,14 @@ function ACS() {
     <div>
       <Header
         links={links}
-        srcImg={"https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png"}
+        srcImg={"https://www.acs.art.br/acs/estrutura/logoHeader.png"}
         altImg={"Logo da Associação Cultural Surubinense"}
         ClassHeader={"headerAcs"}
       >
         <Image
           width="100"
           height="100"
-          className="w-16 2xl:w-24"
+          className="w-16 "
           src={"https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png"}
           alt={"Logo da Associação Cultural Surubinense"}
         />
@@ -92,22 +92,22 @@ function ACS() {
           </TitleSections>
         }
       >
-        <ParagraphAbout>
+        <Paragraph>
           A <strong>ASSOCIAÇÃO CULTURAL SURUBINENSE</strong> é uma instituição
           que nasceu com o propósito de servir como um instrumento para a
           sociedade de Surubim. Fundada em 11 de agosto de 2023, sem fins
           lucrativos, ela oferece oportunidades para artistas locais exibirem
           seus talentos e promove uma variedade de eventos e atividades
           culturais.
-        </ParagraphAbout>
-        <ParagraphAbout>
+        </Paragraph>
+        <Paragraph>
           Nossas iniciativas abrangem áreas como{" "}
           <strong>teatro, música, dança, artes plásticas e ensino,</strong> com
           foco em crianças, adolescentes, jovens e adultos. Através dessas
           atividades, contribuímos para fortalecer a identidade cultural local e
           enriquecer a vida comunitária.
-        </ParagraphAbout>
-        <ParagraphAbout>
+        </Paragraph>
+        <Paragraph>
           Além disso, a Associação Cultural Surubinense estabelece parcerias com
           o poder público e privado para promover festivais, workshops e outras
           experiências que preservam e divulgam a riqueza da cultura local.
@@ -115,7 +115,7 @@ function ACS() {
           troca de experiências e o desenvolvimento artístico na nossa
           comunidade. Afinal, é por meio da arte e da música que mantemos viva a
           tradição e a paixão em Surubim. 🎭🎶
-        </ParagraphAbout>
+        </Paragraph>
       </About>
 
       <ProjectsSection />

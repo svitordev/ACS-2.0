@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import ParagraphAbout from "@/components/About/ParagraphAbout";
+import Paragraph from "@/components/About/Paragraph";
 import Contacts from "@/components/Contacts";
 import BoxLogoLinks from "@/components/Contacts/BoxLogoLinks";
 import Li from "@/components/Contacts/Li";
@@ -10,6 +10,7 @@ import Header from "@/components/Header";
 import Home from "@/components/Home";
 import TitleSections from "@/components/TitleSections";
 import Image from "next/image";
+import Link from "next/link";
 import {
   FaInstagram,
   FaRegEnvelope,
@@ -17,6 +18,7 @@ import {
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
+import History from "../../../components/History";
 import "./ois.css";
 
 export const metadata = {
@@ -30,7 +32,7 @@ export const metadata = {
     url: "https://acs.art.br/",
     images: [
       {
-        url: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
+        url: "https://www.acs.art.br/ois/estrutura/logoOIS.png",
         width: 800,
         height: 600,
         alt: "Logo da Orquestra Instrumental Surubinense",
@@ -43,7 +45,7 @@ export const metadata = {
     title: "Orquestra Instrumental Surubinense",
     description:
       "Página da Orquestra Instrumental Surubinense, um dos projetos da Associação Cultural Surubinense.",
-    images: ["https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png"],
+    images: ["https://www.acs.art.br/ois/estrutura/logoOIS.png"],
   },
   icons: {
     icon: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
@@ -87,12 +89,20 @@ function OIS() {
   ];
   return (
     <div>
-      <Header links={links} ClassHeader={"headerOIS"}>
+      <Header
+        links={links}
+        linkacs={
+          <Link href={"/acs"} className="p-3">
+            ACS
+          </Link>
+        }
+        ClassHeader={"headerOIS"}
+      >
         <Image
           width="100"
           height="100"
           className="w-16 2xl:w-24 my-2"
-          src={"https://www.acs.art.br/cia/estrutura/logoCIA.png"}
+          src={"https://www.acs.art.br/ois/estrutura/logoOIS.png"}
           alt={"Logo da companhia de dança da ois"}
         />
       </Header>
@@ -103,7 +113,7 @@ function OIS() {
         classHome={"homeOIS"}
       >
         <h1 className="text-3xl md:text-5xl lg:text-6xl 2xl:text-8xl font-black ">
-          Orquestra Instrumental Surubinense
+          Orquestra Instrumental <br /> Surubinense
         </h1>
         <p className="text-xs md:text-sm 2xl:text-2xl">Dezembro de 2016</p>
       </Home>
@@ -111,7 +121,10 @@ function OIS() {
       <Gallery
         bg={"bg-ois-gradient"}
         title={
-          <h1 className="absolute top-2 left-[5.5rem] md:top-10 md:left-16 lg:left-[7.5rem] xl:left-56 2xl:left-72 z-10 text-yellow-500 text-3xl 2xl:text-4xl font-extrabold uppercase">
+          <h1
+            id="gallery"
+            className="absolute top-2 left-[5.5rem] md:top-10 md:left-16 lg:left-[7.5rem] xl:left-56 2xl:left-72 z-10 text-yellow-500 text-3xl 2xl:text-4xl font-extrabold uppercase"
+          >
             Galeria
           </h1>
         }
@@ -125,7 +138,7 @@ function OIS() {
           </TitleSections>
         }
       >
-        <ParagraphAbout>
+        <Paragraph>
           A <strong>Orquestra Instrumental Surubinense (O.I.S)</strong> foi
           fundada em 2016 com o objetivo claro: levar a
           <strong>boa música</strong> para a população de Surubim-PE e região.
@@ -133,28 +146,29 @@ function OIS() {
           qualidade excepcional de seus arranjos e melodias, abrangendo tanto o
           repertório popular quanto o erudito, com uma pitada de nossos
           clássicos brasileiros e influências da música mundial.
-        </ParagraphAbout>
-        <ParagraphAbout>
+        </Paragraph>
+        <Paragraph>
           No cerne de nossa missão está a formação não apenas de músicos, mas
           também a <strong>socialização e interação</strong> de todos os
           envolvidos no projeto. Somos uma ONG sem fins lucrativos, dedicada ao
           desenvolvimento cultural e à preservação da música instrumental de
           qualidade.
-        </ParagraphAbout>
-        <ParagraphAbout>
+        </Paragraph>
+        <Paragraph>
           A O.I.S busca revitalizar a cena instrumental em Surubim, com foco
           especial nos instrumentos de sopro e percussão, que têm raízes
           profundas na cidade. Nossa paixão é apropriação da{" "}
           <strong>música popular brasileira</strong> e dos grandes clássicos
           universais. Atualmente, contamos com 75 participantes, entre músicos,
           equipe artística, apoiadores e diretoria.
-        </ParagraphAbout>
-        <ParagraphAbout>
+        </Paragraph>
+        <Paragraph>
           Juntos, continuamos a escrever nossa história musical, celebrando a
           riqueza de nossa cultura e inspirando gerações futuras. 🎵🌟
-        </ParagraphAbout>
+        </Paragraph>
       </About>
 
+      <History />
       <Contacts bg={"border-yellow-500 bg-ois-gradient"}>
         <BoxLogoLinks>
           <Image
@@ -163,7 +177,7 @@ function OIS() {
             quality={100}
             width={300}
             height={300}
-            className="logoFooter w-3/5 md:w-[35%] lg:w-[30%] xl:w-[2%] self-center"
+            className="logoFooter w-3/5 md:w-[35%] lg:w-[30%] xl:w-[25%] self-center"
           />
           <LinksContact>
             <h3 className="text-2xl font-bold">Contatos</h3>

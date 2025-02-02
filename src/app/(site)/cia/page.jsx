@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import ParagraphAbout from "@/components/About/ParagraphAbout";
+import Paragraph from "@/components/About/Paragraph";
 import Contacts from "@/components/Contacts";
 import BoxLogoLinks from "@/components/Contacts/BoxLogoLinks";
 import Li from "@/components/Contacts/Li";
@@ -10,6 +10,7 @@ import Header from "@/components/Header";
 import Home from "@/components/Home";
 import TitleSections from "@/components/TitleSections";
 import Image from "next/image";
+import Link from "next/link";
 import {
   FaInstagram,
   FaRegEnvelope,
@@ -86,7 +87,15 @@ function CIA() {
   ];
   return (
     <div>
-      <Header links={links} ClassHeader={"headerCia"}>
+      <Header
+        linkacs={
+          <Link href={"/acs"} className="p-3">
+            ACS
+          </Link>
+        }
+        links={links}
+        ClassHeader={"headerCia"}
+      >
         <Image
           width="100"
           height="100"
@@ -124,28 +133,28 @@ function CIA() {
           </TitleSections>
         }
       >
-        <ParagraphAbout>
+        <Paragraph>
           A Companhia de Dança OIS (CIA OIS) surgiu no final de 2023 com o
           objetivo de promover o trabalho artístico e o aperfeiçoamento por meio
           da dança. Acreditamos que a dança é uma ferramenta cultural poderosa
           para transformar a sociedade. Ela não apenas desenvolve habilidades
           técnicas, mas também molda o caráter humano, tornando-nos mais
           tolerantes, sensíveis, criativos e livres de preconceitos.
-        </ParagraphAbout>
-        <ParagraphAbout>
+        </Paragraph>
+        <Paragraph>
           Nossas apresentações abrangem desde o regionalismo até o aspecto da
           dança mundial, combinando elementos contemporâneos, clássicos e
           populares. A CIA OIS não é apenas um grupo de dança; é um processo
           educacional que vai além da aquisição de habilidades. Buscamos
           aprimorar os padrões fundamentais do movimento, explorar as
           potencialidades humanas e sua conexão com o mundo.
-        </ParagraphAbout>
-        <ParagraphAbout>
+        </Paragraph>
+        <Paragraph>
           Ao mesmo tempo, contribuímos para a construção de conhecimento e a
           formação profissional de nossos bailarinos e bailarinas. A dança
           transcende o palco; ela é uma jornada de autodescoberta, expressão e
           transformação. 🩰🌟
-        </ParagraphAbout>
+        </Paragraph>
       </About>
 
       <Contacts bg={"border-cia-color bg-cia-gradient"}>
