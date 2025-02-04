@@ -67,7 +67,7 @@ function SlideImage({ imagens }) {
               {imagens.map((media) => (
                 <div
                   key={media.id}
-                  className="flex-shrink-0 w-full md:w-1/2 h-80 lg:h-96 2xl:h-[35rem] relative "
+                  className="flex-shrink-0 w-full md:w-1/2 h-80 lg:h-96 2xl:h-[35rem] relative"
                 >
                   {isVideo(media.src) ? (
                     <video
@@ -98,7 +98,7 @@ function SlideImage({ imagens }) {
           {imagens.map((media) => (
             <div
               key={media.id}
-              className="w-full md:w-3/5 h-72 lg:h-80 2xl:w-1/2 2xl:h-96 relative "
+              className="w-full md:w-3/5 h-72 lg:h-80 2xl:w-1/2 2xl:h-96 relative rounded-lg shadow-lg shadow-gray-600"
             >
               {isVideo(media.src) ? (
                 <video
