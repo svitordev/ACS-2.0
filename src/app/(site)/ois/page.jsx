@@ -1,14 +1,14 @@
-import About from "@/components/About";
-import Paragraph from "@/components/About/Paragraph";
-import Contacts from "@/components/Contacts";
-import BoxLogoLinks from "@/components/Contacts/BoxLogoLinks";
-import Li from "@/components/Contacts/Li";
-import LinkSvitor from "@/components/Contacts/LinkSvitor";
-import LinksContact from "@/components/Contacts/Links";
-import Gallery from "@/components/Gallery/sectionGallery";
-import Header from "@/components/Header";
-import Home from "@/components/Home";
 import TitleSections from "@/components/TitleSections";
+import About from "@/components/sections/About";
+import Paragraph from "@/components/sections/About/Paragraph";
+import Contacts from "@/components/sections/Contacts";
+import BoxLogoLinks from "@/components/sections/Contacts/BoxLogoLinks";
+import Li from "@/components/sections/Contacts/Li";
+import LinkSvitor from "@/components/sections/Contacts/LinkSvitor";
+import LinksContact from "@/components/sections/Contacts/Links";
+import Gallery from "@/components/sections/Gallery/sectionGallery";
+import Header from "@/components/sections/Header";
+import Home from "@/components/sections/Home";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -18,7 +18,7 @@ import {
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
-import History from "../../../components/History";
+import History from "../../../components/sections/History";
 import "./ois.css";
 
 export const metadata = {

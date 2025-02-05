@@ -110,12 +110,14 @@ function His22() {
     {
       id: 1,
       src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FamostraSesc1.webp",
-      caption: "participação da OIS na Mostra de Artes do Sesc Ler Surubim 2022.",
+      caption:
+        "participação da OIS na Mostra de Artes do Sesc Ler Surubim 2022.",
     },
     {
       id: 2,
       src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FamostraSesc3.webp",
-      caption: "participação da OIS na Mostra de Artes do Sesc Ler Surubim 2022.",
+      caption:
+        "participação da OIS na Mostra de Artes do Sesc Ler Surubim 2022.",
     },
   ];
   const copaXIV = [

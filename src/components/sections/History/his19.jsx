@@ -109,22 +109,26 @@ function His19() {
     {
       id: 8,
       src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN12.webp",
-      caption: "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
+      caption:
+        "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
     },
     {
       id: 9,
       src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN10.webp",
-      caption: "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
+      caption:
+        "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
     },
     {
       id: 10,
       src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN11.webp",
-      caption: "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
+      caption:
+        "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
     },
     {
       id: 11,
       src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN13.webp",
-      caption: "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
+      caption:
+        "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
     },
   ];
   const moments19 = [
@@ -170,7 +174,7 @@ function His19() {
       id: 3,
       src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fcantata7.webp",
       caption: "OIS na cantata de natal de 2019.",
-    }
+    },
   ];
 
   return (

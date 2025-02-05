@@ -83,6 +83,7 @@ function SlideImage({ imagens }) {
                       alt={media.caption}
                       quality={100}
                       fill={true}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                       className="rounded-lg object-cover w-full h-full"
                     />
                   )}
@@ -112,6 +113,7 @@ function SlideImage({ imagens }) {
                   alt={media.caption}
                   quality={100}
                   fill={true}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
                   className="rounded-lg object-cover w-full h-full"
                 />
               )}
