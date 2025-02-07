@@ -61,30 +61,36 @@ function OIS() {
     contacts: "Contatos",
   };
   const images = [
+    
     {
-      id: 1,
-      src: "https://www.acs.art.br/ois/historico/24/CCcopa24.webp",
-      caption: "Image 1",
-    },
-    {
-      id: 2,
-      src: "https://www.acs.art.br/cia%2Fdestaques%2Fcia1.webp",
-      caption: "Image 2",
+      id: 5,
+      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia1.webp",
+      caption: "OIS em Piracaia-SP",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/cia%2Fdestaques%2Fcia2.webp",
-      caption: "Image 3",
+      src: "https://www.acs.art.br/ois/historico/24/WAMSB1.webp",
+      caption: "OIS no campeonato WAMSB regional norte e nordeste",
+    },
+    {
+      id: 1,
+      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes1.webp",
+      caption: "OIS na realização do concerto nossas raizes.",
+    },
+    {
+      id: 2,
+      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2Fcopa24.webp",
+      caption: "OIS na entrada da XV copa Pernambucana.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois/historico/24/baliza-dor.webp",
-      caption: "Image 4",
+      src: "https://www.acs.art.br/ois/historico/24/WAMSB2.webp",
+      caption: "OIS no campeonato WAMSB regional norte e nordeste",
     },
     {
-      id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fjoaoalfredo4.webp",
-      caption: "Image 5",
+      id: 6,
+      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia4.webp",
+      caption: "OIS na Avenida Paulista em São Paulo",
     },
   ];
   return (

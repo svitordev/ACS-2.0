@@ -18,16 +18,16 @@ import {
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
-import "./cia.css";
+import "./rp.css";
 
 export const metadata = {
-  title: "Companhia de Dança - OIS",
+  title: "Red Phoenix Percussion - OIS",
   description:
-    "Página da CIA companhia de dança da OIS e um dos projetos da Associação Cultural Surubinense.",
+    "Página da REDPHOENIX,Percussão da Orquestra Instrumental Surubinense e um dos projetos da Associação Cultural Surubinense",
   openGraph: {
-    title: "Companhia de Dança - OIS",
+    title: "Red Phoenix Percussion - OIS",
     description:
-      "Página da CIA companhia de dança da OIS e um dos projetos da Associação Cultural Surubinense.",
+      "Página da REDPHOENIX,Percussão da Orquestra Instrumental Surubinense e um dos projetos da Associação Cultural Surubinense",
     url: "https://acs.art.br/",
     images: [
       {
@@ -41,18 +41,20 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Companhia de Dança - OIS",
+    title: "Red Phoenix Percussion - OIS",
     description:
-      "Página da CIA companhia de dança da OIS e um dos projetos da Associação Cultural Surubinense.",
+      "Página da REDPHOENIX,Percussão da Orquestra Instrumental Surubinense e um dos projetos da Associação Cultural Surubinense",
     images: ["https://www.acs.art.br/acs/estrutura/logo-acs.png"],
   },
   icons: {
-    icon: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
-    shortcut: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
-    apple: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
+    icon: "https://pub-4680d0543609450f9429afc4681a1e69.r2.dev/acs%2Festrutura%2Fprojetos%2FlogoRedPhoenixRedonda.png",
+    shortcut:
+      "https://pub-4680d0543609450f9429afc4681a1e69.r2.dev/acs%2Festrutura%2Fprojetos%2FlogoRedPhoenixRedonda.png",
+    apple:
+      "https://pub-4680d0543609450f9429afc4681a1e69.r2.dev/acs%2Festrutura%2Fprojetos%2FlogoRedPhoenixRedonda.png",
   },
 };
-function CIA() {
+function RP() {
   const links = {
     gallery: "Galeria",
     about: "Sobre",
@@ -60,29 +62,48 @@ function CIA() {
   };
   const images = [
     {
+      id: 9,
+      src: "https://www.acs.art.br/rp%2Fapresentacao.mp4",
+    },
+    {
       id: 1,
-      src: "https://www.acs.art.br/ois/historico/24/CCcopa24.webp",
-      caption: "Image 1",
+      src: "https://www.acs.art.br/rp%2FRP23.2.webp",
+      caption: "Percussão da OIS de 2023",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/cia%2Fdestaques%2Fcia1.webp",
-      caption: "Image 2",
+      src: "https://www.acs.art.br/rp%2FRP23.1.webp",
+      caption: "Percussão da OIS de 2024",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/cia%2Fdestaques%2Fcia2.webp",
-      caption: "Image 3",
+      src: "https://www.acs.art.br/rp%2FRP23.webp",
+      caption: "Percussão da OIS de 2023",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois/historico/24/baliza-dor.webp",
-      caption: "Image 4",
+      src: "https://www.acs.art.br/rp%2Fsulamericano3.webp",
+      caption: "Percussão da OIS de 2023 no sulamericano da WAMSB",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fjoaoalfredo4.webp",
-      caption: "Image 5",
+      src: "https://www.acs.art.br/rp%2Fsulamericano1.webp",
+      caption: "Percussão da OIS de 2023 no sulamericano da WAMSB",
+    },
+    {
+      id: 6,
+      src: "https://www.acs.art.br/rp%2Fsulamericano2.webp",
+      caption: "Percussão da OIS de 2023 no sulamericano da WAMSB",
+    },
+    {
+      id: 7,
+      src: "https://www.acs.art.br/rp%2Fsulamericano4.webp",
+      caption: "Percussão da OIS de 2023 no sulamericano da WAMSB",
+    },
+    {
+      id: 8,
+      src: "https://www.acs.art.br/rp%2Fsulamericano5.webp",
+      caption: "Percussão da OIS de 2023 no sulamericano da WAMSB",
     },
   ];
   return (
@@ -94,34 +115,34 @@ function CIA() {
           </Link>
         }
         links={links}
-        ClassHeader={"headerCia"}
+        ClassHeader={"headerRP"}
       >
         <Image
           width="100"
           height="100"
-          className="w-16 2xl:w-24 my-2"
-          src={"https://www.acs.art.br/cia/estrutura/logoCIA.png"}
+          className="w-28 2xl:w-24 my-2"
+          src={"https://www.acs.art.br/rp/logoRP.png"}
           alt={"Logo da companhia de dança da ois"}
         />
       </Header>
 
       <Home
-        srcVideo={"https://www.acs.art.br/cia%2Festrutura%2FciaHome.mp4"}
+        srcVideo={"https://www.acs.art.br/rp%2FRedPhoenix.mp4"}
         section={"gallery"}
-        classHome={"homeCia"}
+        classHome={"homeRP"}
       >
         <h1 className="text-3xl md:text-5xl lg:text-6xl 2xl:text-8xl font-black ">
-          Companhia de Dança <br /> da OIS
+          Red Phoenix <br /> Percussion OIS
         </h1>
-        <p className="text-xs md:text-sm 2xl:text-2xl">Dezembro de 2023</p>
+        <p className="text-xs md:text-sm 2xl:text-2xl">Setembro de 2022</p>
       </Home>
 
       <Gallery
-        bg={"bg-cia-gradient"}
+        bg={"bg-rp-gradient"}
         title={
           <h1
             id="gallery"
-            className="absolute top-2 left-[5.5rem] md:top-10 md:left-16 lg:left-[7.5rem] xl:left-56 2xl:left-72 z-10 text-cia-color text-3xl 2xl:text-4xl font-extrabold uppercase"
+            className="absolute top-2 left-[5.5rem] md:top-10 md:left-16 lg:left-[7.5rem] xl:left-56 2xl:left-72 z-10 text-gray-800 text-3xl 2xl:text-4xl font-extrabold uppercase"
           >
             Galeria
           </h1>
@@ -131,44 +152,49 @@ function CIA() {
 
       <About
         title={
-          <TitleSections color={"text-cia-color"}>
-            COMPANHIA DE DANÇA OIS
+          <TitleSections color={"text-gray-800"}>
+            RED PHOENIX PERCUSSION OIS
           </TitleSections>
         }
       >
         <Paragraph>
-          A Companhia de Dança OIS (CIA OIS) surgiu no final de 2023 com o
-          objetivo de promover o trabalho artístico e o aperfeiçoamento por meio
-          da dança. Acreditamos que a dança é uma ferramenta cultural poderosa
-          para transformar a sociedade. Ela não apenas desenvolve habilidades
-          técnicas, mas também molda o caráter humano, tornando-nos mais
-          tolerantes, sensíveis, criativos e livres de preconceitos.
+          A <strong>Red Phoenix Percussion</strong>, grupo de percussão
+          rudimentar da
+          <strong> Orquestra Instrumental Surubinense (OIS)</strong>, tem suas
+          raízes fincadas no solo de Surubim. Formada por músicos excepcionais
+          da nossa cidade, a Red Phoenix Percussion destaca-se pela qualidade e
+          autenticidade de seus arranjos e melodias, que transitam entre o
+          popular e o erudito.
         </Paragraph>
         <Paragraph>
-          Nossas apresentações abrangem desde o regionalismo até o aspecto da
-          dança mundial, combinando elementos contemporâneos, clássicos e
-          populares. A CIA OIS não é apenas um grupo de dança; é um processo
-          educacional que vai além da aquisição de habilidades. Buscamos
-          aprimorar os padrões fundamentais do movimento, explorar as
-          potencialidades humanas e sua conexão com o mundo.
+          Nossa percussão rudimentar é uma celebração da
+          <strong> cultura local e mundial,</strong> incorporando instrumentos
+          tradicionais e técnicas ancestrais. Os percussionistas da Red Phoenix
+          mantêm o ritmo pulsante, utilizando Tenores Drum, pratos, snare, Bass
+          Drum, dentre outros elementos como: güira, triangulo e conga, que
+          ecoam a tradição e a paixão pela música.
         </Paragraph>
         <Paragraph>
-          Ao mesmo tempo, contribuímos para a construção de conhecimento e a
-          formação profissional de nossos bailarinos e bailarinas. A dança
-          transcende o palco; ela é uma jornada de autodescoberta, expressão e
-          transformação. 🩰🌟
+          O nome “Red Phoenix Percussion” não é apenas uma escolha casual. Ele
+          simboliza renascimento, vitalidade e resiliência. Assim como a fênix
+          que renasce das cinzas, nossa música transcende fronteiras e ressoa
+          com a alma da nossa comunidade.
+        </Paragraph>
+        <Paragraph>
+          Com ousadia e autenticidade, a Red Phoenix Percussion mantém viva a
+          tradição musical e a conexão com nossa história.
         </Paragraph>
       </About>
 
-      <Contacts bg={"border-cia-color bg-cia-gradient"}>
+      <Contacts bg={"border-gray-800 bg-rp-gradient"}>
         <BoxLogoLinks>
           <Image
-            src="https://www.acs.art.br/cia%2Festrutura%2FCIA.png"
-            alt="logo CIA"
+            src="https://www.acs.art.br/rp%2FlogoPercussaoSemFundo.png"
+            alt="logo Red Phoenix Percussion OIS"
             quality={100}
             width={300}
             height={300}
-            className="logoFooter w-1/2 md:w-[30%] lg:w-[25%] xl:w-[20%] self-center"
+            className="logoFooter w-1/2 md:w-[23%] lg:w-[16%] xl:w-[12%] self-center"
           />
           <LinksContact>
             <h3 className="text-2xl font-bold">Contatos</h3>
@@ -177,7 +203,7 @@ function CIA() {
                 <FaInstagram size={20} />
                 <a
                   className="text-gray-300 hover:text-white"
-                  href="https://www.instagram.com/ois.cia/"
+                  href="https://www.instagram.com/redphoenixpercussionois/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -238,4 +264,4 @@ function CIA() {
   );
 }
 
-export default CIA;
+export default RP;

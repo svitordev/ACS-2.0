@@ -27,7 +27,7 @@ function ScrollLink({ href, children }) {
     <Link
       to={href}
       smooth={true}
-      duration={100}
+      duration={600}
       offset={offset}
       className="p-3 cursor-pointer"
     >

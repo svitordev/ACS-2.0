@@ -32,7 +32,7 @@ function ProjectsSection({ title }) {
       paragraph: `red <br />
             phoenix <br />
             &nbsp;`,
-      linkHref: "/redphoenix.html",
+      linkHref: "/rp",
     },
     {
       title: "Carnavalesco",
@@ -45,12 +45,12 @@ function ProjectsSection({ title }) {
     },
     {
       title: "Carnavalesco",
-      src: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-levantaDefunto.png",
+      src: "https://www.acs.art.br/bld/estrutura/logoProjectBLD.jpg",
       alt: "Logo do bloco Carnavalesco Levanta Defunto",
       paragraph: `bloco carnavalesco <br />
             levanta <br />
             defunto`,
-      linkHref: "/bld.html",
+      linkHref: "/bld",
     },
     {
       title: "Eventos",

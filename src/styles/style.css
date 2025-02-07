@@ -1,107 +1,128 @@
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-   margin: 0; 
+  margin: 0;
   padding: 0;
 }
-html{
-  scroll-behavior: smooth;
-  scroll-padding-top: 3.5rem;
+.ondaTop,
+.ondaBottom {
+  background-image: url(https://www.acs.art.br/acs%2Festrutura%2Fonda.png);
 }
-body {
-  background-color: #ffffff;
+.ondaTop {
+  display: block;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotatex(180deg);
 }
-hr {
-  margin: 4% auto;
-  width: 30%;
-  border: 2px dashed;
-  border-image-slice: 1;
+.ondaBottom {
+  display: block;
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotateY(180deg);
 }
-.titulo {
-  font-size: 1.563rem;
-  text-transform: uppercase;
-  width: 90%;
-  margin-bottom: 1rem;
+.logoFooter {
+  animation: FooterLogo 50s ease-in-out infinite;
 }
-.conteudo {
-  width: 80%;
-  margin: 1rem auto;
-}
-@media screen and (max-width: 576px) {
-  .conteudo {
-    width: 100%;
-    margin-top: 1rem ;
+@keyframes FooterLogo {
+  0% {
+    transform: translate(0px, 0px);
+    rotate: 0deg;
   }
-  h2{
-    margin-left: 4%;
+  20% {
+    transform: translate(-10px, -15px);
+    rotate: -3deg;
   }
-  hr {
-    margin: 12% auto;
+  40% {
+    transform: translate(5px, 15px);
+    rotate: 3deg;
+  }
+  60% {
+    transform: translate(-5px, 15px);
+    rotate: -3deg;
+  }
+  80% {
+    transform: translate(5px, -15px);
+    rotate: 3deg;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    rotate: 0degg;
+  }
+}
 
+@media screen and (max-width: 576px) {
+  .ondaTop {
+    top: -30px;
+    height: 100px;
+    background-repeat: no-repeat;
+  }
+  .ondaBottom {
+    bottom: -9px;
+    height: 100px;
+    background-repeat: no-repeat;
   }
 }
 
 @media screen and (min-width: 577px) and (max-width: 767px) {
-  .conteudo {
-    width: 90%;
-    margin: 1rem auto;
+  .ondaTop {
+    top: -30px;
+    height: 100px;
+    background-repeat: no-repeat;
   }
-  h2{
-    margin-left: 5%;
-  }
-  hr {
-    margin: 9% auto;
-
+  .ondaBottom {
+    bottom: -9px;
+    height: 100px;
+    background-repeat: no-repeat;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .conteudo {
-    width: 94%;
-    margin-left: 3%;
+  .ondaTop {
+    top: -2px;
+    height: 100px;
   }
-  h2{
-    margin-left: 4%;
-  }
-  .tituloNot{
-    margin-left: 4%;
-  }
-  hr{
-    margin: 6% auto;
-
+  .ondaBottom {
+    bottom: -9px;
+    height: 110px;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1399px){
-  .tituloNot{
-    margin-left: 9%;
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .ondaTop {
+    top: -26px;
+    height: 130px;
   }
-  hr{
-    margin: 3.5% auto;
-
+  .ondaBottom {
+    bottom: -9px;
+    height: 110px;
   }
 }
 @media screen and (min-width: 1400px) and (max-width: 1699px) {
-  .conteudo {
-    width: 70%;
-    margin: 1rem auto;
+  .ondaTop {
+    top: -15px;
+    height: 130px;
   }
-  
-  .tituloNot{
-    margin-left: 8%;
+  .ondaBottom {
+    bottom: -6px;
+    height: 130px;
   }
-  hr{
-    margin: 4% auto;
-
-  }
-  
 }
-@media screen and (min-width: 1700px){
-  .conteudo {
-    width: 80%;
-    margin: 1rem auto;
+@media screen and (min-width: 1700px) {
+  .ondaTop {
+    top: -2px;
+    height: 140px;
   }
-  hr{
-    margin: 3% auto;
-
+  .ondaBottom {
+    bottom: 0px;
+    height: 140px;
   }
 }

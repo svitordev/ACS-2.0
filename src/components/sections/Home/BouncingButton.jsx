@@ -21,7 +21,7 @@ function BouncingButton({section}) {
     <Link
       to={section}
       smooth={true}
-      duration={0}
+      duration={600}
       offset={-90}
       className="cursor-pointer hidden lg:block mt-5"
     >

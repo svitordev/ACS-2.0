@@ -19,7 +19,7 @@ function Header({ links, ClassHeader, children, linkacs }) {
         <LinkScroll
           to={"home"}
           smooth={true}
-          duration={0}
+          duration={600}
           offset={-120}
           className="cursor-pointer"
         >
@@ -36,7 +36,9 @@ function Header({ links, ClassHeader, children, linkacs }) {
         )}
 
         {menuMobile && (
-          <nav className="md:hidden flex flex-col absolute right-2 top-[4.55rem] py-4 px-8 bg-white  rounded-xl z-50 md:text-lg 2xl:text-xl text-center">
+          <nav
+            className={`${ClassHeader} md:hidden flex flex-col absolute right-2 top-[4.55rem] py-4 px-8 bg-white  rounded-xl z-50 md:text-lg 2xl:text-xl text-center`}
+          >
             {linkacs}
             {Object.entries(links).map(([href, text]) => (
               <ScrollLink key={href} href={href}>

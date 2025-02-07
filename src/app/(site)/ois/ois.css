@@ -9,36 +9,3 @@
  border-bottom: 3px solid rgb(175, 2, 2);
 }
 
-.ondaTop,
-.ondaBottom {
-  background-image: url(https://www.acs.art.br/acs%2Festrutura%2Fonda.png);
-}
-.logoFooter {
-  animation: FooterLogo 50s ease-in-out infinite;
-}
-@keyframes FooterLogo {
-  0% {
-    transform: translate(0px, 0px);
-    rotate: 0deg;
-  }
-  20% {
-    transform: translate(-10px, -15px);
-    rotate: -3deg;
-  }
-  40% {
-    transform: translate(5px, 15px);
-    rotate: 3deg;
-  }
-  60% {
-    transform: translate(-5px, 15px);
-    rotate: -3deg;
-  }
-  80% {
-    transform: translate(5px, -15px);
-    rotate: 3deg;
-  }
-  100% {
-    transform: translate(0px, 0px);
-    rotate: 0degg;
-  }
-}

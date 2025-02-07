@@ -32,7 +32,6 @@ function SlideImage({ imagens }) {
     );
   };
 
-  // Função para verificar se o link é um vídeo
   const isVideo = (src) => {
     return /\.(mp4|webm|ogg)$/i.test(src);
   };
@@ -80,7 +79,7 @@ function SlideImage({ imagens }) {
                   ) : (
                     <Image
                       src={media.src}
-                      alt={media.caption}
+                      alt={media.caption | ""}
                       quality={100}
                       fill={true}
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
@@ -110,7 +109,7 @@ function SlideImage({ imagens }) {
               ) : (
                 <Image
                   src={media.src}
-                  alt={media.caption}
+                  alt={media.caption | ""}
                   quality={100}
                   fill={true}
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
