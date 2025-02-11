@@ -14,7 +14,7 @@ function History() {
   return (
     <section
       id="history"
-      className="container px-3 xl:px-32 2xl:px-36 mx-auto mb-5 md:my-14 flex flex-col gap-6"
+      className="container px-3 xl:px-32 2xl:px-36 mx-auto  flex flex-col gap-6 mb-10"
     >
       <TitleSections color={"text-yellow-500"}>Histórico</TitleSections>
       <div className="space-y-3">

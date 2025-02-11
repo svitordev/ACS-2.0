@@ -25,6 +25,26 @@ export const metadata = {
   title: "Orquestra Instrumental Surubinense",
   description:
     "Página da Orquestra Instrumental Surubinense, um dos projetos da Associação Cultural Surubinense.",
+  keywords: [
+    "ACS",
+    "Associação Cultural Surubinense",
+    "Surubim",
+    "Cultura",
+    "OIS",
+    "Orquestra Instrumental Surubinense",
+    "CIA",
+    "Redphoenix",
+    "percussão da ois",
+    "Levanta defunto",
+    "de metade no frevo",
+    "dmetade",
+    "frevo",
+    "carnaval",
+    "bloco",
+    "palhaço",
+    "musico",
+    "palhamusicos",
+  ],
   openGraph: {
     title: "Orquestra Instrumental Surubinense",
     description:
@@ -61,7 +81,6 @@ function OIS() {
     contacts: "Contatos",
   };
   const images = [
-    
     {
       id: 5,
       src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia1.webp",
@@ -107,14 +126,14 @@ function OIS() {
         <Image
           width="100"
           height="100"
-          className="w-16 2xl:w-24 my-2"
-          src={"https://www.acs.art.br/ois/estrutura/logoOIS.png"}
+          className="w-20 2xl:w-24 my-2"
+          src={"https://www.acs.art.br/ois/estrutura/header-ois.png"}
           alt={"Logo da companhia de dança da ois"}
         />
       </Header>
 
       <Home
-        srcVideo={"https://www.acs.art.br/cia%2Festrutura%2FciaHome.mp4"}
+        srcVideo={"https://www.acs.art.br/ois/estrutura/homeOIS.mp4"}
         section={"gallery"}
         classHome={"homeOIS"}
       >
@@ -178,12 +197,12 @@ function OIS() {
       <Contacts bg={"border-yellow-500 bg-ois-gradient"}>
         <BoxLogoLinks>
           <Image
-            src="https://www.acs.art.br/ois%2Festrutura%2Fois-footer.png"
+            src="https://www.acs.art.br/ois/estrutura/footer-ois.png"
             alt="logo CIA"
             quality={100}
             width={300}
             height={300}
-            className="logoFooter w-3/5 md:w-[35%] lg:w-[30%] xl:w-[25%] self-center"
+            className="logoFooter md:w-[45%] lg:w-[35%] xl:w-[25%] self-center"
           />
           <LinksContact>
             <h3 className="text-2xl font-bold">Contatos</h3>

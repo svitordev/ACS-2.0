@@ -19,6 +19,26 @@ export const metadata = {
   title: "Associação Cultural Surubinense - ACS",
   description:
     "Site da Associação Cultural Surubinense e notícias sobre cultura da cidade de Surubim-PE e dos projetos da Associação Cultural Surubinense.",
+  keywords: [
+    "ACS",
+    "Associação Cultural Surubinense",
+    "Surubim",
+    "Cultura",
+    "OIS",
+    "Orquestra Instrumental Surubinense",
+    "CIA",
+    "Redphoenix",
+    "percussão da ois",
+    "Levanta defunto",
+    "de metade no frevo",
+    "dmetade",
+    "frevo",
+    "carnaval",
+    "bloco",
+    "palhaço",
+    "musico",
+    "palhamusicos",
+  ],
   openGraph: {
     title: "Associação Cultural Surubinense - ACS",
     description:
@@ -47,6 +67,7 @@ export const metadata = {
     apple: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png",
   },
 };
+
 function ACS() {
   const links = {
     news: "Notícias",
@@ -118,7 +139,13 @@ function ACS() {
         </Paragraph>
       </About>
 
-      <ProjectsSection />
+      <ProjectsSection
+        title={
+          <TitleSections color={"text-green-900"}>
+            Projetos
+          </TitleSections>
+        }
+      />
 
       <Contacts bg={"border-green-900 bg-acs-gradient"}>
         <BoxLogoLinks>

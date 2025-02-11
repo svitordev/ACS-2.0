@@ -32,7 +32,7 @@ function ProjectsSection({ title }) {
       paragraph: `red <br />
             phoenix <br />
             &nbsp;`,
-      linkHref: "/rp",
+      linkHref: "/redPhoenix",
     },
     {
       title: "Carnavalesco",
@@ -41,7 +41,7 @@ function ProjectsSection({ title }) {
       paragraph: `d´metade <br />
             no <br />
             frevo`,
-      linkHref: "/dMetade.html",
+      linkHref: "/dmetade",
     },
     {
       title: "Carnavalesco",
@@ -59,7 +59,7 @@ function ProjectsSection({ title }) {
       paragraph: `palhamúsicos <br />
             &nbsp; <br />
             &nbsp;`,
-      linkHref: "/palhamusicos.html",
+      linkHref: "/palhamusicos",
     },
   ];
 

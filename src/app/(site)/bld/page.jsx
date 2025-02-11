@@ -11,19 +11,33 @@ import Header from "@/components/sections/Header";
 import Home from "@/components/sections/Home";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  FaInstagram,
-  FaRegEnvelope,
-  FaTiktok,
-  FaWhatsapp,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import "./bld.css";
 
 export const metadata = {
   title: "Bloco Levanta Defunto",
   description:
     "Página do Bloco levanta defunto, um dos projetos da Associação Cultural Surubinense",
+  keywords: [
+    "ACS",
+    "Associação Cultural Surubinense",
+    "Surubim",
+    "Cultura",
+    "OIS",
+    "Orquestra Instrumental Surubinense",
+    "CIA",
+    "Redphoenix",
+    "percussão da ois",
+    "Levanta defunto",
+    "de metade no frevo",
+    "dmetade",
+    "frevo",
+    "carnaval",
+    "bloco",
+    "palhaço",
+    "musico",
+    "palhamusicos",
+  ],
   openGraph: {
     title: "Bloco Levanta Defunto",
     description:
@@ -88,7 +102,7 @@ function CIA() {
       id: 6,
       src: "https://www.acs.art.br/bld%2Fdestaques%2Fviloesdoforro.webp",
       caption: "Image 5",
-    }
+    },
   ];
   return (
     <div>

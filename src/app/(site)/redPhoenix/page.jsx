@@ -24,6 +24,26 @@ export const metadata = {
   title: "Red Phoenix Percussion - OIS",
   description:
     "Página da REDPHOENIX,Percussão da Orquestra Instrumental Surubinense e um dos projetos da Associação Cultural Surubinense",
+  keywords: [
+    "ACS",
+    "Associação Cultural Surubinense",
+    "Surubim",
+    "Cultura",
+    "OIS",
+    "Orquestra Instrumental Surubinense",
+    "CIA",
+    "Redphoenix",
+    "percussão da ois",
+    "Levanta defunto",
+    "de metade no frevo",
+    "dmetade",
+    "frevo",
+    "carnaval",
+    "bloco",
+    "palhaço",
+    "musico",
+    "palhamusicos",
+  ],
   openGraph: {
     title: "Red Phoenix Percussion - OIS",
     description:

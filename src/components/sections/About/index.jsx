@@ -2,10 +2,10 @@ function About({ title, children }) {
   return (
     <section
       id="about"
-      className="container px-3 xl:px-32 2xl:px-36 mx-auto flex flex-col gap-4  mb-5 md:my-5"
+      className="container px-3 xl:px-32 2xl:px-36 mx-auto space-y-4 my-16"
     >
       {title}
-      <div className="columns-3xs 2xl:columns-lg md:columns-xs gap-6 text-justify">
+      <div className="columns-3xs 2xl:columns-lg md:columns-xs gap-6 ">
         {children}
       </div>
     </section>

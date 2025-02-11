@@ -12,7 +12,15 @@ export const NewsSection = () => {
     getNoticiasSecund(setNoticiaSecundarias);
   }, []);
   if (noticiasPrincipais.length === 0 || noticiaSecundarias.length === 0) {
-    return null;
+    return (
+      <div
+        id="news"
+        className="flex flex-col justify-center items-center text-blue-900 text-xl font-bold my-10"
+      >
+        <p>Carregando notícias...</p>
+        <p>Se demorar, atualize a página.</p>
+      </div>
+    );
   }
   return (
     <SectionNews
