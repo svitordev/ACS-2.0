@@ -18,39 +18,39 @@ function History() {
     >
       <TitleSections color={"text-yellow-500"}>Histórico</TitleSections>
       <div className="space-y-3">
-        <YearTitle>2016</YearTitle>
+        <YearTitle color={"text-red-800"}>2016</YearTitle>
         <His16 />
       </div>
       <div className="space-y-3">
-        <YearTitle>2017</YearTitle>
+        <YearTitle color={"text-red-800"}>2017</YearTitle>
         <His17 />
       </div>
       <div className="space-y-3">
-        <YearTitle>2018</YearTitle>
+        <YearTitle color={"text-red-800"}>2018</YearTitle>
         <His18 />
       </div>
       <div className="space-y-3">
-        <YearTitle>2019</YearTitle>
+        <YearTitle color={"text-red-800"}>2019</YearTitle>
         <His19 />
       </div>
       <div className="space-y-3">
-        <YearTitle>2020</YearTitle>
+        <YearTitle color={"text-red-800"}>2020</YearTitle>
         <His20 />
       </div>
       <div className="space-y-3">
-        <YearTitle>2021</YearTitle>
+        <YearTitle color={"text-red-800"}>2021</YearTitle>
         <His21 />
       </div>
       <div className="space-y-3">
-        <YearTitle>2022</YearTitle>
+        <YearTitle color={"text-red-800"}>2022</YearTitle>
         <His22 />
       </div>
       <div className="space-y-3">
-        <YearTitle>2023</YearTitle>
+        <YearTitle color={"text-red-800"}>2023</YearTitle>
         <His23 />
       </div>
       <div className="space-y-3">
-        <YearTitle>2024</YearTitle>
+        <YearTitle color={"text-red-800"}>2024</YearTitle>
         <His24 />
       </div>
     </section>

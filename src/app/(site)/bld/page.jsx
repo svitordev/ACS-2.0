@@ -13,6 +13,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import "./bld.css";
+import { HistoryBLD } from "@/components/sections/HistoryBLD";
 
 export const metadata = {
   title: "Bloco Levanta Defunto",
@@ -70,6 +71,7 @@ function CIA() {
   const links = {
     gallery: "Galeria",
     about: "Sobre",
+    history: "Histórico",
     contacts: "Contatos",
   };
   const images = [
@@ -175,7 +177,7 @@ function CIA() {
           Defunto mantém viva a alegria e a tradição em Surubim. 🎉🎺
         </Paragraph>
       </About>
-
+      <HistoryBLD />
       <Contacts bg={"border-green-600 bg-bld-gradient"}>
         <BoxLogoLinks>
           <Image

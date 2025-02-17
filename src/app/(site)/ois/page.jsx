@@ -18,7 +18,7 @@ import {
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
-import History from "../../../components/sections/History";
+import History from "../../../components/sections/HistoryOIS";
 import "./ois.css";
 
 export const metadata = {
