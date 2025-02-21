@@ -4,6 +4,7 @@ const nextConfig = {
     domains: [
       "https://backendacs-production.up.railway.app/",
       "www.acs.art.br",
+      "cdn.acs.art.br"
     ], // Adicione os domínios confiáveis para carregar imagens
   },
 };

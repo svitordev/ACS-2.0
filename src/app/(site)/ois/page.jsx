@@ -20,6 +20,7 @@ import {
 } from "react-icons/fa";
 import History from "../../../components/sections/HistoryOIS";
 import "./ois.css";
+import { BackToTopButton } from "@/components/BackToTopButton";
 
 export const metadata = {
   title: "Orquestra Instrumental Surubinense",
@@ -52,7 +53,7 @@ export const metadata = {
     url: "https://acs.art.br/",
     images: [
       {
-        url: "https://www.acs.art.br/ois/estrutura/logoOIS.png",
+        url: "https://cdn.acs.art.br/ois/estrutura/logoOIS.png",
         width: 800,
         height: 600,
         alt: "Logo da Orquestra Instrumental Surubinense",
@@ -65,12 +66,12 @@ export const metadata = {
     title: "Orquestra Instrumental Surubinense",
     description:
       "Página da Orquestra Instrumental Surubinense, um dos projetos da Associação Cultural Surubinense.",
-    images: ["https://www.acs.art.br/ois/estrutura/logoOIS.png"],
+    images: ["https://cdn.acs.art.br/ois/estrutura/logoOIS.png"],
   },
   icons: {
-    icon: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
-    shortcut: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
-    apple: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
+    icon: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
+    shortcut: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
+    apple: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
   },
 };
 function OIS() {
@@ -83,32 +84,32 @@ function OIS() {
   const images = [
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia1.webp",
       caption: "OIS em Piracaia-SP",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois/historico/24/WAMSB1.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/WAMSB1.webp",
       caption: "OIS no campeonato WAMSB regional norte e nordeste",
     },
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes1.webp",
       caption: "OIS na realização do concerto nossas raizes.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2Fcopa24.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2Fcopa24.webp",
       caption: "OIS na entrada da XV copa Pernambucana.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois/historico/24/WAMSB2.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/WAMSB2.webp",
       caption: "OIS no campeonato WAMSB regional norte e nordeste",
     },
     {
       id: 6,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia4.webp",
       caption: "OIS na Avenida Paulista em São Paulo",
     },
   ];
@@ -127,13 +128,13 @@ function OIS() {
           width="100"
           height="100"
           className="w-20 2xl:w-24 my-2"
-          src={"https://www.acs.art.br/ois/estrutura/header-ois.png"}
+          src={"https://cdn.acs.art.br/ois/estrutura/header-ois.png"}
           alt={"Logo da companhia de dança da ois"}
         />
       </Header>
 
       <Home
-        srcVideo={"https://www.acs.art.br/ois/estrutura/homeOIS.mp4"}
+        srcVideo={"https://cdn.acs.art.br/ois/estrutura/homeOIS.mp4"}
         section={"gallery"}
         classHome={"homeOIS"}
       >
@@ -197,7 +198,7 @@ function OIS() {
       <Contacts bg={"border-yellow-500 bg-ois-gradient"}>
         <BoxLogoLinks>
           <Image
-            src="https://www.acs.art.br/ois/estrutura/footer-ois.png"
+            src="https://cdn.acs.art.br/ois/estrutura/footer-ois.png"
             alt="logo CIA"
             quality={100}
             width={300}
@@ -268,6 +269,8 @@ function OIS() {
         </BoxLogoLinks>
         <LinkSvitor />
       </Contacts>
+      <BackToTopButton color={"bg-yellow-500 text-yellow-500"} />
+
     </div>
   );
 }

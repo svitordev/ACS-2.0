@@ -19,6 +19,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import "./rp.css";
+import { BackToTopButton } from "@/components/BackToTopButton";
 
 export const metadata = {
   title: "Red Phoenix Percussion - OIS",
@@ -51,7 +52,7 @@ export const metadata = {
     url: "https://acs.art.br/",
     images: [
       {
-        url: "https://www.acs.art.br/acs/estrutura/logo-acs.png",
+        url: "https://cdn.acs.art.br/acs/estrutura/logo-acs.png",
         width: 800,
         height: 600,
         alt: "Logo da Associação Cultural Surubinense",
@@ -64,7 +65,7 @@ export const metadata = {
     title: "Red Phoenix Percussion - OIS",
     description:
       "Página da REDPHOENIX,Percussão da Orquestra Instrumental Surubinense e um dos projetos da Associação Cultural Surubinense",
-    images: ["https://www.acs.art.br/acs/estrutura/logo-acs.png"],
+    images: ["https://cdn.acs.art.br/acs/estrutura/logo-acs.png"],
   },
   icons: {
     icon: "https://pub-4680d0543609450f9429afc4681a1e69.r2.dev/acs%2Festrutura%2Fprojetos%2FlogoRedPhoenixRedonda.png",
@@ -83,46 +84,46 @@ function RP() {
   const images = [
     {
       id: 9,
-      src: "https://www.acs.art.br/rp%2Fapresentacao.mp4",
+      src: "https://cdn.acs.art.br/rp%2Fapresentacao.mp4",
     },
     {
       id: 1,
-      src: "https://www.acs.art.br/rp%2FRP23.2.webp",
+      src: "https://cdn.acs.art.br/rp%2FRP23.2.webp",
       caption: "Percussão da OIS de 2023",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/rp%2FRP23.1.webp",
+      src: "https://cdn.acs.art.br/rp%2FRP23.1.webp",
       caption: "Percussão da OIS de 2024",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/rp%2FRP23.webp",
+      src: "https://cdn.acs.art.br/rp%2FRP23.webp",
       caption: "Percussão da OIS de 2023",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/rp%2Fsulamericano3.webp",
+      src: "https://cdn.acs.art.br/rp%2Fsulamericano3.webp",
       caption: "Percussão da OIS de 2023 no sulamericano da WAMSB",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/rp%2Fsulamericano1.webp",
+      src: "https://cdn.acs.art.br/rp%2Fsulamericano1.webp",
       caption: "Percussão da OIS de 2023 no sulamericano da WAMSB",
     },
     {
       id: 6,
-      src: "https://www.acs.art.br/rp%2Fsulamericano2.webp",
+      src: "https://cdn.acs.art.br/rp%2Fsulamericano2.webp",
       caption: "Percussão da OIS de 2023 no sulamericano da WAMSB",
     },
     {
       id: 7,
-      src: "https://www.acs.art.br/rp%2Fsulamericano4.webp",
+      src: "https://cdn.acs.art.br/rp%2Fsulamericano4.webp",
       caption: "Percussão da OIS de 2023 no sulamericano da WAMSB",
     },
     {
       id: 8,
-      src: "https://www.acs.art.br/rp%2Fsulamericano5.webp",
+      src: "https://cdn.acs.art.br/rp%2Fsulamericano5.webp",
       caption: "Percussão da OIS de 2023 no sulamericano da WAMSB",
     },
   ];
@@ -141,13 +142,13 @@ function RP() {
           width="100"
           height="100"
           className="w-28 2xl:w-24 my-2"
-          src={"https://www.acs.art.br/rp/logoRP.png"}
+          src={"https://cdn.acs.art.br/rp/logoRP.png"}
           alt={"Logo da companhia de dança da ois"}
         />
       </Header>
 
       <Home
-        srcVideo={"https://www.acs.art.br/rp%2FRedPhoenix.mp4"}
+        srcVideo={"https://cdn.acs.art.br/rp%2FRedPhoenix.mp4"}
         section={"gallery"}
         classHome={"homeRP"}
       >
@@ -209,7 +210,7 @@ function RP() {
       <Contacts bg={"border-gray-800 bg-rp-gradient"}>
         <BoxLogoLinks>
           <Image
-            src="https://www.acs.art.br/rp%2FlogoPercussaoSemFundo.png"
+            src="https://cdn.acs.art.br/rp%2FlogoPercussaoSemFundo.png"
             alt="logo Red Phoenix Percussion OIS"
             quality={100}
             width={300}
@@ -280,6 +281,8 @@ function RP() {
         </BoxLogoLinks>
         <LinkSvitor />
       </Contacts>
+      <BackToTopButton color={"bg-gray-800 text-gray-800"} />
+
     </div>
   );
 }

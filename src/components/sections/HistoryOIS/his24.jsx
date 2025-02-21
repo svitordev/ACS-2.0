@@ -7,109 +7,109 @@ function His24() {
   const nossasRaizes = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes1.webp",
       caption: "OIS na realização do concerto nossas raizes.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes2.webp",
       caption: "OIS na realização do concerto nossas raizes.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes4.webp",
       caption: "OIS na realização do concerto nossas raizes.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2Fnossasraizes3.webp",
       caption: "OIS na realização do concerto nossas raizes.",
     },
   ];
   const XVcopa = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2Fcopa24.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2Fcopa24.webp",
       caption: "OIS na entrada da XV copa Pernambucana.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2Fbaliza-dor.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2Fbaliza-dor.webp",
       caption: "Nosso balizador e baliza na apresentação na copa pernambucana.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2FCCcopa24.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2FCCcopa24.webp",
       caption: "Nosso corpo coreografico na apresentação na copa pernambucana.",
     },
   ];
   const dayTrompete = [
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2FdiaT1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2FdiaT1.webp",
       caption: "foto do pessoal que participou do DIA DO TROMPETE",
     },
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2FdiaT2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2FdiaT2.webp",
       caption: "foto do pessoal que participou do DIA DO TROMPETE",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2FdiaT3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2FdiaT3.webp",
       caption: "foto do pessoal que participou do DIA DO TROMPETE",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2FdiaT6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2FdiaT6.webp",
       caption: "foto do pessoal que participou do DIA DO TROMPETE",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2FdiaT4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2FdiaT4.webp",
       caption:
         "foto da OIS recepcionando o pessoal que participou do DIA DO TROMPETE",
     },
     {
       id: 6,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F24%2FdiaT5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F24%2FdiaT5.webp",
       caption: "foto do pessoal que participou do DIA DO TROMPETE",
     },
   ];
   const wamsb = [
     {
       id: 5,
-      src: "https://www.acs.art.br/ois/historico/24/WAMSB1.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/WAMSB1.webp",
       caption: "OIS no campeonato WAMSB regional norte e nordeste",
     },
     {
       id: 1,
-      src: "https://www.acs.art.br/ois/historico/24/WAMSB2.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/WAMSB2.webp",
       caption: "OIS no campeonato WAMSB regional norte e nordeste",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois/historico/24/WAMSB3.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/WAMSB3.webp",
       caption: "OIS no campeonato WAMSB regional norte e nordeste",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois/historico/24/WAMSB5.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/WAMSB5.webp",
       caption: "OIS no campeonato WAMSB regional norte e nordeste",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois/historico/24/WAMSB6.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/WAMSB6.webp",
       caption: "OIS no campeonato WAMSB regional norte e nordeste",
     },
     {
       id: 6,
-      src: "https://www.acs.art.br/ois/historico/24/WAMSB7.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/WAMSB7.webp",
       caption: "OIS no campeonato WAMSB regional norte e nordeste",
     },
     {
       id: 7,
-      src: "https://www.acs.art.br/ois/historico/24/WAMSB8.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/WAMSB8.webp",
       caption: "OIS no campeonato WAMSB regional norte e nordeste",
     },
   ];

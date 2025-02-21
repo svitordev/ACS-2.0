@@ -14,6 +14,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import "./dmf.css";
+import { BackToTopButton } from "@/components/BackToTopButton";
 
 export const metadata = {
   title: "D´metade no Frevo",
@@ -46,7 +47,7 @@ export const metadata = {
     url: "https://acs.art.br/",
     images: [
       {
-        url: "https://www.acs.art.br/acs/estrutura/logo-acs.png",
+        url: "https://cdn.acs.art.br/acs/estrutura/logo-acs.png",
         width: 800,
         height: 600,
         alt: "Logo da Associação Cultural Surubinense",
@@ -59,14 +60,14 @@ export const metadata = {
     title: "D´metade no Frevo",
     description:
       "Página da dmetade no frevo, um dos projetos da Associação Cultural Surubinense",
-    images: ["https://www.acs.art.br/acs/estrutura/logo-acs.png"],
+    images: ["https://cdn.acs.art.br/acs/estrutura/logo-acs.png"],
   },
   icons: {
-    icon: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FlogoDmetade1.png",
+    icon: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FlogoDmetade1.png",
     shortcut:
-      "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FlogoDmetade1.png",
+      "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FlogoDmetade1.png",
     apple:
-      "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FlogoDmetade1.png",
+      "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FlogoDmetade1.png",
   },
 };
 function DMF() {
@@ -79,16 +80,16 @@ function DMF() {
   const images = [
     {
       id: 1,
-      src: "https://www.acs.art.br/dmetade%2FDmetade.mp4",
+      src: "https://cdn.acs.art.br/dmetade%2FDmetade.mp4",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/dmetade%2Fdestaque1.webp",
+      src: "https://cdn.acs.art.br/dmetade%2Fdestaque1.webp",
       caption: "Orquestra D´metade no frevo se apresentando",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/dmetade%2Fdestaque2.webp",
+      src: "https://cdn.acs.art.br/dmetade%2Fdestaque2.webp",
       caption: "Orquestra D´metade no frevo se apresentando",
     },
   ];
@@ -108,14 +109,14 @@ function DMF() {
           height="100"
           className="w-16 2xl:w-20"
           src={
-            "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FlogoDmetade1.png"
+            "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FlogoDmetade1.png"
           }
           alt={"Logo da companhia de dança da ois"}
         />
       </Header>
 
       <Home
-        srcVideo={"https://www.acs.art.br/dmetade%2FdMetadeHome.mp4"}
+        srcVideo={"https://cdn.acs.art.br/dmetade%2FdMetadeHome.mp4"}
         section={"gallery"}
         classHome={"homeDMF"}
       >
@@ -176,7 +177,7 @@ function DMF() {
             Nos contrate para seu evento!
           </TitleSections>
         }
-        srcVideo={"https://www.acs.art.br/dmetade%2FcontratarDM.mp4"}
+        srcVideo={"https://cdn.acs.art.br/dmetade%2FcontratarDM.mp4"}
       >
         <Paragraph>
           D’Metade no Frevo: A Trilha Sonora Perfeita para o Seu Evento! 🎉🎺
@@ -222,7 +223,7 @@ function DMF() {
       <Contacts bg={"border-yellow-500 bg-dmf-gradient"}>
         <BoxLogoLinks>
           <Image
-            src="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FlogoDmetade1.png"
+            src="https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FlogoDmetade1.png"
             alt="logo CIA"
             quality={100}
             width={300}
@@ -270,6 +271,8 @@ function DMF() {
         </BoxLogoLinks>
         <LinkSvitor />
       </Contacts>
+      <BackToTopButton color={"bg-yellow-500 text-yellow-500"} />
+
     </div>
   );
 }

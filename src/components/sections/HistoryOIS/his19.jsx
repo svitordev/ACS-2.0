@@ -7,126 +7,126 @@ function His19() {
   const concertoAdilson = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fconcerto10.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fconcerto10.mp4",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fconcerto1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fconcerto1.webp",
       caption: "Foto do concerto musical PROFESSOR ADILSON FERREIRA",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fconcerto4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fconcerto4.webp",
       caption: "Foto do concerto musical PROFESSOR ADILSON FERREIRA",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fconcerto5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fconcerto5.webp",
       caption: "Foto do concerto musical PROFESSOR ADILSON FERREIRA",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fconcerto6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fconcerto6.webp",
       caption: "Foto do concerto musical PROFESSOR ADILSON FERREIRA",
     },
   ];
   const encontroDesfile = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FencontroSurubim1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FencontroSurubim1.webp",
       caption: "OIS no encontro de bandas de Surubim-PE.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FencontroSurubim2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FencontroSurubim2.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
 
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FencontroSurubim5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FencontroSurubim5.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FencontroSurubim10.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FencontroSurubim10.webp",
       caption: "OIS no encontro de bandas de Surubim-PE.",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FdesfileSurubim6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FdesfileSurubim6.webp",
       caption: "OIS no desfile de Surubim-PE.",
     },
     {
       id: 6,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FdesfileSurubim3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FdesfileSurubim3.webp",
       caption: "OIS no desfile de Surubim-PE.",
     },
     {
       id: 7,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FdesfileSurubim2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FdesfileSurubim2.webp",
       caption: "OIS no desfile de Surubim-PE.",
     },
   ];
   const RN1 = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN1.webp",
       caption: "Apresentação no centro cultural em Natal-RN",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN2.webp",
       caption: "Apresentação no centro cultural em Natal-RN",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN3.webp",
       caption: "Apresentação no centro cultural em Natal-RN",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN5.webp",
       caption: "OIS na praia de Natal.",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN6.webp",
       caption: "OIS em frente a entrada do maior cajueiro do mundo.",
     },
     {
       id: 6,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN8.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN8.webp",
       caption: "Apresentação no centro cultural em Natal-RN",
     },
   ];
   const RN2 = [
     {
       id: 7,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN9.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN9.webp",
       caption: "OIS no letreiro Natal-RN.",
     },
     {
       id: 8,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN12.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN12.webp",
       caption:
         "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
     },
     {
       id: 9,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN10.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN10.webp",
       caption:
         "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
     },
     {
       id: 10,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN11.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN11.webp",
       caption:
         "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
     },
     {
       id: 11,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2FRN13.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2FRN13.webp",
       caption:
         "OIS na apresentação do concurso interestadual de bandas e fanfarras 2019",
     },
@@ -134,45 +134,45 @@ function His19() {
   const moments19 = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fcaruaru1.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fcaruaru1.mp4",
     },
   ];
   const cantataNatal1 = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fcantata1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fcantata1.webp",
       caption: "OIS na cantata de natal de 2019.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fcantata2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fcantata2.webp",
       caption: "OIS na cantata de natal de 2019.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fcantata3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fcantata3.webp",
       caption: "OIS na cantata de natal de 2019.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fcantata4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fcantata4.webp",
       caption: "OIS na cantata de natal de 2019.",
     },
   ];
   const cantataNatal2 = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fcantata5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fcantata5.webp",
       caption: "OIS na cantata de natal de 2019.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fcantata6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fcantata6.webp",
       caption: "OIS na cantata de natal de 2019.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F19%2Fcantata7.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F19%2Fcantata7.webp",
       caption: "OIS na cantata de natal de 2019.",
     },
   ];

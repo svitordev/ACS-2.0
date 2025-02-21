@@ -7,115 +7,115 @@ function His22() {
   const bandasPE1 = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE1.webp",
       caption: "OIS se apresentando no evento bandas de PE",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE2.webp",
       caption: "OIS se apresentando no evento bandas de PE",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE3.webp",
       caption: "OIS se apresentando no evento bandas de PE",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE4.webp",
       caption: "Mestres e professores se apresentando",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE5.webp",
       caption: "Palhetas de bandas de PE se apresentando",
     },
     {
       id: 6,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE6.webp",
       caption: "Todos que participou reunido para foto",
     },
     {
       id: 7,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE7.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbandasPE7.webp",
       caption: "Mestres e professores de bandas de PE",
     },
   ];
   const bandasPE2 = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbbandasPE1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbbandasPE1.webp",
       caption: "balizas da OIS",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbbandasPE2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbbandasPE2.webp",
       caption: "balizas da OIS",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbbandasPE3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbbandasPE3.webp",
       caption: "balizas da OIS",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FbbandasPE4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FbbandasPE4.webp",
       caption: "balizas da OIS",
     },
   ];
   const encontroBandas = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FencontroSurubim1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FencontroSurubim1.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FencontroSurubim2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FencontroSurubim2.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FencontroSurubim3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FencontroSurubim3.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FencontroSurubim5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FencontroSurubim5.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FencontroSurubim6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FencontroSurubim6.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
   ];
   const desfile = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fvideo.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fvideo.mp4",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FdesfileSurubim1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FdesfileSurubim1.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fbalizasdesfile.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fbalizasdesfile.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
   ];
   const mostraArtes = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FamostraSesc1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FamostraSesc1.webp",
       caption:
         "participação da OIS na Mostra de Artes do Sesc Ler Surubim 2022.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2FamostraSesc3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2FamostraSesc3.webp",
       caption:
         "participação da OIS na Mostra de Artes do Sesc Ler Surubim 2022.",
     },
@@ -123,40 +123,40 @@ function His22() {
   const copaXIV = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fcopa1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fcopa1.webp",
       caption: "OIS na XVI ETAPA DA COPA PERNAMBUCANA DE BANDAS E FANFARRAS.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fcopa2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fcopa2.webp",
       caption: "OIS na XVI ETAPA DA COPA PERNAMBUCANA DE BANDAS E FANFARRAS.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fcopa3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fcopa3.webp",
       caption: "OIS na XVI ETAPA DA COPA PERNAMBUCANA DE BANDAS E FANFARRAS.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fcopa4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fcopa4.webp",
       caption: "OIS na XVI ETAPA DA COPA PERNAMBUCANA DE BANDAS E FANFARRAS.",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fcopa5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fcopa5.webp",
       caption: "OIS na XVI ETAPA DA COPA PERNAMBUCANA DE BANDAS E FANFARRAS.",
     },
   ];
   const luauJuventude = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fjuventude1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fjuventude1.webp",
       caption:
         "OIS participando do último LUAU DA JUVENTUDE na casa das juventudes de Surubim-PE",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fjuventude2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fjuventude2.webp",
       caption:
         "OIS participando do último LUAU DA JUVENTUDE na casa das juventudes de Surubim-PE",
     },
@@ -164,34 +164,34 @@ function His22() {
   const moments22 = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fbomjardim5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fbomjardim5.webp",
       caption: "OIS em BOM JARDIM-PE",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fjoaoalfredo1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fjoaoalfredo1.webp",
       caption: "OIS em BOM JARDIM-PE",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fpontadpedra1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fpontadpedra1.webp",
       caption: "OIS em Ponta de pedras-PE",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fsantamaria1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fsantamaria1.webp",
       caption: "OIS no encontro de bandas de Santa Maria do Cambucá-PE",
     },
   ];
   const cantataNatal = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fcantata1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fcantata1.webp",
       caption: "OIS na cantata de natal de 2022.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F22%2Fcantata2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F22%2Fcantata2.webp",
       caption: "OIS na cantata de natal de 2022.",
     },
   ];

@@ -7,41 +7,41 @@ function His18() {
   const moments18 = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2FMariana4.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2FMariana4.mp4",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2FMariana5.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2FMariana5.mp4",
     },
   ];
   const imgsCopa = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fcopa1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fcopa1.webp",
       caption:
         "Participação da OIS na X Copa Pernambucana de Bandas e fanfarras no ano de 2018",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fcopa2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fcopa2.webp",
       caption:
         "Participação da OIS na X Copa Pernambucana de Bandas e fanfarras no ano de 2018",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fcopa3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fcopa3.webp",
       caption:
         "Participação da OIS na X Copa Pernambucana de Bandas e fanfarras no ano de 2018",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fcopa4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fcopa4.webp",
       caption:
         "Participação da OIS na X Copa Pernambucana de Bandas e fanfarras no ano de 2018",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fcopa5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fcopa5.webp",
       caption:
         "Participação da OIS na X Copa Pernambucana de Bandas e fanfarras no ano de 2018",
     },
@@ -49,84 +49,84 @@ function His18() {
   const encontroDesfile = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2FdesfileSurubim1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2FdesfileSurubim1.webp",
       caption: "OIS no desfile e aniversário da cidade de Surubim-PE",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2FencontroSurubim4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2FencontroSurubim4.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
 
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2FencontroSurubim3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2FencontroSurubim3.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2FdesfileSurubim2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2FdesfileSurubim2.webp",
       caption: "OIS no desfile e aniversário da cidade de Surubim-PE",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2FdesfileSurubim4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2FdesfileSurubim4.webp",
       caption: "OIS no desfile e aniversário da cidade de Surubim-PE",
     },
     {
       id: 6,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2FdesfileSurubim6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2FdesfileSurubim6.webp",
       caption: "OIS no desfile e aniversário da cidade de Surubim-PE",
     },
     {
       id: 7,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2FdesfileSurubim7.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2FdesfileSurubim7.webp",
       caption: "OIS no desfile e aniversário da cidade de Surubim-PE",
     },
   ];
   const sonoraBrasilSesc = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fsesc.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fsesc.webp",
       caption: "OIS reunida para foto depois de realizar a abertura do evento.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fsesc1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fsesc1.webp",
       caption: "OIS reunida para foto depois de realizar a abertura do evento.",
     },
   ];
   const sextetoSesc = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fsesc6.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fsesc6.mp4",
       caption: "OIS reunida para foto depois de realizar a abertura do evento.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fsesc2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fsesc2.webp",
       caption: "OIS reunida para foto depois de realizar a abertura do evento.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fsesc3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fsesc3.webp",
       caption: "OIS reunida para foto depois de realizar a abertura do evento.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fsesc4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fsesc4.webp",
       caption: "OIS reunida para foto depois de realizar a abertura do evento.",
     },
   ];
   const cantataNatal = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fcantata1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fcantata1.webp",
       caption: "OIS no concerto de Natal de 2018",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F18%2Fcantata6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fcantata6.webp",
       caption: "OIS no concerto de Natal de 2018",
     },
   ];

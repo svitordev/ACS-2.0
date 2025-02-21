@@ -19,6 +19,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import "./cia.css";
+import { BackToTopButton } from "@/components/BackToTopButton";
 
 export const metadata = {
   title: "Companhia de Dança - OIS",
@@ -51,7 +52,7 @@ export const metadata = {
     url: "https://acs.art.br/",
     images: [
       {
-        url: "https://www.acs.art.br/acs/estrutura/logo-acs.png",
+        url: "https://cdn.acs.art.br/acs/estrutura/logo-acs.png",
         width: 800,
         height: 600,
         alt: "Logo da Associação Cultural Surubinense",
@@ -64,12 +65,12 @@ export const metadata = {
     title: "Companhia de Dança - OIS",
     description:
       "Página da CIA companhia de dança da OIS e um dos projetos da Associação Cultural Surubinense.",
-    images: ["https://www.acs.art.br/acs/estrutura/logo-acs.png"],
+    images: ["https://cdn.acs.art.br/acs/estrutura/logo-acs.png"],
   },
   icons: {
-    icon: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
-    shortcut: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
-    apple: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
+    icon: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
+    shortcut: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
+    apple: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
   },
 };
 function CIA() {
@@ -81,27 +82,27 @@ function CIA() {
   const images = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois/historico/24/CCcopa24.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/CCcopa24.webp",
       caption: "Image 1",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/cia%2Fdestaques%2Fcia1.webp",
+      src: "https://cdn.acs.art.br/cia%2Fdestaques%2Fcia1.webp",
       caption: "Image 2",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/cia%2Fdestaques%2Fcia2.webp",
+      src: "https://cdn.acs.art.br/cia%2Fdestaques%2Fcia2.webp",
       caption: "Image 3",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois/historico/24/baliza-dor.webp",
+      src: "https://cdn.acs.art.br/ois/historico/24/baliza-dor.webp",
       caption: "Image 4",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fjoaoalfredo4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fjoaoalfredo4.webp",
       caption: "Image 5",
     },
   ];
@@ -120,13 +121,13 @@ function CIA() {
           width="100"
           height="100"
           className="w-16 2xl:w-24 my-2"
-          src={"https://www.acs.art.br/cia/estrutura/logoCIA.png"}
+          src={"https://cdn.acs.art.br/cia/estrutura/logoCIA.png"}
           alt={"Logo da companhia de dança da ois"}
         />
       </Header>
 
       <Home
-        srcVideo={"https://www.acs.art.br/cia%2Festrutura%2FciaHome.mp4"}
+        srcVideo={"https://cdn.acs.art.br/cia%2Festrutura%2FciaHome.mp4"}
         section={"gallery"}
         classHome={"homeCia"}
       >
@@ -183,7 +184,7 @@ function CIA() {
       <Contacts bg={"border-cia-color bg-cia-gradient"}>
         <BoxLogoLinks>
           <Image
-            src="https://www.acs.art.br/cia%2Festrutura%2FCIA.png"
+            src="https://cdn.acs.art.br/cia%2Festrutura%2FCIA.png"
             alt="logo CIA"
             quality={100}
             width={300}
@@ -254,6 +255,8 @@ function CIA() {
         </BoxLogoLinks>
         <LinkSvitor />
       </Contacts>
+      <BackToTopButton color={"bg-yellow-900 text-yellow-900"} />
+
     </div>
   );
 }

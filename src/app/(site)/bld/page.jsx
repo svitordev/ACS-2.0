@@ -14,6 +14,7 @@ import Link from "next/link";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import "./bld.css";
 import { HistoryBLD } from "@/components/sections/HistoryBLD";
+import { BackToTopButton } from "@/components/BackToTopButton";
 
 export const metadata = {
   title: "Bloco Levanta Defunto",
@@ -46,7 +47,7 @@ export const metadata = {
     url: "https://acs.art.br/",
     images: [
       {
-        url: "https://www.acs.art.br/acs/estrutura/logo-acs.png",
+        url: "https://cdn.acs.art.br/acs/estrutura/logo-acs.png",
         width: 800,
         height: 600,
         alt: "Logo do Bloco Levanta Defunto",
@@ -59,14 +60,14 @@ export const metadata = {
     title: "Bloco Levanta Defunto",
     description:
       "Página do Bloco levanta defunto, um dos projetos da Associação Cultural Surubinense",
-    images: ["https://www.acs.art.br/acs/estrutura/logo-acs.png"],
+    images: ["https://cdn.acs.art.br/acs/estrutura/logo-acs.png"],
   },
   icons: {
     icon: "/logoBLD.png",
     shortcut: "/logoBLD.png",
     apple: "/logoBLD.png",
   },
-};
+}
 function CIA() {
   const links = {
     gallery: "Galeria",
@@ -77,32 +78,32 @@ function CIA() {
   const images = [
     {
       id: 1,
-      src: "https://www.acs.art.br/bld%2Fdestaques%2Fbld24c.webp",
+      src: "https://cdn.acs.art.br/bld%2Fdestaques%2Fbld24c.webp",
       caption: "Image 1",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/bld%2Fdestaques%2Fbld24b.webp",
+      src: "https://cdn.acs.art.br/bld%2Fdestaques%2Fbld24b.webp",
       caption: "Image 2",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/bld%2Fdestaques%2Fbld24a.webp",
+      src: "https://cdn.acs.art.br/bld%2Fdestaques%2Fbld24a.webp",
       caption: "Image 3",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/bld%2Fdestaques%2Fbld24d.webp",
+      src: "https://cdn.acs.art.br/bld%2Fdestaques%2Fbld24d.webp",
       caption: "Image 4",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/bld%2Fdestaques%2Fbanda24.webp",
+      src: "https://cdn.acs.art.br/bld%2Fdestaques%2Fbanda24.webp",
       caption: "Image 5",
     },
     {
       id: 6,
-      src: "https://www.acs.art.br/bld%2Fdestaques%2Fviloesdoforro.webp",
+      src: "https://cdn.acs.art.br/bld%2Fdestaques%2Fviloesdoforro.webp",
       caption: "Image 5",
     },
   ];
@@ -121,13 +122,13 @@ function CIA() {
           width="100"
           height="100"
           className="w-24 2xl:w-28 my-2"
-          src={"https://www.acs.art.br/bld/estrutura/logoBLD.png"}
+          src={"https://cdn.acs.art.br/bld/estrutura/logoBLD.png"}
           alt={"Logo da companhia de dança da ois"}
         />
       </Header>
 
       <Home
-        srcVideo={"https://www.acs.art.br/bld%2Festrutura%2FvideoBLD.mp4"}
+        srcVideo={"https://cdn.acs.art.br/bld%2Festrutura%2FvideoBLD.mp4"}
         section={"gallery"}
         classHome={"homeBLD"}
       >
@@ -181,7 +182,7 @@ function CIA() {
       <Contacts bg={"border-green-600 bg-bld-gradient"}>
         <BoxLogoLinks>
           <Image
-            src="https://www.acs.art.br/bld/estrutura/logoBLD.png"
+            src="https://cdn.acs.art.br/bld/estrutura/logoBLD.png"
             alt="logo CIA"
             quality={100}
             width={300}
@@ -218,6 +219,8 @@ function CIA() {
         </BoxLogoLinks>
         <LinkSvitor />
       </Contacts>
+      <BackToTopButton color={"bg-green-600 text-green-600"} />
+
     </div>
   );
 }

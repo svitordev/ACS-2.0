@@ -1,9 +1,9 @@
 export const metadata = {
   title: "Painel de notícias - ACS",
   icons: {
-    icon: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
-    shortcut: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
-    apple: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
+    icon: "https://cdn.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
+    shortcut: "https://cdn.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
+    apple: "https://cdn.acs.art.br/acs%2Festrutura%2FlogoACS.png", 
   },
 };
 export default function RootLayout({ children }) {

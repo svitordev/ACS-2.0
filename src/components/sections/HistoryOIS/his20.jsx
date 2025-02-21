@@ -6,44 +6,44 @@ function His20() {
   const grupoEstudos = [
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F20%2Fpaudearara.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F20%2Fpaudearara.mp4",
       caption: "Foto do concerto musical PROFESSOR ADILSON FERREIRA",
     },
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F20%2Festudo1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F20%2Festudo1.webp",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F20%2Festudo2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F20%2Festudo2.webp",
       caption: "Foto do concerto musical PROFESSOR ADILSON FERREIRA",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F20%2Festudo3.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F20%2Festudo3.mp4",
       caption: "Foto do concerto musical PROFESSOR ADILSON FERREIRA",
     },
   ];
   const caminharte = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F20%2Fcaminharte4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F20%2Fcaminharte4.webp",
       caption: "OIS no encontro de bandas de Surubim-PE.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F20%2Fcaminharte5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F20%2Fcaminharte5.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
 
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F20%2Fcaminharte7.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F20%2Fcaminharte7.webp",
       caption: "OIS no encontro de bandas de Surubim-PE",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F20%2Fcaminharte9.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F20%2Fcaminharte9.webp",
       caption: "OIS no encontro de bandas de Surubim-PE.",
     },
   ];

@@ -6,7 +6,7 @@ function His16() {
   const images = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F16%2Fcantata16.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F16%2Fcantata16.webp",
       caption: "Foto da banda na primeira cantata de natal em 2016.",
     },
   ];

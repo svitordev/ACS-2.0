@@ -14,6 +14,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import "./dmf.css";
+import { BackToTopButton } from "@/components/BackToTopButton";
 
 export const metadata = {
   title: "Palhamúsicos",
@@ -46,7 +47,7 @@ export const metadata = {
     url: "https://acs.art.br/",
     images: [
       {
-        url: "https://www.acs.art.br/acs/estrutura/logo-acs.png",
+        url: "https://cdn.acs.art.br/acs/estrutura/logo-acs.png",
         width: 800,
         height: 600,
         alt: "Logo da Associação Cultural Surubinense",
@@ -59,14 +60,14 @@ export const metadata = {
     title: "Palhamúsicos",
     description:
       "Página dos palhamusicos, um dos projetos da Associação Cultural Surubinense",
-    images: ["https://www.acs.art.br/acs/estrutura/logo-acs.png"],
+    images: ["https://cdn.acs.art.br/acs/estrutura/logo-acs.png"],
   },
   icons: {
-    icon: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png",
+    icon: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png",
     shortcut:
-      "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png",
+      "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png",
     apple:
-      "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png",
+      "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png",
   },
 };
 function Palhamusicos() {
@@ -79,26 +80,26 @@ function Palhamusicos() {
   const images = [
     {
       id: 1,
-      src: "https://www.acs.art.br/palhamusicos%2F1.webp",
+      src: "https://cdn.acs.art.br/palhamusicos%2F1.webp",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/palhamusicos%2F3.webp",
+      src: "https://cdn.acs.art.br/palhamusicos%2F3.webp",
       caption: "Orquestra D´metade no frevo se apresentando",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/palhamusicos%2F4.webp",
+      src: "https://cdn.acs.art.br/palhamusicos%2F4.webp",
       caption: "Orquestra D´metade no frevo se apresentando",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/palhamusicos%2F2.webp",
+      src: "https://cdn.acs.art.br/palhamusicos%2F2.webp",
       caption: "Orquestra D´metade no frevo se apresentando",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/palhamusicos%2F5.webp",
+      src: "https://cdn.acs.art.br/palhamusicos%2F5.webp",
       caption: "Orquestra D´metade no frevo se apresentando",
     },
   ];
@@ -118,14 +119,14 @@ function Palhamusicos() {
           height="100"
           className="w-20 -my-1.5 2xl:w-24"
           src={
-            "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png"
+            "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png"
           }
           alt={"Logo da companhia de dança da ois"}
         />
       </Header>
 
       <Home
-        srcVideo={"https://www.acs.art.br/palhamusicos%2Fpalhamusicos.mp4"}
+        srcVideo={"https://cdn.acs.art.br/palhamusicos%2Fpalhamusicos.mp4"}
         section={"gallery"}
         classHome={"homePM"}
       >
@@ -226,7 +227,7 @@ function Palhamusicos() {
       <Contacts bg={"border-yellow-500 bg-pm-gradient"}>
         <BoxLogoLinks>
           <Image
-            src="https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png"
+            src="https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png"
             alt="logo CIA"
             quality={100}
             width={300}
@@ -274,6 +275,8 @@ function Palhamusicos() {
         </BoxLogoLinks>
         <LinkSvitor />
       </Contacts>
+      <BackToTopButton color={"bg-blue-900 text-blue-900"} />
+
     </div>
   );
 }

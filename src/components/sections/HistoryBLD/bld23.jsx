@@ -6,7 +6,7 @@ export const BLD23=() => {
     const images = [
         {
           id: 1,
-          src: "https://www.acs.art.br/bld%2Fhistorico%2Fbld23.mp4",
+          src: "https://cdn.acs.art.br/bld%2Fhistorico%2Fbld23.mp4",
           caption: "Bloco levanta defundo em 2023",
         },
       ];

@@ -7,49 +7,49 @@ function His17() {
   const desEnc17 = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F17%2FdesfileSurubim2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F17%2FdesfileSurubim2.webp",
       caption: "OIS no encontro de bandas de 2017",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F17%2FdesfileVideo.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F17%2FdesfileVideo.mp4",
       caption: "OIS no encontro de bandas de 2017",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F17%2FencontroSurubim16.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F17%2FencontroSurubim16.webp",
       caption: "OIS no encontro de bandas de 2017",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F17%2FdesfileSurubim.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F17%2FdesfileSurubim.webp",
       caption: "OIS no encontro de bandas de 2017",
     },
   ];
   const concertoNatalImg = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F17%2Fcantata17.4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F17%2Fcantata17.4.webp",
       caption: "Foto da OIS no concerto de Natal de 2017",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F17%2Fcantata17.1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F17%2Fcantata17.1.webp",
       caption: "Foto da OIS no concerto de Natal de 2017",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F17%2Fcantata17.5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F17%2Fcantata17.5.webp",
       caption: "Foto da OIS no concerto de Natal de 2017",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F17%2Fcantata17.7.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F17%2Fcantata17.7.webp",
       caption: "Foto da OIS no concerto de Natal de 2017",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F17%2FcantataCC.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F17%2FcantataCC.webp",
       caption: "Foto da OIS no concerto de Natal de 2017",
     },
   ];

@@ -9,7 +9,7 @@ function ProjectsSection({ title }) {
   const projects = [
     {
       title: "Música",
-      src: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
+      src: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FOIS.png",
       alt: "Logo OIS",
       paragraph: `orquestra <br />
             instrumetal <br />
@@ -18,7 +18,7 @@ function ProjectsSection({ title }) {
     },
     {
       title: "Dança",
-      src: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
+      src: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2FCIA.jpg",
       alt: "Logo da companhia de dança",
       paragraph: `companhia de <br />
             dança <br />
@@ -27,7 +27,7 @@ function ProjectsSection({ title }) {
     },
     {
       title: "Percussão",
-      src: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-percussao.png",
+      src: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-percussao.png",
       alt: "Logo da percussão da OIS",
       paragraph: `red <br />
             phoenix <br />
@@ -36,7 +36,7 @@ function ProjectsSection({ title }) {
     },
     {
       title: "Carnavalesco",
-      src: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-Dmetade.jpg",
+      src: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-Dmetade.jpg",
       alt: "Logo da orquestra de frevo da ACS",
       paragraph: `d´metade <br />
             no <br />
@@ -45,7 +45,7 @@ function ProjectsSection({ title }) {
     },
     {
       title: "Carnavalesco",
-      src: "https://www.acs.art.br/bld/estrutura/logoProjectBLD.jpg",
+      src: "https://cdn.acs.art.br/bld/estrutura/logoProjectBLD.jpg",
       alt: "Logo do bloco Carnavalesco Levanta Defunto",
       paragraph: `bloco carnavalesco <br />
             levanta <br />
@@ -54,7 +54,7 @@ function ProjectsSection({ title }) {
     },
     {
       title: "Eventos",
-      src: "https://www.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png",
+      src: "https://cdn.acs.art.br/acs%2Festrutura%2Fprojetos%2Flogo-palhamusicos.png",
       alt: "Logo do Grupo Palhamúsicos",
       paragraph: `palhamúsicos <br />
             &nbsp; <br />

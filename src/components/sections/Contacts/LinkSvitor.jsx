@@ -14,7 +14,7 @@ function LinkSvitor() {
        height={100}
        quality={100}
        className="w-28"
-       src="https://www.acs.art.br/vitor%2FsVitor.Dev.png"
+       src="https://cdn.acs.art.br/vitor%2FsVitor.Dev.png"
        alt="Logo do criador do site"
      />
    </a>

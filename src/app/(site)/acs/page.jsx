@@ -14,6 +14,7 @@ import { BiSolidBank } from "react-icons/bi";
 import { FaInstagram, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
 import { NewsSection } from "./NewsSection";
 import "./acs.css";
+import { BackToTopButton } from "@/components/BackToTopButton";
 
 export const metadata = {
   title: "Associação Cultural Surubinense - ACS",
@@ -46,7 +47,7 @@ export const metadata = {
     url: "https://acs.art.br/",
     images: [
       {
-        url: "https://www.acs.art.br/acs/estrutura/logo-acs.png",
+        url: "https://cdn.acs.art.br/acs/estrutura/logo-acs.png",
         width: 800,
         height: 600,
         alt: "Logo da Associação Cultural Surubinense",
@@ -59,12 +60,12 @@ export const metadata = {
     title: "Associação Cultural Surubinense - ACS",
     description:
       "Site da Associação Cultural Surubinense e notícias sobre cultura da cidade de Surubim-PE e dos projetos da Associação Cultural Surubinense.",
-    images: ["https://www.acs.art.br/acs/estrutura/logo-acs.png"],
+    images: ["https://cdn.acs.art.br/acs/estrutura/logo-acs.png"],
   },
   icons: {
-    icon: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png",
-    shortcut: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png",
-    apple: "https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png",
+    icon: "https://cdn.acs.art.br/acs%2Festrutura%2FlogoACS.png",
+    shortcut: "https://cdn.acs.art.br/acs%2Festrutura%2FlogoACS.png",
+    apple: "https://cdn.acs.art.br/acs%2Festrutura%2FlogoACS.png",
   },
 };
 
@@ -80,21 +81,19 @@ function ACS() {
     <div>
       <Header
         links={links}
-        srcImg={"https://www.acs.art.br/acs/estrutura/logoHeader.png"}
-        altImg={"Logo da Associação Cultural Surubinense"}
         ClassHeader={"headerAcs"}
       >
         <Image
           width="100"
           height="100"
           className="w-16 "
-          src={"https://www.acs.art.br/acs%2Festrutura%2FlogoACS.png"}
+          src={"https://cdn.acs.art.br/acs/estrutura/logoACS.png"}
           alt={"Logo da Associação Cultural Surubinense"}
         />
       </Header>
 
       <Home
-        srcVideo={"https://www.acs.art.br/acs%2Festrutura%2Facs.mp4"}
+        srcVideo={"https://cdn.acs.art.br/acs%2Festrutura%2Facs.mp4"}
         section={"news"}
         classHome={"homeAcs"}
       >
@@ -150,7 +149,7 @@ function ACS() {
       <Contacts bg={"border-green-900 bg-acs-gradient"}>
         <BoxLogoLinks>
           <Image
-            src="https://www.acs.art.br/acs%2Festrutura%2Flogo-acs.png"
+            src="https://cdn.acs.art.br/acs%2Festrutura%2Flogo-acs.png"
             alt="logo ACS"
             quality={100}
             width={300}
@@ -202,6 +201,7 @@ function ACS() {
         </BoxLogoLinks>
         <LinkSvitor />
       </Contacts>
+      <BackToTopButton color={"bg-green-900 text-green-900"}/>
     </div>
   );
 }

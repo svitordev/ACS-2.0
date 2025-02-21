@@ -7,223 +7,223 @@ function His23() {
   const concertoTempo = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Ftempo1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Ftempo1.webp",
       caption: "OIS no concerto: tempo",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Ftempo2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Ftempo2.webp",
       caption: "OIS no concerto: tempo",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Ftempo3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Ftempo3.webp",
       caption: "OIS no concerto: tempo",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Ftempo4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Ftempo4.webp",
       caption: "OIS no concerto: tempo",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Ftempo5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Ftempo5.webp",
       caption: "OIS no concerto: tempo",
     },
     {
       id: 6,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Ftempo6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Ftempo6.webp",
       caption: "OIS no concerto: tempo",
     },
   ];
   const encontro = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2FencontroSurubim1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2FencontroSurubim1.webp",
       caption: "OIS no encontro de bandas e fanfarras de Surubim-PE.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2FencontroSurubim2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2FencontroSurubim2.webp",
       caption: "OIS no encontro de bandas e fanfarras de Surubim-PE.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2FencontroSurubim3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2FencontroSurubim3.webp",
       caption: "OIS no encontro de bandas e fanfarras de Surubim-PE.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2FencontroSurubim5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2FencontroSurubim5.webp",
       caption: "OIS no encontro de bandas e fanfarras de Surubim-PE.",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2FencontroSurubim7.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2FencontroSurubim7.webp",
       caption: "OIS no encontro de bandas e fanfarras de Surubim-PE.",
     },
   ];
   const desfile = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2FdesfileSurubim1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2FdesfileSurubim1.webp",
       caption: "OIS no desfile e aniversário de Surubim-PE.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2FdesfileSurubim2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2FdesfileSurubim2.webp",
       caption: "OIS no desfile e aniversário de Surubim-PE.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2FdesfileSurubim3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2FdesfileSurubim3.webp",
       caption: "OIS no desfile e aniversário de Surubim-PE.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2FdesfileSurubim4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2FdesfileSurubim4.webp",
       caption: "OIS no desfile e aniversário de Surubim-PE.",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Faniversario4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Faniversario4.webp",
       caption: "OIS no desfile e aniversário de Surubim-PE.",
     },
   ];
   const vaquejada = [
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fvaquejada.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fvaquejada.mp4",
     },
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fvaquejada2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fvaquejada2.webp",
       caption: "OIS na Vaquejada de Surubim-PE.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fvaquejada1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fvaquejada1.webp",
       caption: "OIS na Vaquejada de Surubim-PE.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fvaquejada3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fvaquejada3.webp",
       caption: "OIS na Vaquejada de Surubim-PE.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fvaquejada4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fvaquejada4.webp",
       caption: "OIS na Vaquejada de Surubim-PE.",
     },
   ];
   const piracaia = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia1.webp",
       caption: "OIS em Piracaia-SP",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia2.webp",
       caption: "OIS em Piracaia-SP",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia3.webp",
       caption: "OIS em Piracaia-SP",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia4.webp",
       caption: "OIS na Avenida Paulista em São Paulo",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fpiracaia5.webp",
       caption: "OIS na Avenida Paulista em São Paulo",
     },
   ];
   const recitalEdu = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Frecital1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Frecital1.webp",
       caption: "Eduardo Henrique em sua apresentação no recital de conclusão.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Frecital2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Frecital2.webp",
       caption: "Eduardo Henrique em sua apresentação no recital de conclusão.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Frecital3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Frecital3.webp",
       caption: "Eduardo Henrique em sua apresentação no recital de conclusão.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Frecital4.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Frecital4.webp",
       caption: "Eduardo Henrique em sua apresentação no recital de conclusão.",
     },
   ];
   const moments23 = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fcaruaru.mp4",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fcaruaru.mp4",
       caption: "OIS no IV ENCONTRO DE BANDAS E FANFARRAS DE CARUARU-PE.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fcaruaru1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fcaruaru1.webp",
       caption: "OIS no IV ENCONTRO DE BANDAS E FANFARRAS DE CARUARU-PE.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fjoaoalfredo1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fjoaoalfredo1.webp",
       caption: "OIS participação no IV FEST BANFAS - JOÃO ALFREDO - PE",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fjoaoalfredo2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fjoaoalfredo2.webp",
       caption: "OIS participação no IV FEST BANFAS - JOÃO ALFREDO - PE",
     },
   ];
   const natalGente = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fnatalgente1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fnatalgente1.webp",
       caption: "OIS no evento: NATAL DA GENTE da prefeitura de Surubim-PE.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fnatalgente6.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fnatalgente6.webp",
       caption: "OIS no evento: NATAL DA GENTE da prefeitura de Surubim-PE.",
     },
   ];
   const cantataNatal = [
     {
       id: 1,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fcantata1.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fcantata1.webp",
       caption: "OIS na sua 8°Cantata de natal.",
     },
     {
       id: 2,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fcantata2.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fcantata2.webp",
       caption: "OIS na sua 8°Cantata de natal.",
     },
     {
       id: 3,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fcantata3.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fcantata3.webp",
       caption: "OIS na sua 8°Cantata de natal.",
     },
     {
       id: 4,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fcantata5.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fcantata5.webp",
       caption:
         "Coral raio de sol e quarteto de cordas em sua apresentação na cantata.",
     },
     {
       id: 5,
-      src: "https://www.acs.art.br/ois%2Fhistorico%2F23%2Fcantata8.webp",
+      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F23%2Fcantata8.webp",
       caption:
         "CIA(companhia de dança da OIS) estava la presente com sua belíssima apresentação junto com a OIS.",
     },
