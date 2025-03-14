@@ -1,4 +1,4 @@
-import TitleSections from "@/components/TitleSections";
+import TitleSections from "@/components/sections/TitleSections";
 import About from "@/components/sections/About";
 import Paragraph from "@/components/sections/About/Paragraph";
 import Contacts from "@/components/sections/Contacts";
@@ -15,6 +15,7 @@ import Link from "next/link";
 import { FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import "./dmf.css";
 import { BackToTopButton } from "@/components/BackToTopButton";
+import { TitleGallery } from "@/components/sections/Gallery/titleGallery";
 
 export const metadata = {
   title: "Palhamúsicos",
@@ -142,12 +143,7 @@ function Palhamusicos() {
       <Gallery
         bg={"bg-pm-gradient"}
         title={
-          <h1
-            id="gallery"
-            className="absolute top-2 left-[5.5rem] md:top-10 md:left-16 lg:left-[7.5rem] xl:left-56 2xl:left-72 z-10 text-red-600 text-3xl 2xl:text-4xl font-extrabold uppercase"
-          >
-            Galeria
-          </h1>
+          <TitleGallery color={"text-red-600"}/>
         }
         imagens={images}
       />

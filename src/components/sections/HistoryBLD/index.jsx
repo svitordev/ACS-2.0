@@ -1,4 +1,4 @@
-import TitleSections from '@/components/TitleSections'
+import TitleSections from '@/components/sections/TitleSections'
 import React from 'react'
 import YearTitle from '../HistoryOIS/yearTitle'
 import { BLD15 } from './bld15'

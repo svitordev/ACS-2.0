@@ -1,4 +1,4 @@
-import TitleSections from "@/components/TitleSections";
+import TitleSections from "@/components/sections/TitleSections";
 import His16 from "./his16";
 import His17 from "./his17";
 import His19 from "./his19";
