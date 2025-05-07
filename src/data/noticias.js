@@ -1,10 +1,24 @@
 export const newsMain = [
   {
     id: 1,
-    titulo: "⭐DIA 09/03 - BLOCO LEVANTA DEFUNTO ANO 10 💀🎼🎵",
-    imagem: "/imgNews/imgMain/bdl25.jpg",
-    link: "https://www.instagram.com/blocolevantadefunto/",
-    criado_em: "2025-01-17 19:13",
+    titulo: "BRASILIDADES🎵🇧🇷",
+    imagem: "/imgNews/imgMain/Brasilidades1.jpg",
+    link: "https://www.instagram.com/p/DJXAeYgueHz/",
+    criado_em: "2025-05-07 20:30",
+  },
+  {
+    id: 2,
+    titulo: "A OIS traz mais um projeto que se desenvolveu acerca da vontade de criar um repertório apenas com músicas nacionais.",
+    imagem: "/imgNews/imgMain/Brasilidades2.jpg",
+    link: "https://www.instagram.com/p/DJXAeYgueHz/",
+    criado_em: "2025-05-07 20:30",
+  },
+  {
+    id: 3,
+    titulo: "Esse evento é formetado pelo PLANO NACIONAL DE INCENTIVO A CULTURA ALDIR BLANC (PNAB) do MINISTÉRIO DA CULTURA @minc com parceria com a PREFEITURA MUNICIPAL DE SURUBIM @prefeiturasurubim tendo a realização e produção da ASSOCIAÇÃO CULTURAL SURUBINENSE @associacaoculturalsurubinense",
+    imagem: "/imgNews/imgMain/Brasilidades3.jpg",
+    link: "https://www.instagram.com/p/DJXAeYgueHz/",
+    criado_em: "2025-05-07 20:30",
   },
 ];
 export const newsSecundary = [
