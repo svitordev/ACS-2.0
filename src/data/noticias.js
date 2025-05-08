@@ -15,7 +15,7 @@ export const newsMain = [
   },
   {
     id: 3,
-    titulo: "Esse evento é formetado pelo PLANO NACIONAL DE INCENTIVO A CULTURA ALDIR BLANC (PNAB) do MINISTÉRIO DA CULTURA @minc com parceria com a PREFEITURA MUNICIPAL DE SURUBIM @prefeiturasurubim tendo a realização e produção da ASSOCIAÇÃO CULTURAL SURUBINENSE @associacaoculturalsurubinense",
+    titulo: "formetado por PLANO NACIONAL DE INCENTIVO A CULTURA ALDIR BLANC (PNAB) do MINISTÉRIO DA CULTURA @minc, parceria com a @prefeiturasurubim tendo a realização e produção da @associacaoculturalsurubinense",
     imagem: "/imgNews/imgMain/Brasilidades3.jpg",
     link: "https://www.instagram.com/p/DJXAeYgueHz/",
     criado_em: "2025-05-07 20:30",
