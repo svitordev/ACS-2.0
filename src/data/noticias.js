@@ -1,25 +1,12 @@
 export const newsMain = [
   {
     id: 1,
-    titulo: "BRASILIDADES🎵🇧🇷",
+    titulo: "BRASILIDADES🎵🇧🇷 - Clique para ver a live completa!",
     imagem: "/imgNews/imgMain/Brasilidades1.jpg",
-    link: "https://www.instagram.com/p/DJXAeYgueHz/",
-    criado_em: "2025-05-07 20:30",
+    link: "https://www.instagram.com/p/DKFw8y0SyBX/",
+    criado_em: "2025-05-26 10:30",
   },
-  {
-    id: 2,
-    titulo: "A OIS traz mais um projeto que se desenvolveu acerca da vontade de criar um repertório apenas com músicas nacionais.",
-    imagem: "/imgNews/imgMain/Brasilidades2.jpg",
-    link: "https://www.instagram.com/p/DJXAeYgueHz/",
-    criado_em: "2025-05-07 20:30",
-  },
-  {
-    id: 3,
-    titulo: "formetado por PLANO NACIONAL DE INCENTIVO A CULTURA ALDIR BLANC (PNAB) do MINISTÉRIO DA CULTURA @minc, parceria com a @prefeiturasurubim tendo a realização e produção da @associacaoculturalsurubinense",
-    imagem: "/imgNews/imgMain/Brasilidades3.jpg",
-    link: "https://www.instagram.com/p/DJXAeYgueHz/",
-    criado_em: "2025-05-07 20:30",
-  },
+  
 ];
 export const newsSecundary = [
   {
