@@ -1,27 +1,34 @@
 export const newsMain = [
   {
     id: 1,
-    titulo: "BRASILIDADES🎵🇧🇷 - Clique para ver a live completa!",
-    imagem: "/imgNews/imgMain/Brasilidades1.jpg",
-    link: "https://www.instagram.com/p/DKFw8y0SyBX/",
-    criado_em: "2025-05-26 10:30",
+    titulo: "WORKSHOP: BANDA E SUAS FUNÇÕES 🎶🩰  Nos dias 16 e 17 de agosto de 2025, aconteceu o evento WORKSHOP: BANDA E SUAS FUNÇÕES" ,
+    imagem: "/imgNews/imgMain/Workshop2.jpg",
+    link: "https://www.instagram.com/p/DNqwJnDx3Ia/",
+    criado_em: "2025-08-23 18:30",
+  },
+  {
+    id: 2,
+    titulo: "ㅤㅤㅤㅤT E M P O R A D A  2025 ㅤㅤㅤㅤ THE COLOSSUS OF RHODES " ,
+    imagem: "/imgNews/imgMain/tempOis25.jpg",
+    link: "https://www.instagram.com/p/DNtET6EXKDQ",
+    criado_em: "2025-08-23 18:00",
   },
   
 ];
 export const newsSecundary = [
+  {
+    id: 3,
+    titulo: "BRASILIDADES🎵🇧🇷 - Clique para ver a live completa!",
+    imagem: "/imgNews/imgSecundary/Brasilidades1.jpg",
+    link: "https://www.instagram.com/p/DKFw8y0SyBX/",
+    criado_em: "2025-05-26 10:30",
+  },
   {
     id: 4,
     titulo: "Assista as lives da 𝐖𝐀𝐌𝐒𝐁 - 𝐍𝐎𝐑𝐓𝐄 𝐄 𝐍𝐎𝐑𝐃𝐄𝐒𝐓𝐄🌵",
     imagem: "/imgNews/imgSecundary/transmissao.png",
     link: "https://www.youtube.com/@orquestrainstrumentalsurub2277/streams",
     criado_em: "2025-01-17 20:12",
-  },
-  {
-    id: 3,
-    titulo: "Foi realizado o dia do trompete em Surubim/PE dia 09/06!",
-    imagem: "/imgNews/imgSecundary/diaTrompete.jpg",
-    link: "https://www.instagram.com/p/C8Ah5vZPij5/?img_index=1",
-    criado_em: "2025-01-17 18:56",
   },
   {
     id: 2,
