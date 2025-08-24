@@ -8,7 +8,7 @@ export const newsMain = [
   },
   {
     id: 2,
-    titulo: "ㅤㅤㅤㅤT E M P O R A D A  2025 ㅤㅤㅤㅤ THE COLOSSUS OF RHODES " ,
+    titulo: "T E M P O R A D A  2025 - THE COLOSSUS OF RHODES " ,
     imagem: "/imgNews/imgMain/tempOis25.jpg",
     link: "https://www.instagram.com/p/DNtET6EXKDQ",
     criado_em: "2025-08-23 18:00",
