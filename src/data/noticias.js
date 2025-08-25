@@ -19,7 +19,7 @@ export const newsSecundary = [
   {
     id: 3,
     titulo: "BRASILIDADES🎵🇧🇷 - Clique para ver a live completa!",
-    imagem: "/imgNews/imgSecundary/Brasilidades1.jpg",
+    imagem: "/imgNews/imgSecundary/brasilidades1.jpg",
     link: "https://www.instagram.com/p/DKFw8y0SyBX/",
     criado_em: "2025-05-26 10:30",
   },
