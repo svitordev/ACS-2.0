@@ -1,6 +1,6 @@
 "use client";
 import { InfoTimeCalc } from "@/utils/infoTime";
-import ButtonsEditDel from "../Painel/ButtonsEditDel";
+import ButtonsEditDel from "@/components/Painel/ButtonsEditDel";
 import SpanInfoTime from "./InfoTime";
 import Paragraph from "./Paragraph";
 
@@ -13,7 +13,7 @@ function GradeNoticias({ noticia, onEditClick, onDelClick }) {
     border = "border-[4px]  border-red-500";
   }
   return (
-    <div className="w-full h-72 md:h-full rounded-lg relative overflow-hidden shadow-lg shadow-black/60">
+    <div className="w-full h-72 md:h-full rounded-lg relative overflow-hidden shadow-lg shadow-blue-950/60">
       <a
         href={noticia.link}
         target="_blank"

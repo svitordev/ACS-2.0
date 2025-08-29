@@ -1,5 +1,5 @@
 "use client";
-import SectionNews from "@/components/SectionNews";
+import SectionNews from "@/components/sections/News";
 import { useEffect, useState } from "react";
 import {newsMain, newsSecundary} from "@/data/noticias";
 

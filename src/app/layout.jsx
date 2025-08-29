@@ -1,12 +1,18 @@
+"use client";
 import { AuthProvider } from "@/context/AuthContext";
 import "../styles/globals.css";
+import { ThemeProvider } from "@material-tailwind/react";
 
 export default function RootLayout({ children }) {
   return (
-    <AuthProvider>
-      <html lang="pt-br">
-        <body>{children}</body>
-      </html>
-    </AuthProvider>
+    <html lang="pt-br">
+      <body>
+        <AuthProvider>
+          <ThemeProvider>
+            {children}
+          </ThemeProvider>
+        </AuthProvider>
+      </body>
+    </html>
   );
 }

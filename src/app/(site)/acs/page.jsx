@@ -15,6 +15,7 @@ import { FaInstagram, FaRegEnvelope, FaWhatsapp } from "react-icons/fa";
 import { NewsSection } from "./NewsSection";
 import "./acs.css";
 import { BackToTopButton } from "@/components/BackToTopButton";
+import { SectionEvent } from "@/components/sections/Events";
 
 export const metadata = {
   title: "Associação Cultural Surubinense - ACS",
@@ -72,17 +73,15 @@ export const metadata = {
 function ACS() {
   const links = {
     news: "Notícias",
-    about: "Sobre",
+    events: "Eventos",
     projects: "Projetos",
+    about: "Sobre",
     contacts: "Contatos",
   };
 
   return (
     <div>
-      <Header
-        links={links}
-        ClassHeader={"headerAcs"}
-      >
+      <Header links={links} ClassHeader={"headerAcs"}>
         <Image
           width="100"
           height="100"
@@ -91,7 +90,6 @@ function ACS() {
           alt={"Logo da Associação Cultural Surubinense"}
         />
       </Header>
-
       <Home
         srcVideo={"https://cdn.acs.art.br/acs%2Festrutura%2Facs.mp4"}
         section={"news"}
@@ -102,8 +100,6 @@ function ACS() {
         </h1>
         <p className="text-xs md:text-sm 2xl:text-2xl">11 de agosto de 2023</p>
       </Home>
-
-      <NewsSection />
 
       <About
         title={
@@ -139,12 +135,18 @@ function ACS() {
       </About>
 
       <ProjectsSection
+        title={<TitleSections color={"text-green-900"}>Projetos</TitleSections>}
+      />
+
+      <SectionEvent
         title={
           <TitleSections color={"text-green-900"}>
-            Projetos
+            Eventos e Workshops
           </TitleSections>
         }
       />
+
+      <NewsSection />
 
       <Contacts bg={"border-green-900 bg-acs-gradient"}>
         <BoxLogoLinks>
@@ -201,7 +203,8 @@ function ACS() {
         </BoxLogoLinks>
         <LinkSvitor />
       </Contacts>
-      <BackToTopButton color={"bg-green-900 text-green-900"}/>
+      
+      <BackToTopButton color={"bg-green-900 text-green-900"} />
     </div>
   );
 }

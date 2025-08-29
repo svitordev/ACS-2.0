@@ -97,11 +97,7 @@ function His18() {
     },
   ];
   const sextetoSesc = [
-    {
-      id: 1,
-      src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fsesc6.mp4",
-      caption: "OIS reunida para foto depois de realizar a abertura do evento.",
-    },
+    
     {
       id: 2,
       src: "https://cdn.acs.art.br/ois%2Fhistorico%2F18%2Fsesc2.webp",
