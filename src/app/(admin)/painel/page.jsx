@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import Buttons from "@/components/Painel/Buttons";
-import SectionNews from "@/components/SectionNews";
+import SectionNews from "@/components/sections/News";
 import { handleDeleteNews } from "@/lib/NewsDelete";
 import { getNoticiasPrinc, getNoticiasSecund } from "@/lib/getNews";
 import { handleCreate } from "@/lib/newsCreate";

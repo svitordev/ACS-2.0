@@ -72,10 +72,10 @@ export const metadata = {
 
 function ACS() {
   const links = {
-    news: "Notícias",
-    events: "Eventos",
-    projects: "Projetos",
     about: "Sobre",
+    projects: "Projetos",
+    events: "Eventos",
+    news: "Notícias",
     contacts: "Contatos",
   };
 
