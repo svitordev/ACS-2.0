@@ -57,7 +57,7 @@ function SectionNews({
       <div className="ondaBottom"></div> */}
       <div className="container gap-2 lg:gap-3 xl:gap-4 flex flex-col md:flex-row flex-wrap justify-center h-full mx-auto">
         {noticiasPrincipais.length > 0 && (
-          <div className=" overflow-hidden rounded-lg relative shadow-lg shadow-blue-950/60 h-[20rem] md:w-[48%] xl:w-2/5 md:h-full mb-2 md:mb-0">
+          <div className=" overflow-hidden  relative shadow-lg shadow-blue-950/60 h-[20rem] md:w-[48%] xl:w-2/5 md:h-full mb-2 md:mb-0">
             {noticiasPrincipais.map((noticia, index) => (
               <SlideShow
                 key={noticia.id}

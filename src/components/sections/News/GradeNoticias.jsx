@@ -13,7 +13,7 @@ function GradeNoticias({ noticia, onEditClick, onDelClick }) {
     border = "border-[4px]  border-red-500";
   }
   return (
-    <div className="w-full h-72 md:h-full rounded-lg relative overflow-hidden shadow-lg shadow-blue-950/60">
+    <div className="w-full h-72 md:h-full  relative overflow-hidden shadow-lg shadow-blue-950/60">
       <a
         href={noticia.link}
         target="_blank"
@@ -22,7 +22,7 @@ function GradeNoticias({ noticia, onEditClick, onDelClick }) {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className={`w-full h-full block brightness-[60%] hover:scale-105 ${border} rounded-lg transition-all duration-300`}
+        className={`w-full h-full block brightness-[60%] hover:scale-105 ${border} transition-all duration-300`}
       ></a>
       <SpanInfoTime style={"text-sm 2xl:text-base 2xl:top-5 2xl:right-6"}>
         {InfoTimeCalc(noticia)}

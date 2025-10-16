@@ -1,20 +1,17 @@
 export const newsMain = [
   {
-    id: 1,
     titulo: "ADEUS AO MESTRE: NOÉ DA CIRANDA 🖤🎶 Na noite de 30 de setembro de 2025, despedimo-nos do Mestre Cirandeiro de Surubim" ,
     imagem: "/imgNews/imgMain/NoeLuto.jpg",
     link: "https://www.instagram.com/p/DPP6PkxDbj8",
     criado_em: "2025-10-03 21:23",
   },
   {
-    id: 2,
     titulo: "WORKSHOP: BANDA E SUAS FUNÇÕES 🎶🩰  Nos dias 16 e 17 de agosto de 2025, aconteceu o evento WORKSHOP: BANDA E SUAS FUNÇÕES" ,
     imagem: "/imgNews/imgMain/Workshop2.jpg",
     link: "https://www.instagram.com/p/DNqwJnDx3Ia/",
     criado_em: "2025-08-23 18:30",
   },
   {
-    id: 3,
     titulo: "T E M P O R A D A  2025 - THE COLOSSUS OF RHODES " ,
     imagem: "/imgNews/imgMain/tempOis25.jpg",
     link: "https://www.instagram.com/p/DNtET6EXKDQ",

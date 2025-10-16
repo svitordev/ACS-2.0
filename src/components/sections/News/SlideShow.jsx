@@ -22,7 +22,7 @@ function SlideShow({ noticia, slideRef, index, onEditClick, onDelClick }) {
       <a
         href={noticia.link}
         target="_blank"
-        className={`mySlides fade w-full h-full block brightness-[60%] rounded-lg  hover:scale-105 text-amber-400 ${border} transition-all duration-300`}
+        className={`mySlides fade w-full h-full block brightness-[60%]  hover:scale-105 text-amber-400 ${border} transition-all duration-300`}
         style={{
           backgroundImage: `url(${src})`,
           backgroundSize: "cover",
