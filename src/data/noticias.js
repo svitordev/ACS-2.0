@@ -1,5 +1,12 @@
 export const newsMain = [
   {
+    titulo: "16 DE OUTUBRO- DIA DO PERCUSSIONISTA 🎶🎼🪘🥁" ,
+    imagem: "/imgNews/imgMain/DIAD DO PERCUSSIONISTA OIIS 2025.jpg",
+    link: "https://www.instagram.com/p/DP4t4G8koTx/",
+    criado_em: "2025-10-16 19:25",
+  },
+ 
+  {
     titulo: "ADEUS AO MESTRE: NOÉ DA CIRANDA 🖤🎶 Na noite de 30 de setembro de 2025, despedimo-nos do Mestre Cirandeiro de Surubim" ,
     imagem: "/imgNews/imgMain/NoeLuto.jpg",
     link: "https://www.instagram.com/p/DPP6PkxDbj8",
