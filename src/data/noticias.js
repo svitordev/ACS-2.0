@@ -1,7 +1,7 @@
 export const newsMain = [
   {
     titulo: "16 DE OUTUBRO- DIA DO PERCUSSIONISTA 🎶🎼🪘🥁" ,
-    imagem: "/imgNews/imgMain/DIAD DO PERCUSSIONISTA OIIS 2025.jpg",
+    imagem: "/imgNews/imgMain/diaPercussionistaOIS.jpg",
     link: "https://www.instagram.com/p/DP4t4G8koTx/",
     criado_em: "2025-10-16 19:25",
   },
