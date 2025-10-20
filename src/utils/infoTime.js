@@ -1,8 +1,8 @@
 export function InfoTimeCalc(noticia) {
   const d = noticia.created_at instanceof Date ? noticia.created_at : new Date(noticia.created_at);
-  const criadoEm = new Date(d.getTime());
-  const agora = new Date();
-  const diffEmMs = agora - criadoEm;
+  const createdAt = new Date(d.getTime());
+  const now = new Date();
+  const diffEmMs = now - createdAt;
 
   const segundos = Math.floor(diffEmMs / 1000);
   const minutos = Math.floor(diffEmMs / (1000 * 60));
