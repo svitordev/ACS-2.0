@@ -11,7 +11,6 @@ export const loginUserAPI = async (data) => {
     console.log(response.data);
     return response.data; // Retorna os dados da resposta
   } catch (error) {
-    // Verifica se o erro é de resposta ou conexão
     const errorMessage =
       error.response?.data?.message || "Erro ao verificar credenciais";
     throw new Error(errorMessage);

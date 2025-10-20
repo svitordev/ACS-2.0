@@ -1,17 +1,23 @@
 "use client";
 import SectionNews from "@/components/sections/News";
 import { useEffect, useState } from "react";
-import {newsMain, newsSecundary} from "@/data/noticias";
+// import {newsMain, newsSecundary} from "@/data/noticias";
+import {getNoticiasPrinc, getNoticiasSecund} from "@/lib/getNews"
 
 export const NewsSection = () => {
   const [noticiasPrincipais, setNoticiasPrincipais] = useState([]);
   const [noticiaSecundarias, setNoticiaSecundarias] = useState([]);
+
   console.log(noticiasPrincipais);
+  console.log(noticiaSecundarias);
   useEffect(() => {
-    setNoticiasPrincipais(newsMain);
-    setNoticiaSecundarias(newsSecundary);
+    // setNoticiasPrincipais(newsMain)
+    // setNoticiaSecundarias(newsSecundary)
+
+    getNoticiasPrinc(setNoticiasPrincipais);
+    getNoticiasSecund(setNoticiaSecundarias);
   }, []);
-  if (noticiasPrincipais.length === 0 || noticiaSecundarias.length === 0) {
+  if (noticiasPrincipais.length === 0 && noticiaSecundarias.length === 0) {
     return (
       <div
         id="news"
