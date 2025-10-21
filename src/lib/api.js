@@ -1,2 +1,2 @@
-const APIURL = process.env.NEXT_PUBLIC_API_URL || 'https://acsadmin.gptbotbr.com';
+const APIURL = process.env.NEXT_PUBLIC_API_URL;
 export default APIURL;
