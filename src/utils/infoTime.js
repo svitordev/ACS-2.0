@@ -1,5 +1,5 @@
 export function InfoTimeCalc(noticia) {
-  const d = noticia.created_at instanceof Date ? noticia.created_at : new Date(noticia.created_at);
+  const d = noticia.createdAt instanceof Date ? noticia.createdAt : new Date(noticia.createdAt);
   const createdAt = new Date(d.getTime());
   const now = new Date();
   const diffEmMs = now - createdAt;
